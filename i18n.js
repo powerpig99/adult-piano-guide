@@ -8,15 +8,15 @@ const I18N = {
     "en": {
       "siteBadge": "🎹 Self-Directed Adult Piano Guide",
       "siteTitle": "The Adult Piano Companion",
-      "siteSubtitle": "A definitive guide and open tool matrix for adult learners — grounded in personal agency, deliberate practice, and the living philosophy of self-directed mastery.",
+      "siteSubtitle": "A thoughtful guide and open tool matrix for adult learners — grounded in personal agency, mindful practice, and self-directed exploration.",
       "blogSubtitleLink": "Not a ToE",
       "blogSubtitleSuffix": "read the essay: The Unobservable Driver of Learning.",
       "navPhilosophy": "🌱 Philosophy & Ground",
       "navMatrix": "🧰 Tool Matrix",
       "navComparator": "⚖️ Trade-off Comparator",
       "navPractice": "🧠 Practice Architecture",
+      "repertoireTitle": "Curated Adult Repertoire Ladder",
       "navRepertoire": "🎼 Repertoire Ladder",
-      "navMatcher": "🧭 Toolkit Matcher",
       "navFavorites": "❤️ Resources I Enjoy",
       "searchPlaceholder": "Search by tool, book, app, author, technique, or keyword...",
       "filterAllCategories": "All Categories",
@@ -44,27 +44,21 @@ const I18N = {
       "comparatorTitle": "Critical Trade-offs in Adult Piano Learning",
       "comparatorSubtitle": "Every method or technology is scaffolding. Compare approaches honestly to choose the right lever for your current stage.",
       "practiceTitle": "Adult Neuroplasticity & Practice Architecture",
-      "practiceSubtitle": "Adult brains don't lack plasticity; they lack unexamined repetition. Discover how deliberate, low-tension loops wire deep muscle memory.",
-      "repertoireTitle": "Curated Adult Repertoire Ladder",
-      "repertoireSubtitle": "From early coordination to expressive mastery. Real pieces that build technique without patronizing children's nursery rhymes.",
-      "matcherTitle": "Interactive Toolkit Matcher",
-      "matcherSubtitle": "Answer 4 questions about your musical goals, available time, and setup to generate your custom practice blueprint.",
-      "btnStartQuiz": "Start Assessment",
-      "btnRestartQuiz": "Retake Assessment",
-      "quizResultHeading": "Your Personalized Learning Blueprint",
+      "practiceSubtitle": "Adult brains retain adaptive plasticity. Discover how mindful, low-tension practice nurtures durable muscle memory.",
+      "repertoireSubtitle": "From initial coordination to expressive playing. Authentic pieces that build technique and musicality.",
       "favoritesTitle": "Resources I Enjoy & Aesthetic Inspirations",
       "favoritesSubtitle": "Beyond technical drills lies the true wellspring of music: the artists, arrangements, and channels that sustain genuine aesthetic joy and fuel daily deliberate practice.",
       "favoritesWhyEnjoy": "Why I Deeply Enjoy This",
       "favoritesHighlights": "Signature Highlights & Works",
       "favoritesTakeaway": "Insight for Adult Learners",
       "favoritesVisit": "Watch Channel / Explore ↗",
-      "footerQuote": "“Ability is the accumulated loop of chosen relation, not a fixed endowment. Tools are secondary scaffolding; music is an organic part of living, never life's teleological purpose.”",
+      "footerQuote": "“Ability is the accumulated loop of chosen relation, not a fixed endowment. Tools serve as scaffolding; music enriches daily living, rather than becoming its sole aim.”",
       "footerNote": "The Adult Piano Companion • An open, independent research project on adult self-directed musicianship."
     },
     "zh": {
       "siteBadge": "🎹 成人钢琴自主研习指南",
       "siteTitle": "成人钢琴研习指南与工具全景",
-      "siteSubtitle": "专为成年人打造的自主学琴指南与开放工具矩阵——扎根于第一人称心智原点、刻意练习与自我探索，打破年龄迷思与方法神话。",
+      "siteSubtitle": "专为成年人整理的自主学琴指南与工具矩阵——立足于自主探索、觉察练习与持续积累，重新理解成人的学琴潜能。",
       "blogSubtitleLink": "Not a ToE",
       "blogSubtitleSuffix": "参阅深度博文：《学习中不可观测的驱动力》。",
       "navPhilosophy": "🌱 核心心法与原点",
@@ -72,7 +66,6 @@ const I18N = {
       "navComparator": "⚖️ 路径与工具对照",
       "navPractice": "🧠 神经重塑与练习架构",
       "navRepertoire": "🎼 成人进阶曲目阶梯",
-      "navMatcher": "🧭 个性化方案匹配",
       "navFavorites": "❤️ 挚爱资源与灵感",
       "searchPlaceholder": "搜索工具、软件、图书、导师、曲目或技能关键词...",
       "filterAllCategories": "全部类别",
@@ -99,92 +92,87 @@ const I18N = {
       "officialLink": "访问官方网址 / 频道",
       "comparatorTitle": "成人学琴关键路径与工具权衡",
       "comparatorSubtitle": "任何工具与教学法都是暂时的脚手架。通过客观对比，找到适合你当下阶段的着力点。",
-      "practiceTitle": "成人神经可塑性与刻意练习架构",
-      "practiceSubtitle": "成人的大脑从不缺少神经可塑性，缺少的是带有觉察的高质量反馈回路。用低张力慢练攻克肌肉记忆。",
+      "practiceTitle": "成人神经可塑性与练习架构",
+      "practiceSubtitle": "成人的大脑依然保有良好的神经适应性。在低张力慢练与清晰觉察中，逐步建立稳固的肌肉记忆。",
       "repertoireTitle": "成人精选进阶曲目阶梯",
-      "repertoireSubtitle": "从双手协调起步，直至宏大复调与深度抒情。告别幼稚的儿歌教条，弹奏真正触动心灵的音乐作品。",
-      "matcherTitle": "个性化学习方案智能匹配",
-      "matcherSubtitle": "回答4个关于你的音乐动机、时间预算与设备现状的问题，生成量身定制的研习工具链与练习指南。",
-      "btnStartQuiz": "开始测试",
-      "btnRestartQuiz": "重新诊断",
-      "quizResultHeading": "你的专属成人钢琴研习蓝图",
+      "repertoireSubtitle": "从双手协调起步，循序渐进。直接弹奏富有音乐性、触动内心的经典作品。",
       "favoritesTitle": "挚爱资源与审美灵感",
       "favoritesSubtitle": "在纯粹的技术训练之外，音乐最深处的源头始终是打动心灵的声音。这里记录了我个人深为喜爱、持续带来审美滋养与练琴动力的自学典范、音乐家与频道。",
       "favoritesWhyEnjoy": "为何深爱此资源",
       "favoritesHighlights": "亮点特色与代表作品",
       "favoritesTakeaway": "予成年研习者的启示",
       "favoritesVisit": "访问频道 / 聆听 ↗",
-      "footerQuote": "“能力是个体所一再选择的关系立场所积累的回路，而非先天的恒定禀赋。工具始终只是脚手架；音乐是生活的有机滋养，而非生活的目的——切莫因果倒置。”",
+      "footerQuote": "“能力是个体所一再选择的关系立场所积累的回路，而非先天的固定禀赋。工具是辅助探索的脚手架；音乐是日常生活的有机滋养，而非生活的衡量目的。”",
       "footerNote": "成人钢琴研习指南 • 献给所有在键盘前探索心智主权与音乐之美的自主学习者。"
     }
   },
   "philosophy": {
     "hero": {
       "en": {
-        "headline": "Anyone Can Learn Piano. There Is No Age Limit.",
-        "subheadline": "The only true prerequisite is the willingness and dedication to learn it as something you yourself want to master and enjoy.",
-        "quote": "“Ability is not a fixed endowment waiting to be measured; it is the accumulated loop of chosen relation. No app, teacher, or method can live or learn for you.”"
+        "headline": "Piano Learning is Open to Adults of Any Age",
+        "subheadline": "A vital starting point is the genuine intention to explore and enjoy music as a meaningful part of your own life.",
+        "quote": "“Ability is not a fixed endowment waiting to be measured; it is the accumulated loop of chosen relation. External tools can guide and support, but genuine understanding unfolds through your own direct engagement.”"
       },
       "zh": {
-        "headline": "任何人都能学会钢琴，琴键之上从未设限年龄。",
-        "subheadline": "唯一真正必要的先决条件，是你内心渴望将其作为自己真正想掌握、想享受之物而投入的意愿与专注。",
-        "quote": "“能力不是一种等待被测量的固定禀赋，而是个体所一再选择的关系立场所积累的自强反馈回路。没有任何软件、名师或教材能替你活着，更无法替你学会。”"
+        "headline": "成年人同样可以学好钢琴，琴键向每一个愿意投入的人敞开。",
+        "subheadline": "一个至关重要的起点，在于将其作为自己真正想探索、想享受之物而投入的自主意愿与专注。",
+        "quote": "“能力不是一种等待被测量的固定禀赋，而是个体所一再选择的关系立场所积累的自强反馈回路。外在的工具与方法能提供指引，但真正的领悟始终源自你与琴键的亲身相处。”"
       }
     },
     "sections": [
       {
         "id": "misconceptions",
         "title": {
-          "en": "1. Dismantling the Dogmas & Age Misconceptions",
-          "zh": "1. 破除流行偏见与年龄神话"
+          "en": "1. Beyond Age Assumptions: Understanding Adult Potential",
+          "zh": "1. 破除常见成见：重新理解成人的学琴潜能"
         },
         "content": {
-          "en": "\n            <p>The prevailing narrative suggests that piano is an exclusive discipline that must be started at age four, or the window of neuroplasticity slams shut forever. This is not biology; it is cultural dogma.</p>\n            <p>As an adult, your brain and fingers indeed feel different at the very beginning. Muscle memory takes conscious, deliberate repetition to etch into the motor cortex. Tendons feel stiffer; your analytical prefrontal cortex is hyper-active, constantly judging your own awkwardness and mistakes. But here is the truth:</p>\n            <ul>\n              <li><strong>Adults have superior harmonic and pattern intuition:</strong> You understand symmetry, voice leading, chord construction, and emotional tension intuitively through a lifetime of listening to music. A child often just presses keys by rote; an adult can hear the architecture.</li>\n              <li><strong>Self-directed motivation vs. coerced compliance:</strong> A child practices because parents demand it. An adult practices because they chose to sit down at the bench. That intrinsic causal intention accelerates deep neural consolidation far beyond passive compliance.</li>\n              <li><strong>Neuroplasticity never closes:</strong> Adult motor cortex rewiring simply requires higher salience and conscious deliberate loops. When you slow down and remove bodily tension, your hands will adapt with astonishing fidelity.</li>\n            </ul>\n          ",
-          "zh": "\n            <p>长期以来，主流叙事总在宣扬一种决定论：钢琴必须从四岁抓起，一旦错过童年发育期，神经可塑性的窗口便会永久关闭。这根本不是生物学事实，而是体制化考级与精英教育制造的文化神话。</p>\n            <p>不可否认，成人初学琴时，大脑、手指与肌肉记忆确实需要更刻意的努力去捕获。成人的指间韧带相对固定，前额叶皮层高度理性，常因即时听到的拙劣琴声而滋生自我评判与挫败感。然而，成人的优势同样巨大且无可替代：</p>\n            <ul>\n              <li><strong>高阶的模式识别与和声直觉：</strong> 历经数十年的阅历与音乐聆听，成人对和弦色彩、结构对仗、情绪起伏拥有深刻的直觉共鸣。孩童多半是在机械执行位置指令，而成人一眼就能识破背后的和声骨架。</li>\n              <li><strong>发自主权意愿而非外力压迫：</strong> 孩子练琴往往源自父母的督促或考级压力；成年人坐在琴凳上的每一个瞬间，都源于自我灵魂深处对掌握音乐的真实渴望。这种第一人称的自主意愿，能激发极其强烈的神经递质释放，深化突触重塑。</li>\n              <li><strong>成人大脑终生保持可塑性：</strong> 成人的髓鞘化虽然成熟，但神经可塑性从未终结。成人只需要学会“慢下来”、卸除全身对抗性张力，指尖的独立与灵动便会以惊人的精度生根发芽。</li>\n            </ul>\n          "
+          "en": "\n            <p>A common assumption suggests that piano must be started in early childhood, or the opportunity for meaningful skill acquisition is lost. Yet this belief often reflects conventions of institutional training rather than the true adaptive capacity of the adult mind.</p>\n            <p>As an adult beginner, finger independence and coordination do require conscious patience. Physical habits are settled, and the analytical mind tends to judge early awkwardness harshly. At the same time, adults bring distinct strengths to learning:</p>\n            <ul>\n              <li><strong>Pattern and harmonic intuition:</strong> A lifetime of listening gives adults an intuitive grasp of harmony, phrase structure, and emotional color, allowing them to hear and understand the musical architecture behind the notes.</li>\n              <li><strong>Intrinsic motivation over external pressure:</strong> Adults sit down at the bench through personal interest and deliberate choice. This self-directed intention fosters attentive focus and deeper personal engagement.</li>\n              <li><strong>Active neuroplasticity:</strong> The adult nervous system remains capable of motor reorganization. With calm, unhurried practice and the release of bodily tension, hands and fingers gradually develop fluidity and control.</li>\n            </ul>\n          ",
+          "zh": "\n            <p>社会中流传着一种常见看法：钢琴似乎必须从童年学起，一旦错过早期发育窗口，便很难再有所收获。然而，这种观点更多反映了传统专业考级与早教模式的路径依赖，未必符合成年人神经系统的真实适应潜力。</p>\n            <p>不可否认，成人初学琴时，手指独立性与左右手协调确实需要更有耐心的体会。成人的生理动作习惯相对固定，理性思维也容易对初期的生疏产生自我评判。然而，成人在学习中同样拥有独特的优势：</p>\n            <ul>\n              <li><strong>高阶的模式识别与和声直觉：</strong> 历经多年的音乐聆听与生活积累，成人对和弦色彩、曲式结构与情绪起伏有着自然的审美直觉，往往能更快领会音符背后的音乐骨架。</li>\n              <li><strong>发自内在的意愿而非外力督促：</strong> 成年人坐在琴凳上，通常源于自身的兴趣与主动追求。相比被动督促，这种自主的选择往往能带来更专注的投入与更深切的体会。</li>\n              <li><strong>成年神经系统的持续适应力：</strong> 成人的神经系统依然保有良好的可塑空间。学会在低张力下慢练、避免不必要的肌肉紧张，手指的独立与协调同样能够稳步建立。</li>\n            </ul>\n          "
         }
       },
       {
         "id": "personal_story",
         "title": {
-          "en": "2. The Origin: From Accompanying My Children to Claiming My Own Voice",
-          "zh": "2. 个人原点：从陪娃练琴到找回自身的第一人称因果"
+          "en": "2. The Origin: From Accompanying My Children to Finding My Own Voice",
+          "zh": "2. 个人原点：从陪娃练琴到找回自身的主动探索"
         },
         "content": {
-          "en": "\n            <p>I began learning piano with a very common adult excuse: I wanted to accompany my two children and support their musical education. In the opening months, progress felt agonizingly slow. My adult hands lacked flexibility; the coordination between my left and right hands felt like two stubborn minds arguing with each other. Muscle memory took dozens of repetitions to stick.</p>\n            <p>Then, a quiet transformation occurred: <strong>I stopped treating piano as a tool to help someone else, and began treating it as something I myself wanted to master and enjoy.</strong></p>\n            <p>Inevitably, children grow, hobbies fluctuate, and over time my kids lost interest in daily practice. But by that point, the causal driver had completely relocated. I didn't stop. I sat at the piano day after day, week after week. Today, I can play far more fluently, deeply, and expressively than my kids ever did. I learned to play pieces I once thought were reserved for conservatory prodigies — from the delicate melancholy of folk ballads like <em>Chengdu</em> to the sweeping emotion of the <em>Forrest Gump Suite</em>, the poetic minimalism of Ludovico Einaudi (whose pieces I conquered largely through Michael Maiber's patient tutorials alongside my own relentless struggling), the cinematic pulse of <em>Game of Thrones</em>, and the breathtaking architectural drama of Handel's <em>Passacaglia</em>.</p>\n            <p>I tried everything on the market: popular gamified apps, waterfall video visualizers, YouTube masterclasses, classical method books, and private in-person teachers. And that experiment taught me the single most vital lesson of adult learning.</p>\n          ",
-          "zh": "\n            <p>我最初接触钢琴，起因于许多成年人家长都会经历的契机：为了陪伴我的两个孩子学琴，给他们树立榜样。刚上手时，起步确实缓慢而滞重。作为一个成年人，大脑发出指令到指尖落地总有微小的延迟，手指柔韧度不够，左右手分脑协调更是一场拉锯战，任何一个肌肉记忆都需要反复刻划才能固定。</p>\n            <p>然而在摸索中，一个质的转变悄然发生：<strong>我不再把练琴仅仅当作“辅助孩子”的外在任务，而是将目光完全拉回到了学习本身——这是我内心真正渴望去驾驭、去享受的艺术世界。</strong></p>\n            <p>后来，随着时间推移，孩子们的注意力不可避免地转移了，逐渐对日复一日的练习失去了热情。然而此时，学习的因果原点早已扎根在我自己体内。我没有停下。日复一日，晨昏流转，我坚持坐在琴键前。如今，我的曲目量与演奏表达早已走得比孩子们更深更远。从《成都》温润质朴的民谣织体，到《阿甘正传》主题曲的如羽毛般灵动，再到鲁多维科·艾诺迪（鲁多维科·艾诺迪）如诗如画的极简篇章（我几乎所有艾诺迪的曲目，都是对照着自学导师 迈克尔·迈伯（Michael Maiber） 的逐句慢拆教学、再加上自己日复一日与琴键的艰辛死磕而攻克的），从《权力的游戏》的史诗律动，再到亨德尔-哈尔沃森《帕萨卡利亚》（帕萨卡利亚）那令人窒息的宏大变奏与复调奔流——我一步步亲手攻克了这些曾以为遥不可及的经典。</p>\n            <p>在这一路中，我几乎尝遍了市面上所有的路径：所有叫得出名字的流行学习软件、下落瀑布流视频、名师视频课、经典传统教材，以及线下一对一私教。这番亲身涉水，让我彻底看清了成人学习的唯一本质。</p>\n          "
+          "en": "\n            <p>I began learning piano with a very common adult intention: to accompany my two children and support their musical education. In the early months, progress felt noticeably slow. My hands lacked flexibility, and coordinating left and right felt like two hesitant minds negotiating each movement.</p>\n            <p>Over time, an important shift occurred: <strong>I stopped viewing piano merely as an exercise in supporting others, and began engaging with it as something I myself genuinely wished to explore and enjoy.</strong></p>\n            <p>Eventually, as children naturally grow and their interests evolve, their daily practice waned. But by then, my own connection to the instrument was firmly established. I continued sitting at the keyboard consistently. Over time, I developed the ability to play pieces I had once thought were out of reach — from the gentle lyrical feel of folk ballads like <em>Chengdu</em> to the evocative themes of the <em>Forrest Gump Suite</em>, the poetic minimalism of Ludovico Einaudi (which I studied through Michael Maiber's thoughtful tutorials alongside my own patient practice), the cinematic texture of <em>Game of Thrones</em>, and the rich polyphonic architecture of Handel's <em>Passacaglia</em>.</p>\n            <p>Along the way, I explored a wide variety of approaches: interactive apps, falling-note visualizers, video lessons, standard method books, and private instruction. That personal journey deepened my understanding of the nature of learning.</p>\n          ",
+          "zh": "\n            <p>我最初接触钢琴，起因于许多成年人家长都熟悉的契机：为了陪伴两个孩子学琴，给他们一些支持。刚起步时，进展确实显得缓慢。成年人的手指柔韧度有限，左右手的配合也需要反复调试，动作习惯往往需要花时间慢慢适应。</p>\n            <p>然而在摸索中，一个重要的转变悄然发生：<strong>我不再把练琴仅仅当作“辅助孩子”的外在任务，而是将目光拉回到了弹琴本身——把它当作自己真正想探索与享受的爱好。</strong></p>\n            <p>后来，随着孩子们成长与兴趣的变化，他们对日常练习的热情逐渐减退。然而此时，我对音乐的主动追求已经在日常中生根。我依然坚持坐在琴前，循序渐进地积累。随着时间推移，我逐渐能够演奏一些起初觉得颇有难度的作品——从《成都》温润质朴的民谣旋律，到《阿甘正传》主题曲的舒缓起伏，再到鲁多维科·艾诺迪如诗如画的极简篇章（这些曲目大多是在自学导师迈克尔·迈伯（Michael Maiber）的逐句慢拆教学与自身的反复摸索中掌握的），从《权力的游戏》的史诗律动，再到亨德尔-哈尔沃森《帕萨卡利亚》宏大的变奏与复调——一步步演奏出这些曾经觉得遥远的作品。</p>\n            <p>在这一路中，我尝试过多种不同的途径：各类流行的学习软件、下落瀑布流视频、视频讲解、经典教材，以及线下一对一指导。这番探索，让我对学习的本质有了更真切的体会。</p>\n          "
         }
       },
       {
         "id": "causal_lever",
         "title": {
-          "en": "3. The Causal Lever: Tools are Scaffolding, Never the Engine",
-          "zh": "3. 因果杠杆：工具皆为脚手架，唯有内部摩擦才是引擎"
+          "en": "3. The Causal Lever: Tools as Scaffolding, Internal Engagement as the Engine",
+          "zh": "3. 因果杠杆：工具是脚手架，内在体悟是动力"
         },
         "content": {
-          "en": "\n            <p>As explored in my essay <a href=\"https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/\" target=\"_blank\" rel=\"noopener\">The Unobservable Driver of Learning</a>, humanity shares a pervasive cognitive error: <strong>we habitually allocate causal power to external factors.</strong></p>\n            <p>We credit or blame the app (Simply Piano, Flowkey), the teacher, the method book, or the YouTube tutorial for our progress or lack thereof. But all external devices are secondary residue. Observation registers only downstream scores: grades, completed app levels, green checkmarks. The true generative driver — the succession of chosen relations, the tolerance for physical friction, and the relentless reflexive correction of one's own motor feedback — does not live inside the app.</p>\n            <blockquote>\n              <p>“Any one of these tools can help you; but none of them can help you without you making your own deliberate, internal effort.”</p>\n            </blockquote>\n            <p>When you use an app that scores your keystrokes via microphone or MIDI, it gives you a dopamine hit of validation. But if you rely on the screen to tell you when to play, you have outsourced your internal pulse and note-reading ear. The moment the screen turns off, the capability evaporates. In contrast, when you sit down with a pencil, deconstruct a single difficult measure, clap its rhythm, and feel the exact weight of your forearm resting into the keybed — you are paying the irreversible energetic cost (+1) of real mastery.</p>\n            <p><strong>This guide itself is not a holy scripture.</strong> It is simply an organized toolkit of scaffolding. Pick up whatever tool speeds your contact with the instrument; and the moment a tool becomes a crutch that numbs your agency, set it down without hesitation.</p>\n          ",
-          "zh": "\n            <p>正如我在个人博客核心文章<a href=\"https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/\" target=\"_blank\" rel=\"noopener\">《学习中不可观测的驱动力》</a>中所论证的，人类认知中最隐蔽的陷阱，莫过于<strong>将因果解释权习惯性地让渡给外在客体</strong>。</p>\n            <p>我们总以为进步或停滞取决于下载了哪款软件（如 Simply Piano、Flowkey）、请了哪位名师、买了哪本教材，或是看了哪段视频教学。然而，所有这些外在载体都仅仅是次生残留物。外在观察只能捕捉到下游表象：打卡天数、软件评级、绿色的通关提示。而真正驱动神经重组的那个引擎——个体每一次主动选择的练习姿态、对真实生理摩擦的耐受度，以及对自身肌体反馈的敏锐内省——根本不在任何工具里。</p>\n            <blockquote>\n              <p>“市面上所有的工具都能够帮助我；但在我自身做出真实、刻意的努力之前，没有任何一个工具能独自拯救我。”</p>\n            </blockquote>\n            <p>当你跟着屏幕上的下落方块击键时，你获得的是即时多巴胺反馈；但如果你依赖视觉色块来决定何时按键，你便已经将内心的节奏律动与五线谱空间感彻底拱手外包。一旦屏幕熄灭，这种“熟练度”会瞬间坍塌。相反，当你拿起铅笔，拆解哪怕仅仅两小节复杂声部，亲手打出切分节奏，在缓慢的触键中感受手臂重力的自然下沉——你才是在为真正的脑神经突触生长支付不可逆的能量代价（+1）。</p>\n            <p><strong>甚至包括本指南本身，也绝不是什么一锤定音的绝对真理。</strong> 它仅仅是一套经过提炼的、供你差遣的脚手架。哪样工具能加速你与琴键的亲密接触，便借用它；一旦哪样工具开始成为削弱你独立听觉与判断的拐杖，便毫不留恋地拆掉它。</p>\n          "
+          "en": "\n            <p>As explored in my essay <a href=\"https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/\" target=\"_blank\" rel=\"noopener\">The Unobservable Driver of Learning</a>, a frequent pitfall in learning is <strong>reflexively attributing causal power to external factors</strong>.</p>\n            <p>We often credit or fault the app, the teacher, the method book, or the video tutorial for our progress or plateaus. Yet tools and materials are primarily supporting structures. External metrics (scores, levels, streaks) track visible outputs, but the deeper process of learning — where we choose to place our attention, how we work through physical friction, and how we listen to our own tactile feedback — cannot be fully outsourced to any tool.</p>\n            <blockquote>\n              <p>“Tools of all kinds can offer meaningful help; but without our own deliberate attention and reflection, no tool can bring about genuine understanding.”</p>\n            </blockquote>\n            <p>Visualizing falling tiles can offer immediate positive reinforcement. But if we rely heavily on visual prompts to tell us when to strike keys, our internal rhythmic pulse and note-reading independence may not develop as deeply. Stepping away from the screen can then feel disorienting. In contrast, when we take time to isolate a measure, feel its rhythmic pulse, and experience the natural drop of arm weight into the keybed, we are building a more durable and grounded musical foundation.</p>\n            <p><strong>This guide itself is an organized collection of scaffolding.</strong> Pick up whichever tool facilitates a direct, enjoyable relationship with the piano; and when an aid begins to feel like a crutch that limits your independent listening, adjust or set it aside as needed.</p>\n          ",
+          "zh": "\n            <p>正如我在个人博客文章<a href=\"https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/\" target=\"_blank\" rel=\"noopener\">《学习中不可观测的驱动力》</a>中所探讨的，人们在学习中常常容易<strong>将因果解释权习惯性地让渡给外在客体</strong>。</p>\n            <p>我们往往习惯将进步或停滞归因于某款软件、某位导师、某本教材或教学视频。然而，这些外在载体大多属于辅助性质。外在观察能够记录下游的显性指标（打卡天数、软件评分、练习时长），但学习的核心过程——我们在练习中所投入的注意力、对生理摩擦的适应，以及对声音和动作反馈的敏锐觉察——并不能单纯由工具来代劳。</p>\n            <blockquote>\n              <p>“各类工具都能提供有益的助力；但若没有我们自身的主动投入与体察，任何工具都难以发挥根本作用。”</p>\n            </blockquote>\n            <p>跟着屏幕上的下落方块弹奏，能带来直观的即时反馈。但如果过度依赖视觉提示来决定何时按键，内心的节奏律动与读谱感知往往容易被弱化。脱离提示之后，练习者常会感到不习惯。相反，如果愿意放慢速度拆解一两个小节，体会切分节奏与手臂重量的自然沉落，往往能沉淀下更为扎实、稳固的手感与音乐理解。</p>\n            <p><strong>本指南所整理的内容，同样是一组供你参考和取舍的脚手架。</strong> 哪样方式能促进你与音乐的真实互动，便可善加利用；若某种工具逐渐让你产生被动依赖，便可适时调整或放下。</p>\n          "
         }
       },
       {
         "id": "consistency_default",
         "title": {
-          "en": "4. Consistency as Default: Incremental Compounding and the Golden Balance",
-          "zh": "4. 将“持续”设为默认：增量复利、阻力自愈与练习收尾的黄金平衡"
+          "en": "4. Consistency as Default: Incremental Compounding and Mindful Practice",
+          "zh": "4. 将“持续”设为默认：增量积累、适度调适与练习收尾的平衡"
         },
         "content": {
-          "en": "\n            <p>A fatal pitfall for adults learning any new craft is attempting to accomplish too much in too short of a time. Adults often arrive at the piano with fierce urgency: we want to conquer a four-page Chopin nocturne in three weeks, or cram three hours on Sunday after five days of silence. But neurobiology does not respond to emergency sprints; it responds to consistent, unhurried compounding.</p>\n            <p>Crucially, <strong>we do not need to focus on \"building a habit\" per se.</strong> The conventional paradigm of habit-building frames practice as an alien, uphill chore that must be forced against resistance through sheer willpower. Instead, once you sovereignly decide that piano is something you want to master and enjoy, you redefine your baseline: <strong>you set consistency as the default condition.</strong></p>\n            <ul>\n              <li><strong>The Default Condition:</strong> Sitting down to learn a little bit every day becomes your natural baseline state, not an artificial streak you anxiously fight to maintain. It is simply what happens unless an explicit, legitimate reason intervenes.</li>\n              <li><strong>Conscious Compensation over Passive Drift:</strong> If an unavoidable life event forces you to skip, it is never an unconscious lapse or an excuse for guilt. You make a clear, conscious choice to acknowledge the skip and deliberately decide how to make it up. By consciously compensating, consistency remains your sovereign default rather than a broken chain.</li>\n              <li><strong>Dynamic Friction Calibration:</strong> Whenever practicing begins to feel excessively hard, draining, or frustrating, do not force brute willpower. Instead, dynamically reduce the effort or the level of your goals: isolate just two measures, practice hands separately, or drop the tempo by 50% until the work lands precisely in the sweet spot — <em>challenging enough to stimulate growth, yet intrinsically enjoyable to experience</em>.</li>\n              <li><strong>The Golden Litmus Test:</strong> The single true metric of a healthy practice session is how you feel when standing up from the bench: <em>after each session, you feel like you still want to do it tomorrow.</em> Ending on lingering curiosity and appetite, rather than mental fatigue or finger soreness, is the golden balance that fuels lifelong compounding.</li>\n            </ul>\n          ",
-          "zh": "\n            <p>成年人在开启任何一项崭新领域的探索时，最致命的误区莫过于<strong>试图在过短的时间内塞入过载的野心</strong>。成人常常带着强烈的紧迫感：企图在三周内啃下一首长达四页的肖邦夜曲，或是经历五天完全荒废后在周日突击狂练三小时。然而，大脑的神经重组从不听命于应急冲刺；它只遵从宁静、微小而持续的增量复利。</p>\n            <p>更关键的是，<strong>我们根本无需执念于所谓的“培养习惯”。</strong> 传统的习惯养成理论往往将练琴预设为一种对抗本能、需要勉力推石上山的苦役。而一旦你在灵魂深处做出主权抉择——弹琴是我自己真正渴望掌握并享受的美好事物——你便重置了因果原点：<strong>将“持续”设为不言自明的默认状态。</strong></p>\n            <ul>\n              <li><strong>持续作为默认底色：</strong> 每天坐到琴键前研习一点点，就是你无需挣扎的日常基准，除非存在必须暂停的显性缘由。持续不再是一件你“努力去尝试”的事，而是自然发生的本然状态。</li>\n              <li><strong>有意识的补偿取代被动滑落：</strong> 假若某天确实因故中断，那绝非无意识的懈怠，更不必背负负罪感。你需要做的是给予一个清醒的觉察，并主动做出有意识的补偿抉择。通过明确的补偿闭环，持续性始终是你的主动权立场，而非一触即碎的打卡链条。</li>\n              <li><strong>动态阻力自愈（刻度微调）：</strong> 当某段练习让你感到过度吃力、烦躁或阻力倍增时，切忌倚赖蛮力硬撑。此时应果断调低用力刻度或微观目标：将攻坚范围收缩至短短两小节、拆为分手慢练、甚至将节拍器减速一半，直至难度回落至那个最美妙的交界处——<em>既保有挑战性，又依然充满探索的愉悦感</em>。</li>\n              <li><strong>练习收尾的黄金判准：</strong> 检验每一次练习是否合格的终极标尺，在于你离开琴凳时的心智状态：<em>每次练习结束时，你心中依然跃跃欲试，仍有想在明天继续弹奏的余热。</em> 永远在意犹未尽时优雅起立，而非耗尽最后一丝精力与手指韧性，这正是支撑你走过一生的黄金平衡。</li>\n            </ul>\n          "
+          "en": "\n            <p>When embarking on a new skill as an adult, a common hurdle is the temptation to seek rapid results in a compressed timeframe. Adults often approach piano with understandable urgency: attempting an advanced piece within weeks, or practicing intensely on weekends after days away. Yet motor coordination and musical perception rarely respond well to short-term cramming; they develop more reliably through quiet, consistent daily engagement.</p>\n            <p>In this process, <strong>we may not need to focus anxiously on 'forcing a habit'.</strong> Treating practice as an uphill battle against resistance can easily create mental fatigue. Instead, when you clarify that piano is something you genuinely wish to explore and enjoy, you can reframe your baseline: <strong>treat consistency as your natural default condition.</strong></p>\n            <ul>\n              <li><strong>Consistency as a Baseline:</strong> Sitting down to practice a little each day becomes a natural part of the routine. If circumstances require a pause, you adapt without anxiety. Continuity becomes a relaxed norm rather than a strained effort.</li>\n              <li><strong>Mindful Adjustment over Guilt:</strong> If life occasionally interrupts your schedule, there is no need for self-reproach. Acknowledging the pause mindfully and adjusting subsequent sessions keeps you in active control of your learning.</li>\n              <li><strong>Dynamic Friction Calibration:</strong> If a particular section feels overly difficult or frustrating, avoid forcing through with tension. Try scaling down the immediate scope: isolate one or two measures, slow down the tempo, or practice hands separately until the balance feels comfortable — <em>challenging enough to engage, yet pleasant to experience</em>.</li>\n              <li><strong>Ending with Curiosity:</strong> A helpful compass for each session is the feeling when you leave the piano: <em>standing up while still curious and looking forward to tomorrow's practice.</em> Ending before mental or physical exhaustion sets in helps preserve a sustainable, lifelong enjoyment of music.</li>\n            </ul>\n          ",
+          "zh": "\n            <p>成年人在开启新领域的探索时，容易遇到的一个障碍，是希望在短时间内迅速达成过高的目标。成年人常带着紧迫感：比如尝试在几周内攻克大篇幅曲目，或者平日搁置而在周末集中突击。然而，动作技能与音乐感知的积累，往往很难依靠短期冲刺，而更多依赖温和、持续的日常沉淀。</p>\n            <p>在这个过程中，<strong>或许不必把注意力完全放在“强行培养习惯”上。</strong> 若将练琴预设为需要不断对抗阻力的苦差，容易增加心理内耗。当你明确弹琴是自己真正愿意投入并享受的追求时，可以尝试调整自己的基准：<strong>将“持续”设为日常的默认状态。</strong></p>\n            <ul>\n              <li><strong>以持续为自然基准：</strong> 每天在琴前练习片刻，作为自然的日常节奏；遇到需要调整的情况则坦然面对。持续由此成为一种生活常态，而非需要时刻紧绷神经的任务。</li>\n              <li><strong>清醒应对中断，避免内耗自责：</strong> 若因工作或生活安排暂停了一两次，不必心生自责。保持清醒觉察，并在随后的日程中做些适度调整，让练习自然回归节奏。</li>\n              <li><strong>动态调节练习难度：</strong> 如果一段练习感到明显吃力或烦躁，不必勉强硬拼。不妨主动缩小目标范围：只练一两个小节、单手慢练、或适当放慢速度，让练习处于恰到好处的状态——<em>既有适度挑战，又保持轻松与趣味</em>。</li>\n              <li><strong>留有余味的收尾：</strong> 一个有益的练习参考，在于离开琴凳时的心境：<em>练习结束时，心中仍保有兴趣与余温，愿意在明天继续坐在琴前。</em> 在感到疲劳耗尽之前适时收尾，往往更有助于长期保持对音乐的热情。</li>\n            </ul>\n          "
         }
       },
       {
         "id": "music_part_of_life",
         "title": {
-          "en": "5. Music as a Part of Life, Never Life's Purpose (Rejecting Causal Inversion)",
-          "zh": "5. 音乐是生活的一部分，而非生活的目的（杜绝因果倒置）"
+          "en": "5. Music as a Part of Life, Not Life's Purpose (Avoiding Causal Inversion)",
+          "zh": "5. 音乐是生活的一部分，而非生活的目的（避免因果倒置）"
         },
         "content": {
-          "en": "\n      <p>Perhaps the most insidious trap awaiting the ambitious adult learner is turning piano into the teleological purpose of life. When this happens, an invisible and destructive <strong>causal inversion</strong> takes place.</p>\n      <p>We begin to subordinate our emotional well-being, our daily peace, and our relationships to the instrument. If a practice session is rocky, our entire day is ruined; if work or family demands interrupt our schedule, we drown in toxic guilt. We treat our actual human life merely as fuel to be burned at the altar of technical perfection. <strong>This is turning life upside down.</strong></p>\n      <ul>\n        <li><strong>Life is the Generative Soil; Music is the Flower:</strong> Music exists to enrich, elevate, and give voice to living — not the other way around. A rich, grounded, sovereign daily life is the generative root; the music you draw from the keys is merely the fragrance that blooms from that soil. If the soil is poisoned with anxiety, perfectionism, and self-flagellation, the music turns sterile and mechanical.</li>\n        <li><strong>A Modality of Being, Like Breathing or Tea:</strong> Piano should sit within your daily existence with the quiet naturalness of drinking tea, taking a walk, or deep breathing. It is a peaceful harbor where you rest your mind and experience tactile presence, not a high-stakes arena where your human worth is on trial.</li>\n        <li><strong>Liberation from Causal Inversion:</strong> When you realize that music is part of life rather than its purpose, fear evaporates. You no longer practice to prove anything to anyone. You sit down simply because touch, harmony, and presence feel wondrous — and when you stand up, you carry that centered stillness back into the rest of your day.</li>\n      </ul>\n    ",
-          "zh": "\n      <p>在成人学琴的求索中，最隐秘也最具杀伤力的心理陷阱，莫过于将钢琴或音乐立为<strong>生活的终极目的</strong>。一旦落入这种思维定势，一场无声却沉重的<strong>因果倒置</strong>便悄然发生。</p>\n      <p>我们开始将自己的身心平和、日常生活乃至与亲人的相处，悉数让渡给冰冷的练琴指标。某天若是弹得滞重卡壳，便觉整日索然无味；若是因工作忙碌或家庭琐事中断了一次，便被自责与内耗吞没。我们把真实而丰饶的生命，降格为了向琴键进贡的燃料。<strong>这完全本末倒置了。</strong></p>\n      <ul>\n        <li><strong>生活是根本的土壤，音乐是枝头的花朵：</strong> 音乐的存在，是为了滋养生命、点亮日常、表达心灵，绝非反过来让生命沦为音乐的附庸。真实、自洽、从容的生活本身，才是孕育一切艺术感知的根系土壤；从指尖流淌出的乐声，不过是这片土壤上自然绽放的芬芳。倘若土壤被执念、焦虑与自我贬抑所毒化，流出的音符也必然僵硬苍白。</li>\n        <li><strong>如呼吸与饮茶般自然安放：</strong> 钢琴理应像晨起饮茶、暮色漫步或深呼吸一样，成为生活质地中自然流淌的一部分。它是你安顿心灵、体验当下纯净触感的避风港，绝不是一处审判你个人价值的角斗场。</li>\n        <li><strong>从因果倒置中彻底解脱：</strong> 一旦勘破“音乐是生活的一部分，而非生活的目的”，所有紧绷的恐惧与功利心将随之消散。你不再为了向外界证明什么而练琴。你坐在琴凳上，仅仅因为触碰琴键的和声与共鸣是如此美好而宁静；当你起立离凳时，这份专注带来的澄明将自然回流到你的广阔生活中。</li>\n      </ul>\n    "
+          "en": "\n      <p>A subtle imbalance can arise when we unconsciously turn piano practice into a scorecard for our daily worth. When this happens, a quiet <strong>causal inversion</strong> can take hold.</p>\n      <p>We may find our daily peace and family interactions overshadowed by self-imposed practice goals. If a session feels clumsy, our mood suffers; if life interrupts, we feel unnecessary guilt. In doing so, everyday life is reduced to fuel for the keyboard. <strong>This inverts the natural order of things.</strong></p>\n      <ul>\n        <li><strong>Life is the Soil; Music is the Flower:</strong> Music exists to enrich, elevate, and express life, rather than demanding that daily living subordinate itself to the keys. A grounded, healthy everyday existence is the soil from which genuine musical feeling grows. When daily life is centered and calm, music naturally reflects that ease.</li>\n        <li><strong>Naturally Part of Daily Routine:</strong> Piano can sit within daily life like drinking tea, taking a walk, or resting. It provides a peaceful space to focus attention and enjoy tactile sound, rather than an arena for testing personal validation.</li>\n        <li><strong>Restoring Balance:</strong> Recognizing that music is an enriching part of life, rather than its sole aim, relieves anxiety and pressure. Practice becomes an opportunity to enjoy focus, touch, and harmony, carrying that quiet clarity back into daily life.</li>\n      </ul>\n    ",
+          "zh": "\n      <p>在成人学琴的过程中，需要留意的一个倾向，是无意中把练习指标或技能进度视作衡量生活状态的标准。一旦产生这种倾向，容易带来不必要的心理压力与<strong>因果倒置</strong>。</p>\n      <p>我们有时会因为练琴不顺而影响一天的心情，或者因为生活琐事暂时中断练习而心生内疚。如果将日常生活的从容与平和让渡给练琴目标，就容易本末倒置，让生活反过来受制于琴键。</p>\n      <ul>\n        <li><strong>生活是土壤，音乐是花朵：</strong> 音乐旨在滋养日常、抒发心境，而非让生活成为它的附属。平静、自洽的现实生活，是孕育丰富感知的基础；琴声则是生活滋养下的自然流露。若心中充满焦虑与苛求，琴声往往也会失去舒展。</li>\n        <li><strong>自然融入日常：</strong> 弹琴可以像饮茶、散步或小憩一样，自然地融入日常生活之中。它是安放心神、体会声音与触感的空间，不必成为评判个人成败的考场。</li>\n        <li><strong>回归平衡的心态：</strong> 当我们体会到“音乐是生活的一部分，而非生活的目的”，学琴过程中的焦虑与紧绷往往能大大减轻。练琴不再是为了向外证明什么，而是为了体会触键与和声的宁静专注；离凳之后，这份沉静也能自然延伸到更宽广的生活中。</li>\n      </ul>\n    "
         }
       }
     ]
@@ -443,12 +431,12 @@ const I18N = {
         "zh": "IMSLP：全球最大的免费公共版权古典乐谱宝库"
       },
       "summary": {
-        "en": "The definitive global archive of public domain sheet music, housing over 700,000 historic scores from Bach and Mozart to Handel and Chopin.",
-        "zh": "全人类古典音乐公版乐谱的终极数字档案馆，免费收录从巴赫、莫扎特到肖邦、亨德尔的70多万份历史名家手稿与权威乐谱。"
+        "en": "A vast global archive of public domain sheet music, housing over 700,000 historic scores from Bach and Mozart to Handel and Chopin.",
+        "zh": "开放详尽的古典音乐公版乐谱数字宝库，收录从巴赫、莫扎特到肖邦、亨德尔的70多万份历史名家手稿与权威乐谱。"
       },
       "strengths": {
-        "en": "100% free and legal; compare different historical editions (Busoni, Czerny, Breitkopf, Peters) to inspect differing fingerings and articulation marks.",
-        "zh": "完全免费且合法；可同时下载对比不同大师编订版（如布索尼版、车尔尼版、彼得斯版），观察大师们对于同一难点的不同指法智慧。"
+        "en": "Freely accessible public domain library; compare different historical editions (Busoni, Czerny, Breitkopf, Peters) to inspect differing fingerings and articulation marks.",
+        "zh": "公共版权免费获取；可同时下载对比不同大师编订版（如布索尼版、车尔尼版、彼得斯版），观察大师们对于同一难点的不同指法智慧。"
       },
       "caveats": {
         "en": "Scan qualities of older prints can be fuzzy; some 19th-century heavily edited versions add unstylistic romantic markings to baroque pieces.",
@@ -480,20 +468,20 @@ const I18N = {
         "zh": "forScore：专业乐谱阅读与手写批注的标杆工具"
       },
       "summary": {
-        "en": "The indisputable benchmark iPad application for organizing, annotating, and performing from digital sheet music PDFs.",
-        "zh": "专业乐谱阅读与管理的行业标杆，配合平板电脑与手写笔，彻底取代沉重杂乱的纸质乐谱夹。"
+        "en": "A widely adopted iPad application for organizing, annotating, and performing from digital sheet music PDFs.",
+        "zh": "专业乐谱阅读与管理的优秀工具，配合平板电脑与手写笔，能够有效整理与替代传统的纸质乐谱夹。"
       },
       "strengths": {
-        "en": "Pencil latency is zero; build custom setlists; crop margins to maximize notation size; instant Bluetooth foot-pedal integration removes page-turn friction.",
-        "zh": "配合触控手写笔可实现毫秒级原谱批注；支持蓝牙无线踏板踩踏翻页；强大的曲目集管理与内置高精度节拍器/校音器。"
+        "en": "Responsive pencil annotations; build custom setlists; crop margins to maximize notation size; instant Bluetooth foot-pedal integration removes page-turn friction.",
+        "zh": "配合触控手写笔可实现流畅的原谱批注；支持蓝牙无线踏板踩踏翻页；曲目集管理灵活且内置实用节拍器。"
       },
       "caveats": {
-        "en": "iOS/iPadOS exclusive; paid one-time fee; takes an hour of onboarding to master its powerful layering and bookmarking features.",
+        "en": "iOS/iPadOS exclusive; paid one-time fee; takes a short onboarding period to master its layering and bookmarking features.",
         "zh": "仅支持苹果生态设备；软件本身不自带曲库，需配合乐谱库导入。"
       },
       "synergy": {
-        "en": "Combine iPad + forScore + Bluetooth foot pedal for a completely clutter-free, paperless adult practice studio.",
-        "zh": "平板电脑配合手写笔与蓝牙翻页踏板，是彻底告别纸质谱杂乱、进入纯粹沉浸研习的终极数码基石。"
+        "en": "Combine iPad + forScore + Bluetooth foot pedal for an uncluttered, paperless adult practice studio.",
+        "zh": "平板电脑配合手写笔与蓝牙翻页踏板，为告别纸质谱杂乱、进入专注沉浸的读谱研习提供了非常清爽的数字基石。"
       },
       "link": "https://forscore.co/"
     },
@@ -560,16 +548,16 @@ const I18N = {
         "zh": "风靡国际的经典免费听力训练工具，基于Alain Benbassat主音引力法，训练耳朵感知任何音符在调性引力场中向主音回归的倾向。"
       },
       "strengths": {
-        "en": "Superior to isolated interval training; teaches you to hear scale degrees (1 to 7) in real tonal contexts; 100% free; 5 minutes daily produces dramatic results.",
-        "zh": "远超传统机械的孤立音程打分法；真正建立调性中心感，让你在任何旋律中听到音级（1到7音）的稳定度与倾向；完全免费。"
+        "en": "Focuses on tonal context rather than isolated intervals; teaches you to hear scale degrees (1 to 7) naturally; free; 5 minutes daily brings steady sensitivity.",
+        "zh": "注重调性上下文而非孤立音程辨识；帮助建立调性中心感，让你在旋律中感受音级（1到7音）的稳定度与倾向；基础功能完全免费。"
       },
       "caveats": {
-        "en": "Requires consistency over months; can feel frustrating in the first two weeks as your brain shifts from guessing to genuine harmonic feeling.",
-        "zh": "需要持之以恒的日常小剂量刺激；前两周当大脑从“乱猜”转向“感受引力”时会有一段迷茫期，需克服急躁心态。"
+        "en": "Requires consistency over time; can feel challenging in the first two weeks as your ear shifts from guessing to harmonic perception.",
+        "zh": "需要日积月累的细水长流；前两周当大脑从乱猜转向感知调性引力时可能稍有不适，需耐心体会。"
       },
       "synergy": {
-        "en": "Do 5-7 minutes on your commute or before practice; watch your ability to transcribe songs by ear and play chords spontaneously soar.",
-        "zh": "每天在通勤碎片时间或正式练琴前花5-7分钟打卡，不出两月，你在琴键上“听音辩旋律”与即兴配和弦的能力将脱胎换骨。"
+        "en": "Do 5-7 minutes during idle moments or before practice; gradually develops your ear for hearing melody and harmony more directly.",
+        "zh": "在碎片时间或练琴前花5分钟练习，有助于提升在琴键上听音摸旋律与辨识和弦倾向的敏锐度。"
       },
       "link": "https://www.miles.be/"
     },
@@ -631,7 +619,7 @@ const I18N = {
       },
       "summary": {
         "en": "The definitive rapid-fire training app created by Ricci Adams' musictheory.net, offering configurable drills for note identification, intervals, and key signatures.",
-        "zh": "全球音乐学界广受赞誉的musictheory.net官方App，提供高度可配置的高频极速闪卡训练，涵盖高低音谱表识音与调号辨认。"
+        "zh": "全球音乐学界广受赞誉的musictheory.net官方移动应用，提供高度可配置的高频极速闪卡训练，涵盖高低音谱表识音与调号辨认。"
       },
       "strengths": {
         "en": "Completely customizable: limit drills to ledger lines, bass clef only, or specific accidentals; free on the web, cheap one-time app; zero ads.",
@@ -709,8 +697,8 @@ const I18N = {
         "zh": "美国告示牌榜首古典钢琴家、密歇根大学音乐艺术博士，其频道是钻研手腕柔韧绕圈、消除弹奏紧张与微观慢练的宝藏级殿堂。"
       },
       "strengths": {
-        "en": "Phenomenal focus on physical mechanics: explains *why* your forearm hurts and how dropping from the shoulder eliminates tension; specific deep-dives into classical literature.",
-        "zh": "极度注重生理发力力学：深刻剖析为何小臂酸痛、如何通过肩部下沉释放手臂重量彻底杜绝肌腱炎；单曲细拆详尽绝伦。"
+        "en": "Strong focus on physical mechanics: explains *why* your forearm hurts and how dropping from the shoulder relieves tension; specific deep-dives into classical literature.",
+        "zh": "注重生理发力力学：深入剖析为何小臂酸痛、如何通过肩部下沉释放手臂重量以有效避免肌腱劳损；曲目细拆清晰透彻。"
       },
       "caveats": {
         "en": "High proportion of intermediate-to-advanced classical masterworks; can feel intimidating if you are still learning basic notes.",
@@ -851,20 +839,20 @@ const I18N = {
         "zh": "丹尼斯·日达诺夫：陶布曼人体工学、力学生理学与零张力演奏"
       },
       "summary": {
-        "en": "Concert pianist and profound pedagogue dedicated to biomechanics, physiological alignment, and the Taubman approach to piano playing without tension or pain.",
-        "zh": "国际比赛大奖得主、资深钢琴家，深入阐释陶布曼演奏学派，致力于通过人体骨骼发力几何学彻底消除弹奏疼痛与生理紧张。"
+        "en": "Concert pianist and dedicated pedagogue exploring biomechanics, physiological alignment, and the Taubman approach to playing with ease and without unnecessary strain.",
+        "zh": "资深钢琴家，深入阐释陶布曼演奏学派，致力于通过人体骨骼发力几何学有效缓解弹奏紧张与生理不适。"
       },
       "strengths": {
-        "en": "Deepest anatomical explanations online: shows how finger isolation causes strain and how forearm rotation (pronation/supination) solves fast passages effortlessly.",
-        "zh": "全网最深度的解剖力学剖析：无情指出死练“手指独立高抬指”对肌腱的伤害，详解如何用前臂自然旋转轻盈化解快速跑动。"
+        "en": "Clear anatomical insights: demonstrates how isolated finger strain can be avoided, and how natural forearm rotation (pronation/supination) aids fast passage work.",
+        "zh": "深入的解剖力学剖析：指出过度死练“高抬指”对肌腱的潜在负担，详解如何用前臂自然旋转协调化解快速跑动。"
       },
       "caveats": {
         "en": "Highly analytical and technical; requires focused mental attention and body self-awareness to translate into tactile habit.",
-        "zh": "内容极其严谨抽象，属于大师级力学沉思；需要研习者具备细致的肢体本体感觉才能将视频内化为肌体微动作。"
+        "zh": "内容严谨细致，属于力学层面的深入剖析；需要研习者具备细致的肢体本体感觉才能将其内化为肌体动作。"
       },
       "synergy": {
-        "en": "Mandatory viewing if you experience forearm burning, thumb tension, or wrist soreness after 30 minutes of practice.",
-        "zh": "如果无论练车尔尼还是哈农，只要超过半小时小臂外侧就会酸胀或大拇指根部发硬，必须立即观看其旋转力学系列讲座进行自查纠错。"
+        "en": "Highly recommended viewing if you experience forearm burning, thumb tension, or wrist soreness after 30 minutes of practice.",
+        "zh": "若在练习中出现小臂外侧酸胀或大拇指根部僵硬，建议参考其旋转力学系列讲座进行对照自查。"
       },
       "link": "https://www.youtube.com/@DenZhdanovPianist"
     },
@@ -1038,12 +1026,12 @@ const I18N = {
         "zh": "巴托克《小宇宙》（第一至三卷）：双手独立与现代调式的神兵利器"
       },
       "summary": {
-        "en": "153 progressive pedagogical miniatures composed by Hungarian master Béla Bartók to teach genuine polyphony, asymmetrical rhythms, and absolute two-hand autonomy.",
-        "zh": "匈牙利二十世纪伟大作曲家巴托克写给世人的153首渐进微型宝藏，专为训练双手绝对独立、复调思维与奇妙民间调式而生。"
+        "en": "153 progressive pedagogical miniatures composed by Hungarian master Béla Bartók to teach genuine polyphony, asymmetrical rhythms, and two-hand autonomy.",
+        "zh": "匈牙利二十世纪作曲家巴托克创作的153首渐进微型练习，专为训练双手独立性、复调思维与丰富民间调式而编写。"
       },
       "strengths": {
-        "en": "Treats the left hand as an equal singing voice from piece #1, completely curing 'lazy left hand syndrome'; trains rhythmic independence unlike any standard pop/folk method.",
-        "zh": "从第1课开始就把左手视作与右手地位完全平等的歌唱旋律，彻底治愈成人初学者“左手只会伴奏傻按”的顽疾；节奏思维超越常规4/4拍教条。"
+        "en": "Treats the left hand as an equal singing voice from early on, helping cure 'lazy left hand syndrome'; trains rhythmic independence unlike standard pop/folk methods.",
+        "zh": "从早期曲目起就将左手视作平等的歌唱声部，有效改善成人初学者“左手仅用于机械伴奏”的习惯；节奏思维富有启发性。"
       },
       "caveats": {
         "en": "Non-traditional harmonies (modal, folk, eastern European) can sound strange to ears accustomed solely to modern pop major/minor chords.",
@@ -1112,20 +1100,20 @@ const I18N = {
         "zh": "张全成《钢琴弹奏的艺术与科学》"
       },
       "summary": {
-        "en": "The world's most famous open-source manual on the science of piano practice, exploring Hands Separate (HS) routines, micro-segmentation, and Post-Practice Improvement (PPI).",
-        "zh": "互联网上传播最广的开源钢琴练习科学文献，从物理学与脑认知科学视角，彻底解析单手分练、微观切片与睡眠巩固效应。"
+        "en": "A widely-read open-source text exploring the mechanics of piano practice, discussing Hands Separate (HS) routines, micro-segmentation, and Post-Practice Improvement (PPI).",
+        "zh": "互联网上流传较广的开源钢琴练习参考资料，从认知与习惯视角系统探讨单手分练、微观切片与练习后的沉淀效应。"
       },
       "strengths": {
-        "en": "Explodes conventional myths of endless mindless repetition; explains how the brain synthesizes motor skills overnight during deep sleep; teaches segment boundary stitching.",
-        "zh": "彻底粉碎“机械苦练万遍自成”的陈腐迷信；深刻揭示大脑在夜间深度睡眠中重构髓鞘神经通路的核心规律，传授小节接口缝合术。"
+        "en": "Challenges conventional reliance on mindless repetition; highlights how sleep supports motor skill consolidation; details practical methods for stitching segment boundaries.",
+        "zh": "剖析机械苦练的局限性；阐述充足休息对技能内化的支持作用，提供实用的接合练习方法。"
       },
       "caveats": {
-        "en": "The tone can be dogmatic and opinionated in some chapters; some claims on memory have been debated, but the deliberate practice principles are pure gold.",
-        "zh": "文风带有理工学者的绝对与执拗，部分关于记忆机制的叙述略有主观色彩，但其总结的双手拆解与睡眠沉淀原则绝对是自学无价之宝。"
+        "en": "The tone can be opinionated in some chapters, and certain claims on memory mechanisms are debated; yet its practical segmentation insights remain very useful.",
+        "zh": "部分章节带有较为鲜明的个人观点，关于记忆机制的论述亦有探讨空间；但其关于分手细练与分段衔接的经验十分具体实用。"
       },
       "synergy": {
-        "en": "Read the first two chapters before learning any complex piece like *Forrest Gump* or *Passacaglia* to cut your practice hours in half.",
-        "zh": "在攻克任何有技术难度的乐曲（如《阿甘正传》连续琶音或《帕萨卡利亚》交替跨度）前，先阅读其前两章，能为你省去一半无意义的机械弯路。"
+        "en": "Read the first two chapters before learning a challenging piece to gain helpful practice ideas.",
+        "zh": "在准备练习有一定技术难度的乐曲前，浏览其前两章，能为规划练习步骤提供有益参考。"
       },
       "link": "https://fundamentals-of-piano-practice.readthedocs.io/"
     },
@@ -1149,12 +1137,12 @@ const I18N = {
         "zh": "肯尼·维尔纳《自如的驾驭》：释放深层音乐本能与消解焦虑"
       },
       "summary": {
-        "en": "A transformational psychological text by jazz master Kenny Werner addressing the acute anxiety, self-criticism, and physical paralysis that plagues adult learners.",
-        "zh": "爵士泰斗肯尼·维尔纳撰写的身心觉察圣经，专治成年人在琴键前的严苛内耗、自我审查、恐惧感以及因心理焦虑引发的手部生理僵直。"
+        "en": "A thoughtful exploration of musical mindset by jazz musician Kenny Werner, addressing self-criticism, anxiety, and physical tension in practice.",
+        "zh": "爵士音乐家肯尼·维尔纳关于音乐心理的深入探讨，关注成年人在练习中的自我苛评、焦虑以及由此引发的身体紧绷。"
       },
       "strengths": {
-        "en": "Teaches the core mantra: 'Step 1 is effortless space; if a single note feels tense, stop immediately.' Cures the adult habit of self-punishing practice.",
-        "zh": "建立至简信条：“第一步永远是身体的极度松弛；只要按下一个琴键让你感到紧张或压迫，立刻停下。”彻底根治自残式逼迫练习。"
+        "en": "Emphasizes finding ease and mental clarity before playing; encourages pausing whenever tension arises, helping move past strained, self-critical practice.",
+        "zh": "强调身心放松的基本原则：“体会弹奏中的松弛与空间感；若感到明显紧张或压迫，不妨先停下来调整呼吸。”有效缓解过度紧绷的逼迫式练习。"
       },
       "caveats": {
         "en": "Philosophical and meditative in orientation rather than a tactical index of finger exercises; requires openness to somatic self-awareness.",
@@ -1447,20 +1435,20 @@ const I18N = {
         "zh": "J.S.巴赫《二部创意曲》：左右脑完全分化与复调巅峰"
       },
       "summary": {
-        "en": "15 contrapuntal masterpieces composed by J.S. Bach specifically as a textbook to teach keyboardists how to make two independent voices converse with clarity and cantabile touch.",
-        "zh": "音乐之父巴赫亲自为键盘研习者谱写的15首对位法教科书，旨在训练演奏者如何让两只手各自化身为独立的歌唱家，在键盘上展开激辩与对话。"
+        "en": "15 contrapuntal pieces composed by J.S. Bach to teach keyboardists how to make two independent voices converse with clarity and cantabile touch.",
+        "zh": "巴赫为键盘研习者创作的15首对位法作品，旨在训练演奏者如何让双手各自独立歌唱，在键盘上展开清晰的对话。"
       },
       "strengths": {
-        "en": "Unrivaled cognitive and motor rewiring; once you can play Invention No. 1 or No. 8, your hands will never again feel confused by counter-rhythms or independent dynamics.",
-        "zh": "无与伦比的大脑运动神经重构价值；一旦你亲手攻克第1首或第8首等经典篇章，你的双手将彻底告别节拍打架，左右手独立性将终身受益。"
+        "en": "Exceptional training for coordination; learning Invention No. 1 or No. 8 significantly improves two-hand independence and contrapuntal listening.",
+        "zh": "极具价值的双手协调训练；掌握第1首或第8首等篇章，能显著提升双手的节奏独立性与多声部听觉。"
       },
       "caveats": {
-        "en": "Intense mental friction: requires learning each voice completely by heart before merging hands; cannot be skimmed or played mindlessly.",
-        "zh": "极高的心智算力摩擦：在双手合体前，必须做到单手能一边弹一边唱出另一声部的旋律；任何不走心的机械盲刷都会在此惨败。"
+        "en": "Requires patience and focus: practicing each voice clearly on its own before merging hands is usually essential.",
+        "zh": "需要较高的专注度与耐心：合手前建议先分别理清单手声部，机械重复往往收效甚微。"
       },
       "synergy": {
-        "en": "The essential prerequisite study for tackling Handel-Halvorsen's *Passacaglia* or complex Chopin polyphonic textures.",
-        "zh": "攻克亨德尔-哈尔沃森《帕萨卡利亚》等交响级复调变奏前的必由之路，每一小节都是纯净的音乐逻辑钻石。"
+        "en": "Excellent foundation before tackling Handel-Halvorsen's *Passacaglia* or complex polyphonic textures.",
+        "zh": "在准备弹奏亨德尔-哈尔沃森《帕萨卡利亚》等多声部复调作品前，具有很好的奠基作用。"
       },
       "link": "https://imslp.org/wiki/15_Inventions,_BWV_772-786_(Bach,_Johann_Sebastian)"
     },
@@ -1571,8 +1559,8 @@ const I18N = {
         }
       },
       "verdict": {
-        "en": "Synthesia is a transient crutch. Use it for 5 minutes only to clarify awkward physical hand collisions, then immediately return to the paper score. Invest the effort into notation early; your future self will thank you endlessly.",
-        "zh": "裁决建议：下落瀑布流只能作为临时救急的脚手架。仅在遇到极别扭的跨手或找不准键位时看上几分钟辅助定位，随后果断切回乐谱。尽早咬牙攻克五线谱，这是成人通往真正自学自由的唯一大道。"
+        "en": "Verdict & Suggestion: Falling-note visualizers can serve as a helpful initial aid. When encountering awkward hand crossings or finding key positions tricky, brief reference can clarify the motion before returning to notation. Investing time in standard sheet music opens up a much broader world of independent playing.",
+        "zh": "裁决建议：下落瀑布流可作为初期的直观辅助。在遇到手位跨度大或难辨键位时短暂停留辅助定位，随后建议回归乐谱。逐步熟悉并掌握五线谱，能为成人自主弹奏打下更宽广的基础。"
       }
     },
     {
@@ -1644,15 +1632,15 @@ const I18N = {
         }
       },
       "verdict": {
-        "en": "Do not let simplified arcade tracks dictate your musicianship. If using software, choose hybrid tools like Playground Sessions or Piano Marvel that display real dual-staff notation alongside video instruction, or ground your spinal curriculum in method books (Alfred/Faber) to ensure long-term musical autonomy.",
-        "zh": "裁决建议：切莫让单纯的游戏光标绑架你的音乐心灵。若使用软件，应选择展示真实双行五线谱、结合视频精讲与自定步调练习的严肃进阶工具，或者将经典权威教材作为主轴，切实培养终身受用的读谱与独立演奏能力。"
+        "en": "Suggestions: Consider whether a learning tool fosters independent note reading and musicianship. When using software, platforms that feature authentic dual-staff notation alongside video instruction can be particularly helpful, as can structured adult method books (like Alfred or Faber) for grounding core skills.",
+        "zh": "裁决建议：建议关注工具是否真正有助于读谱与独立演奏能力的建立。若使用软件，可优先选择展示标准双行五线谱、结合视频精讲与自定步调练习的工具；也可以经典教材为辅助，逐步培养扎实的独立演奏基础。"
       }
     },
     {
       "id": "selftaught-vs-teacher",
       "topic": {
         "en": "Self-Directed Study with Modern Tools vs. Weekly Private In-Person Teacher",
-        "zh": "基于现代数字工具的纯自主研习 对决 传统每周线下私教"
+        "zh": "基于现代数字工具的自主研习 对比 传统每周线下私教"
       },
       "overview": {
         "en": "Evaluating pacing autonomy, financial cost, and physical ergonomics feedback.",
@@ -1661,18 +1649,18 @@ const I18N = {
       "left": {
         "title": {
           "en": "Autonomous Self-Directed Study",
-          "zh": "现代全自主研习模式"
+          "zh": "现代自主研习模式"
         },
         "pros": {
           "en": [
-            "Total freedom: practice when you want, for as long as you want",
-            "Zero commute time or scheduling anxiety for busy adult professionals",
-            "100% control over repertoire: learn only pieces you genuinely love"
+            "Flexible schedule: practice whenever fits your day",
+            "Zero commute time or scheduling anxiety for busy adult schedules",
+            "High repertoire autonomy: focus on music that genuinely moves you"
           ],
           "zh": [
-            "绝对的作息自由：随时上琴练琴，完美适配成人的高负荷碎片生活",
-            "零通勤成本与日程焦虑，免去每周固定时间赴约的沉重心理负担",
-            "100%曲目自主权：只弹自己真正深爱动心的作品，绝不受教条强迫"
+            "灵活的作息安排：随时上琴练琴，更契合成人的碎片化生活节奏",
+            "零通勤成本与日程压力，免去固定时间奔波的心理负担",
+            "充分的曲目自主权：专注于自己真正喜爱动心的作品，避免机械死板的约束"
           ]
         },
         "cons": {
@@ -1681,7 +1669,7 @@ const I18N = {
             "Self-evaluation blindness: hard to hear your own rhythmic fluctuations while playing"
           ],
           "zh": [
-            "若缺乏自省，可能长期存在耸肩、压腕、折指等不良发力恶习而不自知",
+            "若缺乏自省，可能长期存在耸肩、压腕、折指等不良发力习惯而不自知",
             "演奏时因全神贯注而难以客观听清自己的节拍微颤与强弱失衡"
           ]
         }
@@ -1693,30 +1681,30 @@ const I18N = {
         },
         "pros": {
           "en": [
-            "Physical tactile intervention: a great teacher gently touches your wrist/shoulder to instantly release hidden tension",
-            "External accountability prevents prolonged practice droughts",
+            "Physical tactile intervention: a great teacher gently touches your wrist/shoulder to help release hidden tension",
+            "External accountability helps prevent prolonged practice droughts",
             "Tailored pedagogical diagnosis on tricky polyphonic fingering"
           ],
           "zh": [
-            "实体触觉即时干预：优秀名师轻触你的手腕与肩头，能瞬间点醒你的潜意识紧张",
-            "强外部契约与监督感，有效阻止拖延症与漫长的练琴荒废期",
-            "针对刁钻小节指法，能当面传授最贴合你手掌骨骼生理的最佳方案"
+            "实体触觉即时引导：经验丰富的老师轻触手腕与肩部，能敏锐指出动作紧张",
+            "外部节奏感与督促感，有助于保持长期的规律练习",
+            "针对难点段落指法，能面对面提供适合个人手型特点的建议"
           ]
         },
         "cons": {
           "en": [
             "High ongoing cost ($60–$120/hr, $3,000–$6,000 annually)",
-            "Bad/rigid teachers often treat adults like four-year-olds, forcing nursery rhymes and killing intrinsic passion"
+            "Teaching approaches vary; overly rigid methods can overlook an adult's musical background and intrinsic interests"
           ],
           "zh": [
-            "持续经济支出高昂（每小时数十至上百欧/美元，年均数千成本）",
-            "良莠不齐：平庸或死板的老师常把成年人当四岁幼童教训，死抠枯燥音阶，彻底扼杀成年人珍贵的音乐热情"
+            "持续经济支出相对较高（每小时数十至上百欧/美元）",
+            "教学风格存在差异：过于刻板的教学方式容易忽视成年人的理解能力与兴趣，带来不必要的挫败感"
           ]
         }
       },
       "verdict": {
-        "en": "Self-direction with video recording is exceptionally powerful for adults. If possible, adopt a hybrid model: study independently using curated tools, and book a single consultation lesson once every 2-3 months solely for an ergonomic and posture audit.",
-        "zh": "裁决建议：对于具备高度自省力的成年人，自主学习配合手机侧面录像自查具有极高上限。最佳方案是“以自主探索为主轴，每季度约请高水平名师上一次问诊课”，单刀直入排查体态张力。"
+        "en": "Suggestions: Self-directed study combined with occasional video recording can be very effective for adult learners. A balanced approach could be studying independently with quality resources, and consulting a teacher periodically for posture and ergonomic feedback.",
+        "zh": "裁决建议：对于善于自省的成年人，自主学习配合录像自查是一种高效的方式。一个值得参考的平衡方案是“以自主探索为主，定期或在遇到瓶颈时约请专业老师进行针对性答疑与体态排查”。"
       }
     },
     {
@@ -1737,13 +1725,13 @@ const I18N = {
         "pros": {
           "en": [
             "Silent headphone practice allows deep concentration at 6 AM or 11 PM",
-            "Never needs tuning (saving $200–$400 annually in climate fluctuations)",
-            "Lightweight, easy to move, flawless USB-MIDI recording connectivity"
+            "No periodic tuning required (minimizing ongoing maintenance costs)",
+            "Lightweight, easy to move, seamless USB-MIDI recording connectivity"
           ],
           "zh": [
-            "耳机静音功能让你在清晨6点或深夜11点心无旁骛沉浸弹奏，不扰任何人",
-            "终生无需调律，无惧北方暖气与潮湿季的音准走调（年省数千元维护费）",
-            "标准数据传输接口支持与现代教学软件双向连接，录音与视奏测评极其便捷。"
+            "耳机静音功能让你在清晨或深夜心无旁骛沉浸弹奏，不扰邻里家人",
+            "免除定期调律需求，不受季节湿度变化导致的跑音影响",
+            "标准数据传输接口支持与现代教学软件双向连接，录音与视奏测评十分便捷。"
           ]
         },
         "cons": {
@@ -1752,8 +1740,8 @@ const I18N = {
             "Key action, while weighted, is a simulated lever rather than a real felt hammer striking steel wire"
           ],
           "zh": [
-            "缺少整个实木琴腔与铸铁板在真实空气中掀起的三维空间物理震颤",
-            "击弦手感即便有重锤模拟，终究是弹簧与配重块杠杆，与真琴微弱的擒纵齿轮感略有偏差"
+            "缺少实木琴腔与铸铁板在真实空间中掀起的空气共鸣振颤",
+            "击弦手感虽有配重模拟，与真实机械击弦机内部的细微阻尼感略有差异"
           ]
         }
       },
@@ -1764,99 +1752,99 @@ const I18N = {
         },
         "pros": {
           "en": [
-            "Incomparable sensory richness: feeling the vibration through the keybed into your fingertips and chest",
-            "Teaches microscopic control over hammer speed, velocity, and tone color",
-            "A durable acoustic piano can last multiple generations"
+            "Rich sensory resonance: feeling the sound vibration through the keybed and instrument body",
+            "Encourages nuanced control over hammer speed, touch velocity, and dynamic color",
+            "A well-maintained acoustic piano can endure for generations"
           ],
           "zh": [
-            "无可替代的感官震撼：指尖按下的瞬间，琴弦震动通过琴凳直抵胸膛",
-            "倒逼指尖建立对琴槌撞击琴弦微秒级速度的敏锐控制力，音色层次极其丰润",
-            "保养得当的优质机械钢琴可作为家族传家宝，陪伴一生"
+            "丰富的声学共鸣：指尖触键时，琴弦与琴体的振动带来直观的听觉与触觉体验",
+            "有助于培养对触键速度与音色细腻层次的敏锐感知",
+            "保养得当的优质机械钢琴具有长久的陪伴价值"
           ]
         },
         "cons": {
           "en": [
-            "Cannot be muted: practicing an awkward 2-bar loop 50 times will test the patience of family and neighbors",
+            "Cannot be muted: repeated slow practice on difficult measures can be heard by family and neighbors",
             "Heavy (200-250kg), sensitive to humidity, requires regular professional tuning"
           ],
           "zh": [
-            "无法完全静音：把一个卡壳小节慢练50遍的声响，将严酷考验家人与邻居的包容底线",
-            "自重极沉（200公斤以上），对温湿度极其敏感，每年须定期调音保养"
+            "无法完全静音：对局部难点的反复慢练可能会影响到同住者或邻里",
+            "搬运较重，对温湿度变化较敏感，需要定期调音保养"
           ]
         }
       },
       "verdict": {
-        "en": "For 90% of adult learners, an 88-key weighted digital piano (like Roland FP-30X or Yamaha P-225) is the vastly superior strategic choice. The psychological freedom to make mistakes in headphones without being heard dramatically accelerates adult experimentation.",
-        "zh": "裁决建议：对于绝大多数起步的成年人，一台高品质88键重锤电钢琴是性价比最高、心理阻力最低且最环保的选择（甚至比缺乏维护的老旧立式机械琴发音更准、触键更均匀）。唯有当你具备稳定曲目量与强烈的音响空间共鸣追求时，再投资高端原声三角琴。"
+        "en": "For many adult learners, an 88-key weighted digital piano is a practical and flexible starting choice. The freedom to practice in headphones without concern for being heard encourages relaxed experimentation. If you later develop a strong preference for acoustic resonance, acoustic pianos offer a rewarding continuation.",
+        "zh": "裁决建议：对于多数起步阶段的成年人，一台品质可靠的88键重锤电钢琴往往是务实且灵活的选择。配合耳机练习能消除打扰他人的顾虑，有助于更自在地进行慢练与探索。日后若对声学共鸣与触键层次有更深的追求，原声钢琴同样是值得探索的方向。"
       }
     },
     {
       "id": "blocked-vs-deliberate-practice",
       "topic": {
-        "en": "Mindless Repetition (Playing Through) vs. Deliberate Micro-Chunking",
-        "zh": "从头弹到尾的机械盲刷 对决 微观切片与慢速刻意练习"
+        "en": "Continuous Run-Throughs vs. Deliberate Micro-Chunking",
+        "zh": "从头通弹 对比 针对性微观慢练"
       },
       "overview": {
-        "en": "Why playing a piece start-to-finish 10 times gives the illusion of work while producing zero neurological improvement.",
-        "zh": "为什么把整首曲子从头到尾流水账般弹10遍，只会制造虚假努力的幻觉，而无法带来真正的神经重塑？"
+        "en": "Comparing whole-piece run-throughs with targeted micro-segment practice for skill consolidation.",
+        "zh": "探讨全曲通弹与针对性局部慢练在动作记忆巩固中的不同作用。"
       },
       "left": {
         "title": {
           "en": "Mindless 'Play-Through' Practice",
-          "zh": "从头到尾机械通弹（流水账模式）"
+          "zh": "从头到尾泛泛通弹"
         },
         "pros": {
           "en": [
-            "Feels emotionally pleasant to hear the parts you already know",
-            "Requires low mental effort"
+            "Feels pleasant and relaxing to hear the sections you already know",
+            "Requires less immediate mental concentration"
           ],
           "zh": [
-            "心理体验舒适：反复沉醉在自己已经熟练的段落中获得虚荣满足",
-            "几乎不消耗心智算力，大脑处于被动的半睡眠状态"
+            "心理体验轻松：弹奏已熟悉的段落较为流畅惬意",
+            "心智负荷较低，适合作为练习开始前的活动或复习"
           ]
         },
         "cons": {
           "en": [
-            "Every time you reach a hard measure, you stumble, stop, and guess — actively cementing mistakes into muscle memory",
-            "Takes 10x longer to learn pieces; perpetual performance anxiety at specific bars"
+            "Difficult bars often get glossed over, risking the repetition of hesitant habits",
+            "Progress on tricky sections remains slow; performance anxiety tends to persist at specific bars"
           ],
           "zh": [
-            "每次弹到难点处都会卡壳、停顿、重来——等于在主动给大脑强化“错误记忆轨迹”",
-            "耗费十倍时间却原地踏步；一到特定小节就心虚手抖，永远不敢在他人面前完整演奏"
+            "遇到难点小节容易一带而过或停顿重来，无形中强化了不顺畅的动作习惯",
+            "攻克复杂段落效率较低，在特定小节容易持续感到不确定"
           ]
         }
       },
       "right": {
         "title": {
-          "en": "Deliberate Micro-Chunking (+1 Friction)",
-          "zh": "微观切片与慢速刻意练习（+1摩擦）"
+          "en": "Deliberate Micro-Chunking",
+          "zh": "微观切片与针对性慢练"
         },
         "pros": {
           "en": [
-            "Isolates the single friction point (1-2 beats, or a specific thumb-under motion)",
-            "Practices ultra-slow with 100% accuracy, creating pristine neural myelin sheaths",
-            "Saves hundreds of hours; turns difficult passages into effortless automatic reflex"
+            "Isolates specific friction points (a single beat, hand position shift, or fingering transition)",
+            "Practicing slowly with clear intent helps establish stable motor patterns",
+            "Saves time overall; turns awkward movements into natural, comfortable reflexes"
           ],
           "zh": [
-            "极其精准地孤立摩擦点（甚至只切出1个节拍或单次大拇指穿指动作）",
-            "在零错音的超慢速度下做足手腕轨迹雕琢，让大脑一次性镀上高纯度的神经髓鞘",
-            "省去数百小时无效耗损；让曾经看似天堑的难关变成毫无压力的肌肉自然反射"
+            "准确定位动作卡点（如一拍内的跨指、换把位或双手交替）",
+            "在从容的慢速下体会动作轨迹，帮助动作记忆更清晰、稳固地沉淀",
+            "提高练习效率，让原本感到生硬的段落逐渐变得从容自如"
           ]
         },
         "cons": {
           "en": [
-            "Requires intense concentration and mental discipline",
-            "Doesn't 'sound like pretty music' for the first 15 minutes of a practice session"
+            "Requires sustained attention and active listening",
+            "Isolated fragments may feel less musical during initial breakdown"
           ],
           "zh": [
-            "需要高度清醒的心智算力投入与克制力，前15分钟枯燥切片时“听起来不像在弹好听的曲子”",
-            "需要成年人勇敢直面自己指尖笨拙的真实落差"
+            "需要持续保持专注与细致听觉",
+            "练习初期聚焦局部小节时，缺乏完整旋律的连贯感"
           ]
         }
       },
       "verdict": {
-        "en": "The golden rule of piano: Never practice a mistake. If you stumble twice in the same spot, immediately STOP. Drop the tempo by 50%, isolate just the 4 problematic notes, and play them perfectly 5 times in slow motion. Speed is merely the consequence of accuracy.",
-        "zh": "裁决建议：钢琴研习的铁律是“永远不要重复一次错误”。如果同一个位置连续卡壳两次，立刻紧急制动！将速度压低一半，仅切出导致卡壳的4个音符，在慢动作中完美弹奏5遍再顺滑缝合。速度从来不是赶出来的，速度只是极度精准的自然副产物。"
+        "en": "A valuable practice principle: try to avoid reinforcing mistakes through repetition. If you stumble repeatedly in the same spot, take it as an invitation to pause. Halve the tempo, isolate the few notes causing friction, and play through them smoothly at a comfortable speed before integrating them back. Fluency is rarely achieved by rushing; it is the natural byproduct of clarity and ease.",
+        "zh": "裁决建议：练习中一个有价值的经验是“尽量避免在同一个错误上反复巩固”。如果在某个段落连续出现不顺畅，不妨暂时停顿，把卡顿处的几个关键音符单独拿出来慢练体会，待肌肉感觉顺畅自然之后再接续上下文。弹奏的流畅度往往不是急于提速的结果，而是动作清晰准确后水到渠成的体现。"
       }
     }
   ],
@@ -2220,8 +2208,8 @@ const I18N = {
             "zh": "高音区轻盈如羽毛般飘零的三连音，层层上涌的分解琶音，极致纯净的高音触键。"
           },
           "tips": {
-            "en": "The opening high notes must be played without harshness: let the arm weight drop from above with cushion-soft fingertips.",
-            "zh": "开篇的高音绝不可敲砸：指尖肉垫柔软着陆，手臂自然下沉，让余音在空气中缓缓荡漾开来。"
+            "en": "The opening high notes benefit from a cushion-soft fingertip landing: let the arm sink naturally so the sound resonates through the space.",
+            "zh": "开篇的高音宜避免生硬敲击：指尖肉垫柔和着陆，手臂自然下沉，让余音在空气中缓缓荡漾开来。"
           }
         },
         {
@@ -2229,12 +2217,12 @@ const I18N = {
           "composer": "Ludovico Einaudi",
           "focus": {
             "en": "Endurance, hypnotic rhythmic loops, four-note polyrhythmic layer balance.",
-            "zh": "持久专注力、极简主义催眠般的和声循环与左右手声部层次分离。"
+            "zh": "专注力、极简主义和声循环与左右手声部层次分离。"
           },
-          "tips": {
-            "en": "Avoid forearm strain during repetitive patterns by constantly rotating the wrist in micro-ovals. (Study Companion: Consult Michael Maiber's phrase-by-phrase YouTube tutorials — the author learned virtually all of his Einaudi repertoire from this channel through persistent personal struggle).",
-            "zh": "面对长时间重复跑动的和声模式，手腕必须保持微型椭圆晃动，切断一切机械静止僵化。（研习推荐：参考自学导师 Michael Maiber 的逐句慢拆视频教学——本指南作者几乎所有的艾诺迪作品，都是伴着他的教学、再加自己的艰辛摸索而彻底攻克的）。"
-          }
+            "tips": {
+              "en": "To ease forearm strain during repetitive patterns, keep the wrist supple with micro-rotations. (Study Companion: Consult Michael Maiber's phrase-by-phrase YouTube tutorials — the author learned much of his Einaudi repertoire from this channel through persistent personal study).",
+              "zh": "面对长时间重复跑动的和声模式，手腕宜保持微型椭圆绕动，缓解机械僵直的倾向。（研习推荐：参考自学导师 迈克尔·迈伯（Michael Maiber） 的逐句慢拆视频教学——本指南作者许多艾诺迪作品，都是伴着他的教学、结合自己的耐心理会而逐步掌握的）。"
+            }
         }
       ]
     },
@@ -2276,130 +2264,6 @@ const I18N = {
       ]
     }
   ],
-  "matcherQuiz": {
-    "questions": [
-      {
-        "id": "q1_goal",
-        "text": {
-          "en": "What is your primary musical aspiration at this stage?",
-          "zh": "在这个阶段，你最迫切、最渴望实现的音乐心愿是什么？"
-        },
-        "options": [
-          {
-            "key": "pop_soundtrack",
-            "text": {
-              "en": "Play beloved film scores & pop songs (e.g. Forrest Gump, Chengdu, Game of Thrones)",
-              "zh": "弹奏心爱的影视配乐与流行金曲（如《阿甘正传》《成都》《权力的游戏》等）"
-            }
-          },
-          {
-            "key": "classical_literacy",
-            "text": {
-              "en": "Master classical piano repertoire & deep sheet literacy (Bach, Chopin, Handel)",
-              "zh": "研习正统古典杰作与深度识谱体系（巴赫复调、肖邦抒情、亨德尔变奏）"
-            }
-          },
-          {
-            "key": "chords_improv",
-            "text": {
-              "en": "Play by ear, understand chord progressions, and accompany singing/family",
-              "zh": "掌握和弦走向、即兴弹唱，为家人伴奏或听歌即兴配弹"
-            }
-          }
-        ]
-      },
-      {
-        "id": "q2_time",
-        "text": {
-          "en": "How much focused, undisturbed practice time can you protect on typical days?",
-          "zh": "在绝大多数普通工作日，你能够雷打不动守住多少专注练琴时间？"
-        },
-        "options": [
-          {
-            "key": "time_15_20",
-            "text": {
-              "en": "15 to 20 minutes (busy schedule, need high-density micro-chunks)",
-              "zh": "15 到 20 分钟（生活节奏极快，需要高密度微观切片与外科手术式练琴）"
-            }
-          },
-          {
-            "key": "time_30_45",
-            "text": {
-              "en": "30 to 45 minutes (the sweet spot for steady, compounding progression)",
-              "zh": "30 到 45 分钟（稳健推进黄金期，兼顾基本功、新曲拆解与旧曲温习）"
-            }
-          },
-          {
-            "key": "time_60_plus",
-            "text": {
-              "en": "60 minutes or more (deep weekend immersion, rapid multi-track growth)",
-              "zh": "60 分钟以上（深度沉浸期，可全维推进复调、练耳、即兴与大型乐曲）"
-            }
-          }
-        ]
-      },
-      {
-        "id": "q3_setup",
-        "text": {
-          "en": "What is your current keyboard / piano hardware reality?",
-          "zh": "你目前的琴键硬件环境处于哪种状态？"
-        },
-        "options": [
-          {
-            "key": "no_piano_or_spring",
-            "text": {
-              "en": "No piano yet, or a 61-key unweighted plastic keyboard (need upgrade guidance)",
-              "zh": "尚未购琴，或只有一台61键塑料弹簧无重锤电子琴（急需升级建议）"
-            }
-          },
-          {
-            "key": "weighted_digital",
-            "text": {
-              "en": "88-key weighted hammer action digital piano (Roland, Yamaha, Kawai) with headphones",
-              "zh": "已拥有88键全配重重锤电钢琴（罗兰、雅马哈、卡瓦依等知名品牌）且支持耳机练习"
-            }
-          },
-          {
-            "key": "acoustic_piano",
-            "text": {
-              "en": "Traditional acoustic upright or grand piano in my home",
-              "zh": "家中已配备传统机械立式或三角钢琴"
-            }
-          }
-        ]
-      },
-      {
-        "id": "q4_bottleneck",
-        "text": {
-          "en": "What currently represents your greatest friction point or inner obstacle?",
-          "zh": "目前在练琴过程中，最让你感到卡壳或挫败的核心瓶颈是什么？"
-        },
-        "options": [
-          {
-            "key": "reading_notes",
-            "text": {
-              "en": "Deciphering sheet music (especially bass clef) feels painfully slow",
-              "zh": "看谱识谱极其缓慢（尤其是低音谱表和加线音符），如同破译密码"
-            }
-          },
-          {
-            "key": "coordination_tension",
-            "text": {
-              "en": "Left and right hands fight each other; forearm or wrist feels tense after 20 minutes",
-              "zh": "双手不听使唤、各顾各的；弹奏20分钟以上小臂外侧发酸、手腕僵硬"
-            }
-          },
-          {
-            "key": "consistency_doubts",
-            "text": {
-              "en": "Losing motivation, wondering if 'I started too late' to ever sound genuinely good",
-              "zh": "缺乏确定感，偶尔怀疑自己“是不是起步太晚了，注定弹不好听”而动摇心志"
-            }
-          }
-        ]
-      }
-    ]
-  },
   "enjoyedResources": [
     {
       "id": "katherine-cordova",
@@ -2517,16 +2381,16 @@ const I18N = {
         "zh": "从哈尔沃森对亨德尔 G小调大键琴组曲变奏的狂热提琴二重奏改编，到各种令琴键燃烧的钢琴独奏版本。"
       },
       "whyIEnjoy": {
-        "en": "This piece represents the grand architectural peak of my own adult piano journey. Listening to diverse master performances continuously recharges my determination to conquer polyphony and multi-layered voicings.",
-        "zh": "这首作品是我成年学琴历程中攀登的最巍峨的峰峦。聆听不同大师与新锐演奏家的现场演绎，每一次都能彻底刷新我对复调交响感、变奏推进张力与巴洛克骨骼美感的认知。"
+        "en": "This piece represents a meaningful milestone of my adult piano journey. Listening to diverse performances continually deepens my appreciation of polyphony, dynamic architecture, and baroque counterpoint.",
+        "zh": "这首作品是我成年学琴历程中意义深远的一座峰峦。聆听不同演奏家的现场演绎，常能加深我对复调交响感、变奏推进张力与巴洛克骨骼美感的体会。"
       },
       "highlights": {
-        "en": "Dramatic 8-bar descending ground bass; explosive sixteenth-note arpeggiated variations; thrilling orchestral climaxes.",
-        "zh": "庄严肃穆的8小节固定低音恰空骨架；排山倒海的十六分音符奔流变奏；波澜壮阔的交响化和弦扫击。"
+        "en": "Dramatic 8-bar descending ground bass; expressive sixteenth-note variations; rich orchestral textures.",
+        "zh": "沉稳的8小节固定低音恰空骨架；富有动感的十六分音符变奏；层次丰富的交响化织体。"
       },
       "takeaway": {
-        "en": "Baroque counterpoint teaches discipline; romantic passion gives it fire. An adult can tackle monuments by mastering the underlying architectural laws.",
-        "zh": "巴洛克对位赋予我们严谨与纪律，浪漫情怀赋予我们烈火。成年人通过领悟底层的建筑法则，完全能够亲手筑起心中的古典丰碑。"
+        "en": "Baroque counterpoint teaches clarity; expressive phrasing gives it life. Deliberate, patient practice allows learners to approach complex works step by step.",
+        "zh": "巴洛克对位赋予清晰与条理，细腻的歌唱性赋予生气。通过分层慢练与对底层结构的领会，成年人同样能一步步走近看似复杂的大型作品。"
       }
     },
     {

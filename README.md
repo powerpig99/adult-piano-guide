@@ -11,8 +11,7 @@ The companion runs as a zero-dependency, ultra-fast client-side SPA deployable o
 
 - **Web Entrypoint**: [`index.html`](index.html)
 - **Styling**: [`styles.css`](styles.css) (Ivory/Ebony minimal editorial aesthetics)
-- **Data & i18n Engine**: [`i18n.js`](i18n.js) (Complete bilingual database)
-- **Application Controller**: [`app.js`](app.js) (Reactive filtering, routing, modal drawers & toolkit matcher)
+- **Application Controller**: [`app.js`](app.js) (Reactive filtering, routing, modal drawers & view transitions)
 
 ### Language Features
 - **Clean Segmented Switcher**: Simple, minimal options: **Dual** (side-by-side comparative reading by default), **English**, or **中文**.

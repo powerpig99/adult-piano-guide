@@ -7,9 +7,6 @@ let currentCategory = "all";
 let currentLevel = "all";
 let currentCost = "all";
 
-// Quiz State
-let quizStep = 0;
-let quizAnswers = {};
 
 document.addEventListener("DOMContentLoaded", () => {
   // Restore language mode (default is "dual")
@@ -25,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
   setupNavTabs();
   setupToolFilters();
   setupModal();
-  setupQuiz();
 
   applyLanguage();
   handleRoute();
@@ -104,7 +100,6 @@ function applyLanguage() {
   document.getElementById("tab-btn-comparator").textContent = l2 ? "⚖️ Comparator • 路径对照" : t.navComparator;
   document.getElementById("tab-btn-practice").textContent = l2 ? "🧠 Practice • 练习架构" : t.navPractice;
   document.getElementById("tab-btn-repertoire").textContent = l2 ? "🎼 Repertoire • 进阶阶梯" : t.navRepertoire;
-  document.getElementById("tab-btn-matcher").textContent = l2 ? "🧭 Matcher • 方案匹配" : t.navMatcher;
   const favBtn = document.getElementById("tab-btn-favorites");
   if (favBtn) {
     favBtn.textContent = l2 ? "❤️ Favorites • 挚爱资源" : t.navFavorites;
@@ -182,7 +177,7 @@ function handleRoute() {
     return;
   }
 
-  const validTabs = ["philosophy", "matrix", "comparator", "practice", "repertoire", "matcher", "favorites"];
+  const validTabs = ["philosophy", "matrix", "comparator", "practice", "repertoire", "favorites"];
   currentTab = validTabs.includes(hash) ? hash : "philosophy";
 
   document.querySelectorAll(".tab-btn").forEach(btn => {
@@ -212,9 +207,6 @@ function renderActiveTab() {
       break;
     case "repertoire":
       renderRepertoire();
-      break;
-    case "matcher":
-      renderQuiz();
       break;
     case "favorites":
       renderFavorites();
@@ -676,168 +668,7 @@ function renderRepertoire() {
 }
 
 // -------------------------------------------------------------
-// TAB 6: Interactive Matcher Quiz Logic
-// -------------------------------------------------------------
-function setupQuiz() {
-  quizStep = 0;
-  quizAnswers = {};
-}
-
-function renderQuiz() {
-  const container = document.getElementById("matcher-content");
-  if (!container) return;
-
-  const l1 = I18N.currentLang;
-  const l2 = I18N.secondaryLang;
-  const questions = I18N.matcherQuiz.questions;
-
-  if (quizStep < questions.length) {
-    const q = questions[quizStep];
-    const progressPercent = ((quizStep + 1) / questions.length) * 100;
-    const qText = renderBilingualText(q.text);
-
-    const optionsHtml = q.options.map(opt => {
-      const optText = renderBilingualText(opt.text);
-      return `
-        <button class="quiz-option-btn" onclick="selectQuizOption('${q.id}', '${opt.key}')">
-          <span style="flex-grow: 1;">${optText}</span>
-          <span style="font-size: 1.2rem; color: var(--accent-bronze); margin-left: 1rem;">→</span>
-        </button>
-      `;
-    }).join("");
-
-    const stepLabel = l2 
-      ? `Question ${quizStep + 1} of ${questions.length} • 问题 ${quizStep + 1} / ${questions.length}` 
-      : (l1 === "zh" ? `问题 ${quizStep + 1} / ${questions.length}` : `Question ${quizStep + 1} of ${questions.length}`);
-
-    container.innerHTML = `
-      <div class="matcher-card">
-        <div class="quiz-progress-bar">
-          <div class="quiz-progress-fill" style="width: ${progressPercent}%;"></div>
-        </div>
-        <div class="quiz-question-box">
-          <div style="font-size: 0.85rem; font-weight: 700; color: var(--accent-bronze-dark); margin-bottom: 0.5rem; text-transform: uppercase;">
-            ${stepLabel}
-          </div>
-          <div class="quiz-question-title">${qText}</div>
-          <div class="quiz-options-list">${optionsHtml}</div>
-        </div>
-      </div>
-    `;
-  } else {
-    renderQuizResult(container);
-  }
-}
-
-function selectQuizOption(questionId, optionKey) {
-  quizAnswers[questionId] = optionKey;
-  quizStep++;
-  renderQuiz();
-}
-
-function renderQuizResult(container) {
-  const l1 = I18N.currentLang;
-  const l2 = I18N.secondaryLang;
-  const goal = quizAnswers.q1_goal || "pop_soundtrack";
-  const time = quizAnswers.q2_time || "time_30_45";
-  const setup = quizAnswers.q3_setup || "weighted_digital";
-  const bottleneck = quizAnswers.q4_bottleneck || "reading_notes";
-
-  let recSoftware = [];
-  let recBooks = [];
-  let recRoutineEn = "";
-  let recRoutineZh = "";
-  let recBottleneckEn = "";
-  let recBottleneckZh = "";
-
-  if (goal === "pop_soundtrack") {
-    recSoftware = ["Playground Sessions (video + interactive sheet bridge)", "Flowkey (overhead view)", "MuseScore (pop lead sheets)", "Moises.ai (audio stem isolation)"];
-    recBooks = ["Michael Maiber (YouTube: Einaudi & soundtrack phrase tutorials)", "Pianote (Lisa Witt: chords & lead sheets)", "Alfred's Adult Piano Course (harmonic foundation)"];
-  } else if (goal === "classical_literacy") {
-    recSoftware = ["Piano Marvel (SASR sight reading)", "IMSLP (Urtext scores)", "forScore (iPad standard)"];
-    recBooks = ["Faber Adult Piano Adventures", "Béla Bartók: Mikrokosmos", "Burgmüller Op. 100", "J.S. Bach Two-Part Inventions"];
-  } else {
-    recSoftware = ["Functional Ear Trainer (tonal center)", "Tenuto / musictheory.net", "Complete Ear Trainer"];
-    recBooks = ["Pianote (chords)", "Open Studio (Peter Martin: jazz voicings)", "Alfred's Chords Course"];
-  }
-
-  if (bottleneck === "reading_notes") {
-    recBottleneckEn = "Run 3 minutes of Tenuto note speed drills daily focusing on bass clef ledger lines, paired with Piano Marvel SASR sight-reading. Major breakthrough expected in 14 days.";
-    recBottleneckZh = "每日练琴前用 Tenuto 进行3分钟五线谱闪卡认音（重点攻克低音谱表上加线），配合 Piano Marvel 的 SASR 视奏模式，两周内突破识谱滞后感。";
-  } else if (bottleneck === "coordination_tension") {
-    recBottleneckEn = "Watch Dr. Josh Wright's wrist circle lectures and Denis Zhdanov's Taubman rotation. Practice Hands-Separate (HS) strictly, and drop tempo to 30% when joining hands.";
-    recBottleneckZh = "观摩 Josh Wright 博士的手腕柔韧绕圈操与 Denis Zhdanov 陶布曼旋转法。严格执行单手分练（HS），在双手拼合前将速度压至30%，深呼吸彻底卸除肩背张力。";
-  } else {
-    recBottleneckEn = "Set consistency as your default condition, not an uphill habit to fight for. If progress feels slow or overwhelming, dynamically scale down your daily goal (even to a single 2-bar slice) until it is challenging yet genuinely enjoyable. Always leave the piano bench while you still want to play tomorrow — that lingering desire is the secret to lifelong compounding.";
-    recBottleneckZh = "将‘持续’设为默认状态，而非勉力推石上山的习惯。如果感觉吃力或进展缓慢，果断调低每日微观目标（哪怕只攻坚2小节），直至练习回到‘略带挑战却依然身心愉悦’的状态。永远在意犹未尽、明天还想弹的时候优雅收尾——这份余热才是终身复利的秘密。";
-  }
-
-  if (time === "time_15_20") {
-    recRoutineEn = "Adopt the 20-min agile loop: 3 min wrist warm-up + 12 min surgical strike on one 2-bar slice + 5 min joy play.";
-    recRoutineZh = "采用‘20分钟敏捷维稳微循环’：3分钟手腕热身 + 12分钟外科手术式单一切片攻坚 + 5分钟自由弹奏。";
-  } else {
-    recRoutineEn = "Adopt the 45-min growth routine: 7 min sight-reading + 8 min technique + 25 min core repertoire + 5 min mental play.";
-    recRoutineZh = "采用‘45分钟全维均衡研习架构’：7分钟视奏激活 + 8分钟发力雕琢 + 25分钟核心大曲拆解 + 5分钟闭目冥想内听。";
-  }
-
-  const resultTitle = l2 
-    ? "Your Personalized Adult Piano Blueprint • 你的专属成人钢琴研习蓝图" 
-    : (l1 === "zh" ? "你的专属成人钢琴研习蓝图" : "Your Personalized Adult Piano Blueprint");
-
-  const badgeText = l2 ? "Diagnosis Complete • 诊断生成完毕" : (l1 === "zh" ? "诊断生成完毕" : "Blueprint Generated");
-  const softLabel = l2 ? "Priority Software & Tools • 优先推荐的核心软件与工具链" : (l1 === "zh" ? "最优先推荐的核心软件与工具链" : "Priority Software & Tools");
-  const bookLabel = l2 ? "Recommended Literature & Mentors • 推荐教材、专著与导师" : (l1 === "zh" ? "推荐教材、专著与导师" : "Recommended Literature & Mentors");
-  const cadenceLabel = l2 ? "Tailored Daily Cadence • 为你量身定制的每日练习结构" : (l1 === "zh" ? "为你量身定制的每日练习结构" : "Tailored Daily Practice Cadence");
-  const rxLabel = l2 ? "Targeted Prescription for Your Bottleneck • 攻克当前卡壳瓶颈的靶向处方" : (l1 === "zh" ? "攻克当前卡壳瓶颈的靶向处方" : "Targeted Prescription for Your Bottleneck");
-  const retakeText = l2 ? "🔄 Retake Assessment • 重新进行诊断" : (l1 === "zh" ? "🔄 重新进行匹配诊断" : "🔄 Retake Assessment");
-
-  container.innerHTML = `
-    <div class="matcher-card">
-      <div class="blueprint-result-header">
-        <span class="site-badge" style="background: var(--accent-bronze); color: #fff; margin-bottom: 0.75rem;">
-          ${badgeText}
-        </span>
-        <h3>${resultTitle}</h3>
-      </div>
-      <div class="quiz-result-box">
-        <div class="recommendation-group">
-          <h4>🧰 ${softLabel}</h4>
-          <ul>${recSoftware.map(s => `<li><strong>${s}</strong></li>`).join("")}</ul>
-        </div>
-        <div class="recommendation-group">
-          <h4>📚 ${bookLabel}</h4>
-          <ul>${recBooks.map(b => `<li><strong>${b}</strong></li>`).join("")}</ul>
-        </div>
-        <div class="recommendation-group">
-          <h4>⏱️ ${cadenceLabel}</h4>
-          <p style="font-size: 0.98rem; color: var(--ink-primary); line-height: 1.6;">
-            ${l2 ? `<div>${recRoutineEn}</div><div style="margin-top: 4px; color: var(--ink-muted);">${recRoutineZh}</div>` : (l1 === "zh" ? recRoutineZh : recRoutineEn)}
-          </p>
-        </div>
-        <div class="recommendation-group" style="border-left: 3px solid var(--accent-bronze); padding-left: 1rem; margin-top: 1.5rem;">
-          <h4>🎯 ${rxLabel}</h4>
-          <div style="font-size: 0.98rem; color: var(--ink-primary); line-height: 1.6;">
-            ${l2 ? `<div>${recBottleneckEn}</div><div style="margin-top: 4px; color: var(--ink-muted);">${recBottleneckZh}</div>` : (l1 === "zh" ? recBottleneckZh : recBottleneckEn)}
-          </div>
-        </div>
-      </div>
-      <div style="text-align: center;">
-        <button class="tab-btn active" style="padding: 0.75rem 1.75rem; font-size: 1rem;" onclick="resetQuiz()">
-          ${retakeText}
-        </button>
-      </div>
-    </div>
-  `;
-}
-
-function resetQuiz() {
-  quizStep = 0;
-  quizAnswers = {};
-  renderQuiz();
-}
-
-// -------------------------------------------------------------
-// TAB 7: Resources I Enjoy & Aesthetic Inspirations
+// TAB 6: Resources I Enjoy & Aesthetic Inspirations
 // -------------------------------------------------------------
 function renderFavorites() {
   const container = document.getElementById("favorites-content");
