@@ -323,10 +323,40 @@ const I18N = {
         zh: "存在严重的“节奏光剑效应”：学员往往是在对滚动的光标产生条件反射，而非内化节拍与真正读谱；对落滚手腕、手臂重量一字不提。"
       },
       synergy: {
-        en: "Use for the first 2-3 weeks to establish the habit of sitting at the piano daily, then immediately transition away before habits calcify.",
-        zh: "仅建议在前2-3周作为建立每天坐到琴凳前习惯的催化剂，一旦习惯建立，应果断过渡至传统乐谱与严肃练习。"
+        en: "Use for the first 2-4 weeks to establish the daily habit of sitting at the keyboard, then immediately transition to Playground Sessions (for interactive dual-staff reading + video instruction) or traditional method books before habits calcify.",
+        zh: "建议在前2-4周作为破冰与建立每日坐到琴凳前习惯的催化剂；随后强烈建议无缝过渡至 Playground Sessions（迈向规范双行五线谱与视频教学的最佳桥梁）或经典严肃教材。"
       },
       link: "https://www.hellosimply.com/simply-piano"
+    },
+    {
+      id: "playground-sessions",
+      name: "Playground Sessions",
+      category: "apps",
+      level: "all",
+      cost: "paid",
+      platforms: ["iPad", "Mac", "Windows"],
+      tags: ["Quincy Jones Co-Created", "Natural Follow-Up to Simply Piano", "Interactive Dual-Staff", "Video + Self-Paced"],
+      title: {
+        en: "Playground Sessions: The Golden Bridge from Gamified Apps to Authentic Musicianship",
+        zh: "Playground Sessions：从游戏化打卡迈向真实演奏的黄金进阶桥梁"
+      },
+      summary: {
+        en: "Co-created by legendary producer Quincy Jones (28 Grammy Awards) and YouTube pianist David Sides, Playground Sessions is widely considered the ideal next step after Simply Piano. It pairs structured video instruction directly alongside interactive, dual-staff sheet music with real-time MIDI accuracy feedback, offering flexible, rich contents built for self-paced adult learners.",
+        zh: "由传奇音乐制作人昆西·琼斯（Quincy Jones）与钢琴名师戴维·赛兹（David Sides）联合创立。作为 Simply Piano 进阶的绝佳第二站，它将精炼的视频讲授与真实双行五线谱、实时 MIDI 评分反馈融为一体，拥有极高自由度与海量内容，非常契合自定节奏的成人自主研习。"
+      },
+      strengths: {
+        en: "The perfect transition from 'mobile game' to real musicianship: preserves the addictive instant feedback of software, but displays authentic dual-staff sheet music rather than scrolling horizontal tracks; 3-tier Bootcamps (Rookie, Intermediate, Advanced) teach theory, chords, and hand independence; granular practice tools (variable tempo BPM, looping tricky measures, hands-separate practice, and full band backing tracks); massive library of 2,000+ officially licensed songs across Pop, Rock, Classical, Jazz, and Soundtracks.",
+        zh: "从“手机游戏”跨入“真实乐理与读谱”的黄金梯级：保留了软件实时判定打分的正向激励，但界面呈现的是规范严肃的钢琴大谱表；循序渐进的集训营架构（初级/中级/高级）系统教授和声逻辑与双手独立性；练习工具极其灵活（任意减速、难点单小节死磕循环、分手慢练、高品质真实伴奏带）；拥有超 2000 首跨越流行、摇滚、古典、爵士与影视原声的正版曲库。"
+      },
+      caveats: {
+        en: "Requires connecting a digital piano or MIDI keyboard via USB/Bluetooth for full real-time scoring (acoustic piano audio detection is less reliable than direct MIDI); requires subscription or lifetime license.",
+        zh: "若要获得完美的音准与节拍即时打分，需通过 USB/蓝牙将电钢琴或 MIDI 键盘连接至设备（麦克风拾音识别率低于直接有线连接）；需按月订阅或购买终身授权。"
+      },
+      synergy: {
+        en: "Ideal immediate next step after Simply Piano: take the finger familiarity gained from early apps, and use Playground Sessions' video deconstructions and measure-looping tools to master real sheet literacy and expressive playing at your own pace.",
+        zh: "Simply Piano 学员的理想第二站：借助前期建立的指尖触键习惯，无缝切换到 Playground Sessions 的双轨教学中——先看名师视频领悟发力细节，再利用小节循环与节拍器减速功能，自主攻克整首大曲的规范五线谱演奏。"
+      },
+      link: "https://www.playgroundsessions.com/"
     },
     {
       id: "synthesia",
@@ -1386,8 +1416,8 @@ const I18N = {
         }
       },
       verdict: {
-        en: "Do not let an algorithm dictate your relationship with music. Buy an acclaimed method book like Alfred or Faber as your spinal curriculum, and treat apps merely as optional supplemental toys.",
-        zh: "裁决建议：切莫让算法和游戏光标绑架你的音乐心灵。将阿尔弗莱德或菲伯尔教材作为不可动摇的主轴脊梁，将各类App仅视为偶尔调剂或视奏测验的辅助工具。"
+        en: "Do not let simplified arcade tracks dictate your musicianship. If using software, choose hybrid tools like Playground Sessions or Piano Marvel that display real dual-staff notation alongside video instruction, or ground your spinal curriculum in method books (Alfred/Faber) to ensure long-term musical autonomy.",
+        zh: "裁决建议：切莫让单纯的游戏光标绑架你的音乐心灵。若使用软件，应选择像 Playground Sessions 或 Piano Marvel 这样展示真实双行五线谱、结合视频精讲与自定步调练习的严肃进阶工具，或者将 Alfred/Faber 教材作为主轴，切实培养终身受用的读谱与独立演奏能力。"
       }
     },
     {

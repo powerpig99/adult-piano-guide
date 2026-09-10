@@ -701,7 +701,7 @@ function renderQuizResult(container) {
   let recBottleneckZh = "";
 
   if (goal === "pop_soundtrack") {
-    recSoftware = ["Flowkey (overhead view)", "MuseScore (pop lead sheets)", "Moises.ai (audio stem isolation)"];
+    recSoftware = ["Playground Sessions (video + interactive sheet bridge)", "Flowkey (overhead view)", "MuseScore (pop lead sheets)", "Moises.ai (audio stem isolation)"];
     recBooks = ["Michael Maiber (YouTube: Einaudi & soundtrack phrase tutorials)", "Pianote (Lisa Witt: chords & lead sheets)", "Alfred's Adult Piano Course (harmonic foundation)"];
   } else if (goal === "classical_literacy") {
     recSoftware = ["Piano Marvel (SASR sight reading)", "IMSLP (Urtext scores)", "forScore (iPad standard)"];
