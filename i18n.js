@@ -19,6 +19,7 @@ const I18N = {
       navPractice: "🧠 Practice Architecture",
       navRepertoire: "🎼 Repertoire Ladder",
       navMatcher: "🧭 Toolkit Matcher",
+      navFavorites: "❤️ Resources I Enjoy",
 
       searchPlaceholder: "Search by tool, book, app, author, technique, or keyword...",
       filterAllCategories: "All Categories",
@@ -62,6 +63,13 @@ const I18N = {
       btnRestartQuiz: "Retake Assessment",
       quizResultHeading: "Your Personalized Learning Blueprint",
 
+      favoritesTitle: "Resources I Enjoy & Aesthetic Inspirations",
+      favoritesSubtitle: "Beyond technical drills lies the true wellspring of music: the artists, arrangements, and channels that sustain genuine aesthetic joy and fuel daily deliberate practice.",
+      favoritesWhyEnjoy: "Why I Deeply Enjoy This",
+      favoritesHighlights: "Signature Highlights & Works",
+      favoritesTakeaway: "Insight for Adult Learners",
+      favoritesVisit: "Watch Channel / Explore ↗",
+
       footerQuote: "“Ability is the accumulated loop of chosen relation, not a fixed endowment. Tools remain secondary scaffolding; learning is the non-transferable physical friction (+1) generated from within.”",
       footerNote: "The Adult Piano Companion • An open, independent research project on adult self-directed musicianship."
     },
@@ -78,6 +86,7 @@ const I18N = {
       navPractice: "🧠 神经重塑与练习架构",
       navRepertoire: "🎼 成人进阶曲目阶梯",
       navMatcher: "🧭 个性化方案匹配",
+      navFavorites: "❤️ 挚爱资源与灵感",
 
       searchPlaceholder: "搜索工具、软件、图书、导师、曲目或技能关键词...",
       filterAllCategories: "全部类别",
@@ -120,6 +129,13 @@ const I18N = {
       btnStartQuiz: "开始测试",
       btnRestartQuiz: "重新诊断",
       quizResultHeading: "你的专属成人钢琴研习蓝图",
+
+      favoritesTitle: "挚爱资源与审美灵感",
+      favoritesSubtitle: "在纯粹的技术训练之外，音乐最深处的源头始终是打动心灵的声音。这里记录了我个人深为喜爱、持续带来审美滋养与练琴动力的自学典范、音乐家与频道。",
+      favoritesWhyEnjoy: "为何深爱此资源",
+      favoritesHighlights: "亮点特色与代表作品",
+      favoritesTakeaway: "予成年研习者的启示",
+      favoritesVisit: "访问频道 / 聆听 ↗",
 
       footerQuote: "“能力是个体所一再选择的关系立场所积累的回路，而非某种先天的恒定禀赋。工具始终只是次生的脚手架；学习是不可外包的肉身体验与物理摩擦（+1）。”",
       footerNote: "成人钢琴研习指南 • 献给所有在键盘前探索心智主权与音乐之美的自主学习者。"
@@ -767,6 +783,36 @@ const I18N = {
         zh: "本指南作者的大部分艾诺迪曲目，皆是对照着 Michael Maiber 的教学视频并结合自身不断抗争摸索而攻克的。建议手边备好官方乐谱，配合他的慢速示范反复打磨左右手独立性。"
       },
       link: "https://www.youtube.com/@MichaelMaiber"
+    },
+    {
+      id: "katherine-cordova",
+      name: "Katherine Cordova",
+      category: "youtube",
+      level: "all",
+      cost: "free",
+      platforms: ["YouTube", "Musicnotes", "Spotify"],
+      tags: ["Rock & Film Covers", "Self-Taught", "Expressive Touch", "Cinematic Solo"],
+      title: {
+        en: "Katherine Cordova: Self-Taught Artistry, Cinematic Grand Arrangements & Raw Emotional Depth",
+        zh: "Katherine Cordova：自学成才的艺术典范、电影感独奏改编与直击心灵的音色层次"
+      },
+      summary: {
+        en: "A world-class self-taught Canadian pianist featured on Billboard and ClassicFM, renowned for emotionally devastating, dynamically explosive acoustic piano covers of rock, film, and alternative epics.",
+        zh: "曾登顶 Billboard、受 ClassicFM 赞誉的加拿大自学成才钢琴家，以极具情感张力、气势磅礴且细腻动人的纯钢琴独奏改编（摇滚、影视配乐与经典名曲）风靡全网。"
+      },
+      strengths: {
+        en: "Supreme master of pianistic dynamics and voice-leading without academic dogmatism: demonstrates how deep listening, left-hand bass independence, and singing touch transform pop and rock into serious, evocative solo literature.",
+        zh: "极致的动态掌控力与声部歌唱性：生动展示了如何在摒弃学院派死板教条的同时，通过深邃的内听、极其果敢的强弱对比与左手低音独立性，将流行摇滚转化为殿堂级的现代独奏艺术。"
+      },
+      caveats: {
+        en: "Her solo arrangements are technically demanding and polyphonically dense (graded at intermediate to advanced concert level); not simple one-finger beginner tutorials.",
+        zh: "其改编曲目充满丰富的低音跨度、内声部跑动与复调交织，大多处于中高级演奏水准，非简单的单音旋律入门教程。"
+      },
+      synergy: {
+        en: "Watch her performances as the ultimate aesthetic antidote to mechanical practice fatigue. Her work is a featured cornerstone in our 'Resources I Enjoy' section.",
+        zh: "在被枯燥的练习曲或机械打卡消耗殆尽时，聆听她的演奏是重燃练琴爱意的最佳审美解药；本指南在‘挚爱资源与灵感’专栏中重点推介。"
+      },
+      link: "https://www.youtube.com/@KatherineCordova"
     },
 
     // --- 5. Method Books, Etudes & Literature ---
@@ -1768,5 +1814,144 @@ const I18N = {
         ]
       }
     ]
-  }
+  },
+
+  // Resources I Enjoy & Aesthetic Inspirations
+  enjoyedResources: [
+    {
+      id: "katherine-cordova",
+      name: "Katherine Cordova",
+      channel: "@KatherineCordova",
+      role: {
+        en: "Self-Taught Canadian Pianist, Arranger & Expressive Soloist",
+        zh: "加拿大自学成才钢琴家、编曲人与极富感染力的独奏家"
+      },
+      tags: ["Self-Taught", "Rock & Film Piano", "Dynamic Nuance", "Aesthetic Resonance"],
+      link: "https://www.youtube.com/@KatherineCordova",
+      description: {
+        en: "A phenomenal self-taught Canadian pianist whose acoustic grand arrangements of rock, film soundtracks, and modern masterpieces (Queen, Radiohead, Hans Zimmer, Linkin Park, Evanescence) capture breathtaking emotional gravity, visceral dynamics, and cinematic sweep.",
+        zh: "来自加拿大的天才级自学成才钢琴家。她将摇滚史诗、电影原声与现代金曲（Queen、Radiohead、Hans Zimmer、Linkin Park等）改编为纯三角钢琴独奏，琴声中蕴含着令人屏息的情感张力、宏阔的动态对比与如电影长镜头般的叙事意境。"
+      },
+      whyIEnjoy: {
+        en: "Her playing is pure musicality without an ounce of sterile conservatory pedantry. Watching her control of whisper-quiet pianissimo and surging, thunderous fortissimo demonstrates what adult piano playing can be: deeply personal, intensely expressive, and entirely unconstrained by academic dogma. It is one of my favorite sanctuaries to find inspiration and fall in love with the sound of the piano all over again.",
+        zh: "她的演奏是纯粹的音乐性表达，毫无学院派刻板教条的匠气。观摩她在极轻弱音（pp）与雷霆强音（ff）之间的自如呼吸，向所有成人学琴者展示了钢琴的真谛：极其私密、极其热烈，且完全不受传统条条框框的束缚。这是我最常驻足、也是最能让我重新燃起练琴炽热爱意的精神圣殿。"
+      },
+      highlights: {
+        en: "Breathtaking arrangements of Bohemian Rhapsody, Creep, Time (Inception), and Bring Me To Life; phenomenal left-hand bass authority and polyphonic voice separation.",
+        zh: "改编的《波西米亚狂想曲》《Creep》《盗梦空间 Time》《Bring Me To Life》等名作令人叹为观止；低音掌控力与各声部音色分离度极具辨识度。"
+      },
+      takeaway: {
+        en: "You don't need a 15-year traditional conservatory pedigree to touch people's hearts at the keyboard. True musical voice comes from deep listening, emotional honesty, and voluntary dedication.",
+        zh: "打动人心不需要十五年的学院体制履历。真正的音乐之声，源于深刻的内听、诚实的情感投射，以及完全出于自愿的热爱。"
+      }
+    },
+    {
+      id: "michael-maiber",
+      name: "Michael Maiber",
+      channel: "@MichaelMaiber",
+      role: {
+        en: "Self-Taught Pianist & Phrase-by-Phrase Mentor",
+        zh: "自学成才钢琴博主、逐句慢拆实战领航员"
+      },
+      tags: ["Ludovico Einaudi", "Step-by-Step", "Self-Taught Path", "Endless Patience"],
+      link: "https://www.youtube.com/@MichaelMaiber",
+      description: {
+        en: "The dedicated channel where I learned virtually all of my Ludovico Einaudi repertoire (Nuvole Bianche, Divenire, Una Mattina, Experience) alongside my own daily struggling.",
+        zh: "陪伴我啃下几乎全部鲁多维科·艾诺迪（Ludovico Einaudi）曲目（《Nuvole Bianche》《Divenire》《Una Mattina》《Experience》等）的挚爱宝藏频道。"
+      },
+      whyIEnjoy: {
+        en: "Michi taught himself to play and read music via YouTube, which gives his tutorials an innate empathy for where self-taught adults get stuck. He breaks down intimidating rolling arpeggios and rhythmic syncopations into calm, bite-sized 2-measure phrases.",
+        zh: "Michi 本人同样是通过 YouTube 自学会了弹琴与读谱，因此他的教学对自学者在哪个小节、哪双手上卡壳有着极敏锐的共情。他把令人望而生畏的长琶音与跨声部切分拆解成平和、极易下咽的2小节切片。"
+      },
+      highlights: {
+        en: "Complete, phrase-by-phrase walkthroughs of the Einaudi canon, Yann Tiersen (Amélie), and lyrical Chopin melodies with slow hands-separate demonstrations.",
+        zh: "艾诺迪全套代表作、扬·提尔森（《天使爱美丽》）与肖邦抒情曲目的完整逐句慢速精拆教学，配有清晰的分手慢动作示范。"
+      },
+      takeaway: {
+        en: "When a piece feels impossibly long or complex, patient phrase-by-phrase deconstruction paired with persistent personal struggle will eventually conquer every single measure.",
+        zh: "面对看似长篇浩繁的乐曲，只要借助有耐心的慢速分句拆解，再加上自己不怕枯燥的死磕与坚持，没有任何一个小节是无法攻克的。"
+      }
+    },
+    {
+      id: "ludovico-einaudi",
+      name: "Ludovico Einaudi",
+      channel: "@ludovicoeinaudi",
+      role: {
+        en: "Contemporary Minimalist Composer & Pianist",
+        zh: "当代新古典极简主义作曲大师、钢琴家"
+      },
+      tags: ["Minimalism", "Harmonic Ostinato", "Soulful Restraint", "Repertoire Heart"],
+      link: "https://www.youtube.com/@ludovicoeinaudi",
+      description: {
+        en: "The living titan of modern neoclassical piano. His cyclical ostinatos, expansive pedal resonances, and crystalline melodies have defined the emotional soundtrack of modern life.",
+        zh: "当代新古典钢琴界的泰斗级大师。他循环往复的固定低音、旷远空灵的踏板延音与晶莹剔透的旋律线，构筑了现代人心灵深处的情感共鸣场。"
+      },
+      whyIEnjoy: {
+        en: "Einaudi's music is the ultimate rebuttal to the myth that piano music must be blisteringly virtuosic to be meaningful. The genius lies in restraint: four chords repeated with subtle touch variations that evoke an entire universe of longing and peace.",
+        zh: "艾诺迪的音乐是对‘钢琴必须追求超高难度炫技才有意义’这一教条的最好反驳。其妙处在于克制：同样的四个和弦循环，仅凭微弱的触键强弱与音色明暗变化，便能唤起深邃的宁静与浩渺。"
+      },
+      highlights: {
+        en: "Nuvole Bianche, Divenire, Una Mattina, Experience, I Giorni, and live acoustic performances.",
+        zh: "《白云》（Nuvole Bianche）、《演化》（Divenire）、《初阳》（Una Mattina）、《历程》（Experience）、《那些日子》（I Giorni）以及原声现场录音。"
+      },
+      takeaway: {
+        en: "Touch, space, and tonal color matter infinitely more than mechanical velocity. The silence between notes is music too.",
+        zh: "音色触键与留白远比机械的手指跑动速度重要。音符之间的呼吸与静默，同样是最高级的音乐。"
+      }
+    },
+    {
+      id: "passacaglia-masterworks",
+      name: "Handel-Halvorsen: Passacaglia Interpretations",
+      channel: "Baroque Virtuosity & Architecture",
+      role: {
+        en: "The Summit of Classical Variation & Drama",
+        zh: "巴洛克建筑之美与变奏狂澜的永恒巅峰"
+      },
+      tags: ["Passacaglia", "Chaconne", "Monumental Drama", "Personal Summit"],
+      link: "https://www.youtube.com/results?search_query=Passacaglia+Handel+Halvorsen+piano",
+      description: {
+        en: "From Johan Halvorsen's fiery violin/viola arrangement of Handel's Harpsichord Suite in G minor (HWV 432) to virtuosic solo piano adaptations.",
+        zh: "从哈尔沃森对亨德尔 G小调大键琴组曲（HWV 432）变奏的狂热提琴二重奏改编，到各种令琴键燃烧的钢琴独奏版本。"
+      },
+      whyIEnjoy: {
+        en: "This piece represents the grand architectural peak of my own adult piano journey. Listening to diverse master performances continuously recharges my determination to conquer polyphony and multi-layered voicings.",
+        zh: "这首作品是我成年学琴历程中攀登的最巍峨的峰峦。聆听不同大师与新锐演奏家的现场演绎，每一次都能彻底刷新我对复调交响感、变奏推进张力与巴洛克骨骼美感的认知。"
+      },
+      highlights: {
+        en: "Dramatic 8-bar descending ground bass; explosive sixteenth-note arpeggiated variations; thrilling orchestral climaxes.",
+        zh: "庄严肃穆的8小节固定低音恰空骨架；排山倒海的十六分音符奔流变奏；波澜壮阔的交响化和弦扫击。"
+      },
+      takeaway: {
+        en: "Baroque counterpoint teaches discipline; romantic passion gives it fire. An adult can tackle monuments by mastering the underlying architectural laws.",
+        zh: "巴洛克对位赋予我们严谨与纪律，浪漫情怀赋予我们烈火。成年人通过领悟底层的建筑法则，完全能够亲手筑起心中的古典丰碑。"
+      }
+    },
+    {
+      id: "nahre-sol",
+      name: "Nahre Sol",
+      channel: "@NahreSol",
+      role: {
+        en: "Composer, Pianist & Creative Practice Explorer",
+        zh: "作曲家、钢琴家与充满探索趣味的音乐实验家"
+      },
+      tags: ["Curiosity", "Harmonic Playground", "Genre Blending", "Mindset"],
+      link: "https://www.youtube.com/@NahreSol",
+      description: {
+        en: "Juilliard graduate whose visual practice journals and style deconstructions turn practice into a joyful, curious laboratory.",
+        zh: "毕业于茱莉亚音乐学院的先锋创作者，其练习日志与风格解构将练琴还原为充满好奇与审美愉悦的音乐实验室。"
+      },
+      whyIEnjoy: {
+        en: "Her videos remind me that we play piano to *play*—to explore harmony, experiment with textures, and cultivate genuine musical taste rather than mindlessly checking off etudes.",
+        zh: "她的作品总在提醒我：弹琴（Play）的本意是‘玩’与‘探索’——去好奇不同和弦的色彩，去尝试不同触键织体，去培育真正的音乐审美，而不是死板地完成考级打卡。"
+      },
+      highlights: {
+        en: "'How to Sound Like...' series, practice diary deep-dives, classical-to-jazz harmonic conversions.",
+        zh: "《如何弹得像XX风格》系列、真实练琴日记解构、古典作品到爵士和声色彩的即兴演变。"
+      },
+      takeaway: {
+        en: "Cultivate curiosity over mechanical duty. When practice is an adventure in discovery, consistency takes care of itself.",
+        zh: "以探索的好奇心取代苦行僧式的机械义务。当练琴成为一场每天都有新发现的冒险，自律便不再需要强撑。"
+      }
+    }
+  ]
 };

@@ -1247,3 +1247,151 @@ footer#site-footer {
     padding: 1.5rem;
   }
 }
+
+/* ============================================================
+   TAB 7: Resources I Enjoy & Aesthetic Inspirations
+   ============================================================ */
+.favorites-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.favorite-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-fast);
+}
+
+.favorite-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--accent-bronze-light);
+}
+
+.favorite-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.favorite-author-name {
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: var(--ink-primary);
+  line-height: 1.25;
+}
+
+.favorite-channel-handle {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--accent-bronze-dark);
+  margin-top: 0.25rem;
+}
+
+.favorite-visit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--piano-ebony);
+  color: #ffffff;
+  padding: 0.55rem 1.15rem;
+  border-radius: var(--radius-md);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: var(--transition-fast);
+  white-space: nowrap;
+}
+
+.favorite-visit-btn:hover {
+  background: var(--accent-bronze);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.favorite-role-box {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ink-secondary);
+  margin-bottom: 0.85rem;
+  line-height: 1.4;
+}
+
+.favorite-tags-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 1.25rem;
+}
+
+.favorite-tag {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink-muted);
+  padding: 0.2rem 0.65rem;
+  border-radius: var(--radius-full);
+}
+
+.favorite-description-box {
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: var(--ink-primary);
+  margin-bottom: 1.25rem;
+}
+
+.favorite-why-box {
+  background: rgba(247, 245, 240, 0.9);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent-bronze);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: 1.25rem 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.favorite-subheading {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--accent-bronze-dark);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.favorite-subcontent {
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: var(--ink-secondary);
+}
+
+.favorite-meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.favorite-meta-col {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.15rem;
+}
+
+@media (max-width: 768px) {
+  .favorite-meta-grid {
+    grid-template-columns: 1fr;
+  }
+  .favorite-card {
+    padding: 1.4rem;
+  }
+}

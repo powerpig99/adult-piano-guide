@@ -105,6 +105,21 @@ function applyLanguage() {
   document.getElementById("tab-btn-practice").textContent = l2 ? "🧠 Practice • 练习架构" : t.navPractice;
   document.getElementById("tab-btn-repertoire").textContent = l2 ? "🎼 Repertoire • 进阶阶梯" : t.navRepertoire;
   document.getElementById("tab-btn-matcher").textContent = l2 ? "🧭 Matcher • 方案匹配" : t.navMatcher;
+  const favBtn = document.getElementById("tab-btn-favorites");
+  if (favBtn) {
+    favBtn.textContent = l2 ? "❤️ Favorites • 挚爱资源" : t.navFavorites;
+  }
+
+  const favTitle = document.getElementById("favorites-section-title");
+  if (favTitle) {
+    favTitle.textContent = l2 ? "Resources I Enjoy & Aesthetic Inspirations • 挚爱资源与审美灵感" : t.favoritesTitle;
+  }
+  const favSub = document.getElementById("favorites-section-subtitle");
+  if (favSub) {
+    favSub.textContent = l2 
+      ? "Beyond mechanical drills lies the true wellspring of music: the artists, arrangements, and channels that sustain genuine aesthetic joy and fuel daily deliberate practice. • 在枯燥的技术训练之外，音乐最深处的源头始终是打动心灵的声音。这里记录了我个人深为喜爱、持续带来审美滋养与练琴动力的自学典范、音乐家与频道。" 
+      : t.favoritesSubtitle;
+  }
 
   // Search & Filter Labels
   const searchInput = document.getElementById("search-input");
@@ -167,7 +182,7 @@ function handleRoute() {
     return;
   }
 
-  const validTabs = ["philosophy", "matrix", "comparator", "practice", "repertoire", "matcher"];
+  const validTabs = ["philosophy", "matrix", "comparator", "practice", "repertoire", "matcher", "favorites"];
   currentTab = validTabs.includes(hash) ? hash : "philosophy";
 
   document.querySelectorAll(".tab-btn").forEach(btn => {
@@ -200,6 +215,9 @@ function renderActiveTab() {
       break;
     case "matcher":
       renderQuiz();
+      break;
+    case "favorites":
+      renderFavorites();
       break;
   }
 }
@@ -766,6 +784,92 @@ function resetQuiz() {
   quizStep = 0;
   quizAnswers = {};
   renderQuiz();
+}
+
+// -------------------------------------------------------------
+// TAB 7: Resources I Enjoy & Aesthetic Inspirations
+// -------------------------------------------------------------
+function renderFavorites() {
+  const container = document.getElementById("favorites-content");
+  if (!container) return;
+
+  const l1 = I18N.currentLang;
+  const l2 = I18N.secondaryLang;
+  const t = I18N.ui[l1];
+
+  const items = I18N.enjoyedResources || [];
+
+  container.innerHTML = `
+    <div class="favorites-grid">
+      ${items.map(res => {
+        const roleHtml = renderBilingualText(res.role);
+        const descHtml = renderBilingualText(res.description);
+        const whyHtml = renderBilingualText(res.whyIEnjoy);
+        const highlightsHtml = renderBilingualText(res.highlights);
+        const takeawayHtml = renderBilingualText(res.takeaway);
+
+        const whyLabel = l2 ? "Why I Deeply Enjoy This • 为何深爱此资源" : (t.favoritesWhyEnjoy || "Why I Enjoy This");
+        const highLabel = l2 ? "Signature Highlights & Works • 亮点特色与代表作" : (t.favoritesHighlights || "Signature Highlights");
+        const takeLabel = l2 ? "Insight for Adult Learners • 予成年研习者的启示" : (t.favoritesTakeaway || "Insight for Adult Learners");
+        const visitLabel = l2 ? "Watch Channel / Explore • 访问频道 / 聆听 ↗" : (t.favoritesVisit || "Watch Channel ↗");
+
+        return `
+          <div class="favorite-card">
+            <div class="favorite-header">
+              <div>
+                <h3 class="favorite-author-name">${res.name}</h3>
+                <div class="favorite-channel-handle">${res.channel}</div>
+              </div>
+              <a href="${res.link}" target="_blank" rel="noopener noreferrer" class="favorite-visit-btn">
+                ${visitLabel}
+              </a>
+            </div>
+
+            <div class="favorite-role-box">
+              ${roleHtml}
+            </div>
+
+            <div class="favorite-tags-bar">
+              ${res.tags.map(tag => `<span class="favorite-tag">${tag}</span>`).join("")}
+            </div>
+
+            <div class="favorite-description-box">
+              ${descHtml}
+            </div>
+
+            <div class="favorite-why-box">
+              <div class="favorite-subheading">
+                <span>❤️</span> <strong>${whyLabel}</strong>
+              </div>
+              <div class="favorite-subcontent">
+                ${whyHtml}
+              </div>
+            </div>
+
+            <div class="favorite-meta-grid">
+              <div class="favorite-meta-col">
+                <div class="favorite-subheading">
+                  <span>✨</span> <strong>${highLabel}</strong>
+                </div>
+                <div class="favorite-subcontent">
+                  ${highlightsHtml}
+                </div>
+              </div>
+
+              <div class="favorite-meta-col">
+                <div class="favorite-subheading">
+                  <span>💡</span> <strong>${takeLabel}</strong>
+                </div>
+                <div class="favorite-subcontent">
+                  ${takeawayHtml}
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
 }
 
 // -------------------------------------------------------------

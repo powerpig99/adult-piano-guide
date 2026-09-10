@@ -46,6 +46,7 @@ Modern adult learners have access to more musical tools than any previous genera
 ### Layer 4: YouTube Masterclasses & Mentors
 
 - **Dr. Josh Wright (ProPractice):** World-class instruction on wrist circularity, arm weight drop, and rhythmic practice variations. Essential viewing for stiff hands.
+- **Katherine Cordova:** A world-class self-taught Canadian pianist renowned for emotionally devastating, dynamically explosive acoustic grand arrangements of rock, film, and alternative epics (Queen, Radiohead, Hans Zimmer, Linkin Park). Living proof of self-directed musical mastery.
 - **Michael Maiber:** The patient, phrase-by-phrase mentor for Ludovico Einaudi (*Nuvole Bianche*, *Divenire*, *Una Mattina*, *Experience*), Yann Tiersen, and contemporary neoclassical works. Indispensable for self-taught adult learners conquering rolling arpeggios and rhythmic syncopation.
 - **Nahre Sol:** Brilliant deconstructions of harmony, genre fusion (classical meets bebop), and mindful practice journals.
 - **PianoTV (Allysia):** Clear, grounded evaluations of repertoire difficulty grades (RCM levels 1–8) specifically curated for adult hands.

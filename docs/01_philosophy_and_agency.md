@@ -69,3 +69,13 @@ This guide, and every tool catalogued within it, is **scaffolding**.
 Scaffolding is erected to support construction. When a tool speeds your contact with the instrument, embrace it with curiosity. But the moment a tool becomes an addictive crutch, an authoritarian rule, or a source of guilt, set it down without hesitation.
 
 There is no singular, canonical way to learn piano. The only definitive guide is your own conscious, reflective, and dedicated exploration at the keys.
+
+---
+
+## 5. Aesthetic Fuel: The Indispensable Role of Pure Musical Enjoyment
+
+Deliberate practice is demanding. If your musical diet consists solely of mechanical drills and metronome clicks, motivation inevitably atrophies. Adult learners need **aesthetic fuel**—music that touches you so deeply that you yearn to return to the keys.
+
+Self-taught role models like **Katherine Cordova** ([@KatherineCordova](https://www.youtube.com/@KatherineCordova)) prove that adults can achieve extraordinary emotional nuance, dynamic power, and poetic voice without conforming to conservatory dogmas. Mentors like **Michael Maiber** ([@MichaelMaiber](https://www.youtube.com/@MichaelMaiber)) provide the patient, phrase-by-phrase scaffolding that turns seemingly impossible contemporary literature (Ludovico Einaudi, Yann Tiersen) into conquerable stepping stones.
+
+Listening to and absorbing what you love is not a distraction from practice—it is the emotional engine that sustains it.
