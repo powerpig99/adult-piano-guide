@@ -78,7 +78,7 @@ const I18N = {
       siteTitle: "成人钢琴研习指南与工具全景",
       siteSubtitle: "专为成年人打造的自主学琴指南与开放工具矩阵——扎根于第一人称心智原点、刻意练习与自我探索，打破年龄迷思与方法神话。",
       blogSubtitleLink: "Not a ToE",
-      blogSubtitleSuffix: "参阅深度博文：《学习中不可观测的引擎》。",
+      blogSubtitleSuffix: "参阅深度博文：《学习中不可观测的驱动力》。",
 
       navPhilosophy: "🌱 核心心法与原点",
       navMatrix: "🧰 工具与资源矩阵",
@@ -222,7 +222,7 @@ const I18N = {
             <p><strong>This guide itself is not a holy scripture.</strong> It is simply an organized toolkit of scaffolding. Pick up whatever tool speeds your contact with the instrument; and the moment a tool becomes a crutch that numbs your agency, set it down without hesitation.</p>
           `,
           zh: `
-            <p>正如我在个人博客核心文章<a href="https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/" target="_blank" rel="noopener">《学习中不可观测的引擎》</a>中所论证的，人类认知中最隐蔽的陷阱，莫过于<strong>将因果解释权习惯性地让渡给外在客体</strong>。</p>
+            <p>正如我在个人博客核心文章<a href="https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/" target="_blank" rel="noopener">《学习中不可观测的驱动力》</a>中所论证的，人类认知中最隐蔽的陷阱，莫过于<strong>将因果解释权习惯性地让渡给外在客体</strong>。</p>
             <p>我们总以为进步或停滞取决于下载了哪款App（Simply Piano、Flowkey）、请了哪位名师、买了哪本教材，或是看了哪段YouTube教学。然而，所有这些外在载体都仅仅是次生残留物。外在观察只能捕捉到下游表象：打卡天数、软件评级、绿色的通关提示。而真正驱动神经重组的那个引擎——个体每一次主动选择的练习姿态、对真实生理摩擦的耐受度，以及对自身肌体反馈的敏锐内省——根本不在任何工具里。</p>
             <blockquote>
               <p>“市面上所有的工具都能够帮助我；但在我自身做出真实、刻意的努力之前，没有任何一个工具能独自拯救我。”</p>
@@ -326,7 +326,7 @@ const I18N = {
         en: "Use for the first 2-3 weeks to establish the habit of sitting at the piano daily, then immediately transition away before habits calcify.",
         zh: "仅建议在前2-3周作为建立每天坐到琴凳前习惯的催化剂，一旦习惯建立，应果断过渡至传统乐谱与严肃练习。"
       },
-      link: "https://www.joytunes.com/simply-piano"
+      link: "https://www.hellosimply.com/simply-piano"
     },
     {
       id: "synthesia",
@@ -478,7 +478,7 @@ const I18N = {
         en: "When you are ready to conquer Bach Inventions, Chopin Preludes, or Beethoven Sonatas, invest in a Henle Urtext for lifelong authoritative study.",
         zh: "当你准备深入研读巴赫二部创意曲、肖邦前奏曲或贝多芬慢乐章时，Henle的权威版本是检验每一个音符与休止符的最可靠依据。"
       },
-      link: "https://www.henle.de/en/the-henle-library-app/"
+      link: "https://henle-library.com/"
     },
 
     // --- 3. Ear Training, Theory & Rhythm ---
@@ -600,7 +600,7 @@ const I18N = {
         en: "Use it ONLY after a passage is completely mapped out error-free. Start at 50% target speed, increase by 2-3 BPM per successful iteration.",
         zh: "仅在某个难点小节已经能够毫无错音地慢速弹下后再开启。从目标速度的50%起步，每成功无误弹奏3遍，向上微调2-4 BPM。"
       },
-      link: "https://www.soundbrenner.com/the-metronome/"
+      link: "https://www.soundbrenner.com/pages/the-metronome-app"
     },
 
     // --- 4. YouTube Mentors & Masterclasses ---
@@ -692,7 +692,7 @@ const I18N = {
         en: "Consult her 'Easiest Pieces by Bach / Chopin / Beethoven' playlists when selecting your next self-directed repertoire project.",
         zh: "在规划自己下一个阶段的练习曲目时，先翻看她的“最易上手的巴赫/肖邦/萨蒂作品”精讲，按部就班登阶。"
       },
-      link: "https://www.youtube.com/@PianoTV"
+      link: "https://www.youtube.com/@PianotvNet"
     },
     {
       id: "pianote",
@@ -752,7 +752,7 @@ const I18N = {
         en: "Mandatory viewing if you experience forearm burning, thumb tension, or wrist soreness after 30 minutes of practice.",
         zh: "如果无论练车尔尼还是哈农，只要超过半小时小臂外侧就会酸胀或大拇指根部发硬，必须立即观看其旋转力学系列讲座进行自查纠错。"
       },
-      link: "https://www.youtube.com/@DenisZhdanov"
+      link: "https://www.youtube.com/@DenZhdanovPianist"
     },
     {
       id: "michael-maiber",
@@ -844,7 +844,7 @@ const I18N = {
         en: "Work through Book 1 for 4-6 months to establish reliable chord and notation literacy, supplementing with real pieces like Satie or Bach.",
         zh: "用4到6个月踏实走完第一册，筑牢读谱与和弦基石；期间同步搭配萨蒂《裸体歌舞》或巴赫小步舞曲等真正的高雅作品调剂。"
       },
-      link: "https://www.alfred.com/alfreds-basic-adult-piano-course/"
+      link: "https://www.alfred.com/products/alfred-s-basic-adult-all-in-one-course-book-1-00-5753"
     },
     {
       id: "faber-adult",
@@ -874,7 +874,7 @@ const I18N = {
         en: "Preferred over Alfred for learners with an aesthetic preference for classical and film lyricism over traditional American folk songs.",
         zh: "如果你的审美更偏向古典的优美线条或现代电影配乐，菲伯尔的曲目编写体验通常明显优于老派教程。"
       },
-      link: "https://pianoadventures.com/adult/"
+      link: "https://pianoadventures.com/piano-books/adult-piano-adventures/"
     },
     {
       id: "mikrokosmos-bartok",
@@ -994,7 +994,7 @@ const I18N = {
         en: "Whenever you sit down at the piano feeling stressed from work or discouraged by slow progress, read one page to center your mind.",
         zh: "每当结束一整天繁重工作坐在琴凳前感到心浮气躁，或是因某个小节屡屡弹错而萌生沮丧退意时，读上几页，琴音会重归清澈澄明。"
       },
-      link: "https://kennywerner.com/effortless-mastery"
+      link: "https://www.alfred.com/products/effortless-mastery-24-em"
     },
 
     // --- 6. Hardware, Acoustics & Ergonomics ---
@@ -1026,7 +1026,7 @@ const I18N = {
         en: "Equip with a sturdy wooden or heavy double-X stand (no wobbling) and an adjustable bench so your elbows rest exactly level with the white keys.",
         zh: "务必搭配稳固沉重的木质底架（严禁摇晃）与可升降琴凳，确保小臂在自然平放触键时与白键表面保持水平或微高于键面。"
       },
-      link: "https://www.roland.com/us/products/fp_series/"
+      link: "https://www.roland.com/us/promos/fp_series/"
     },
     {
       id: "continuous-sustain-pedal",
@@ -1086,7 +1086,7 @@ const I18N = {
         en: "Pair Sennheiser HD560S or Philips SHP9500 with a 3-meter cord so you can move your upper torso freely without cord tugging.",
         zh: "选用配备3米长线缆的森海塞尔HD560S或飞利浦SHP9500，确保身体躯干与双臂随音乐起伏摆动时耳机线毫无牵扯感。"
       },
-      link: "https://www.sennheiser-hearing.com/en-US/p/hd-560s/"
+      link: "https://us.sennheiser-hearing.com/products/hd-560s"
     },
     {
       "id": "skoove",
@@ -1310,7 +1310,7 @@ const I18N = {
             "en": "Sit on the front half of the bench, feet flat on the floor (or right foot gently hovering over the sustain pedal). Feel rooted to the earth.",
             "zh": "坐满琴凳的前三分之一，双脚稳稳踩实地面（右脚轻浮于延音踏板上方），全身形成稳固的人体大理石基座。"
       },
-      "link": "https://www.andexinger.de/en/products/piano-benches/"
+      "link": "https://www.andexinger.de/"
 }
   ],
 

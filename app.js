@@ -91,7 +91,7 @@ function applyLanguage() {
       <span style="opacity: 0.9; margin-top: 0.25rem; display: inline-block;">专为成年人打造的自主学琴指南与开放工具矩阵——扎根于第一人称心智原点、刻意练习与自我探索。</span>
       <div style="margin-top: 0.4rem;">
         <a href="https://powerpig99.github.io/not-a-toe/" target="_blank" rel="noopener noreferrer" class="blog-subtitle-link">Not a ToE</a> — 
-        <a href="https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/" target="_blank" rel="noopener noreferrer" class="blog-subtitle-link">The Unobservable Driver of Learning / 《学习中不可观测的引擎》</a>
+        <a href="https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/" target="_blank" rel="noopener noreferrer" class="blog-subtitle-link">The Unobservable Driver of Learning / 《学习中不可观测的驱动力》</a>
       </div>
     `;
   } else {
@@ -719,7 +719,7 @@ function renderQuizResult(container) {
     recBottleneckZh = "观摩 Josh Wright 博士的手腕柔韧绕圈操与 Denis Zhdanov 陶布曼旋转法。严格执行单手分练（HS），在双手拼合前将速度压至30%，深呼吸彻底卸除肩背张力。";
   } else {
     recBottleneckEn = "Reread 'The Unobservable Driver of Learning': neural myelin consolidates in sleep after even a single 2-bar slice. Shift your measure of success from 'playing a whole song' to 'feeling the pure relaxed weight of finger striking keybed'.";
-    recBottleneckZh = "重温博客《学习中不可观测的引擎》：记住，哪怕每天只专注弹好2小节，神经元也在慢波睡眠中真实生长。将目标从‘完成整首曲子’缩小到‘体会此刻手指落键的纯净重力’。";
+    recBottleneckZh = "重温博客《学习中不可观测的驱动力》：记住，哪怕每天只专注弹好2小节，神经元也在慢波睡眠中真实生长。将目标从‘完成整首曲子’缩小到‘体会此刻手指落键的纯净重力’。";
   }
 
   if (time === "time_15_20") {
