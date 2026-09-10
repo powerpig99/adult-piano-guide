@@ -801,6 +801,120 @@ section.tab-pane.active {
 /* ==========================================================================
    Tab 4: Practice Architecture Styles
    ========================================================================== */
+.practice-golden-banner {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--accent-bronze);
+  border-radius: var(--radius-lg);
+  padding: 2.25rem;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 2.5rem;
+}
+
+.practice-golden-banner .principle-header {
+  margin-bottom: 1.75rem;
+}
+
+.principle-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  background: var(--accent-bronze-light);
+  color: var(--accent-bronze-dark);
+  border: 1px solid rgba(171, 115, 40, 0.25);
+  margin-bottom: 0.85rem;
+}
+
+.principle-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.75rem;
+  color: var(--ink-primary);
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.principle-subtitle {
+  font-size: 1.05rem;
+  color: var(--ink-secondary);
+  line-height: 1.6;
+}
+
+.principle-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.principle-pillar-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.principle-pillar-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.pillar-badge {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--accent-bronze);
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.pillar-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ink-primary);
+  margin-bottom: 0.65rem;
+  line-height: 1.4;
+}
+
+.pillar-desc {
+  font-size: 0.92rem;
+  color: var(--ink-secondary);
+  line-height: 1.6;
+}
+
+.principle-litmus-box {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  background: var(--accent-bronze-light);
+  border: 1px solid rgba(171, 115, 40, 0.3);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.75rem;
+}
+
+.litmus-icon {
+  font-size: 1.75rem;
+  flex-shrink: 0;
+}
+
+.litmus-content {
+  flex-grow: 1;
+}
+
+.litmus-quote {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.15rem;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--accent-bronze-dark);
+  line-height: 1.5;
+}
+
 .practice-cycle-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

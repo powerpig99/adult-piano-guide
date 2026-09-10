@@ -522,6 +522,46 @@ function renderPractice() {
   const l2 = I18N.secondaryLang;
   const p = I18N.practiceArchitecture;
 
+  let goldenPrincipleHtml = "";
+  if (p.goldenPrinciple) {
+    const gp = p.goldenPrinciple;
+    const tagText = renderBilingualText(gp.tag);
+    const titleText = renderBilingualText(gp.title);
+    const subText = renderBilingualText(gp.subtitle);
+    const quoteText = renderBilingualText(gp.litmusQuote);
+
+    const pillarsHtml = gp.pillars.map(pillar => {
+      const pName = renderBilingualText(pillar.name);
+      const pDesc = renderBilingualText(pillar.desc);
+      return `
+        <div class="principle-pillar-card">
+          <div class="pillar-badge">${pillar.badge}</div>
+          <h4 class="pillar-title">${pName}</h4>
+          <div class="pillar-desc">${pDesc}</div>
+        </div>
+      `;
+    }).join("");
+
+    goldenPrincipleHtml = `
+      <div class="practice-golden-banner">
+        <div class="principle-header">
+          <span class="principle-tag">${tagText}</span>
+          <h3 class="principle-title">${titleText}</h3>
+          <p class="principle-subtitle">${subText}</p>
+        </div>
+        <div class="principle-pillars-grid">
+          ${pillarsHtml}
+        </div>
+        <div class="principle-litmus-box">
+          <div class="litmus-icon">⚖️</div>
+          <div class="litmus-content">
+            <div class="litmus-quote">${quoteText}</div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
   const cycleCards = p.cycleStages.map(stage => {
     const nameText = renderBilingualText(stage.name);
     const descText = renderBilingualText(stage.desc);
@@ -558,12 +598,22 @@ function renderPractice() {
     `;
   }).join("");
 
+  const cycleHeading = l2
+    ? "🔄 The 4-Stage Deliberate Practice Cycle • 四阶刻意练习闭环"
+    : (l1 === "zh" ? "🔄 四阶刻意练习闭环" : "🔄 The 4-Stage Deliberate Practice Cycle");
+
   const blueprintsHeading = l2 
     ? "⏱️ Time-Boxed Daily Practice Blueprints • 时间盒练习蓝图（每日节奏）" 
     : (l1 === "zh" ? "⏱️ 时间盒练习蓝图（每日节奏）" : "⏱️ Time-Boxed Daily Practice Blueprints");
 
   container.innerHTML = `
-    <div class="practice-cycle-grid">${cycleCards}</div>
+    ${goldenPrincipleHtml}
+    <div class="practice-cycle-section" style="margin-top: 2.5rem;">
+      <h3 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.65rem; margin-bottom: 1.25rem; color: var(--ink-primary);">
+        ${cycleHeading}
+      </h3>
+      <div class="practice-cycle-grid">${cycleCards}</div>
+    </div>
     <div class="blueprint-container">
       <h3 style="font-family: 'Playfair Display', Georgia, serif; font-size: 1.65rem; margin-bottom: 1.25rem; color: var(--ink-primary);">
         ${blueprintsHeading}
@@ -718,8 +768,8 @@ function renderQuizResult(container) {
     recBottleneckEn = "Watch Dr. Josh Wright's wrist circle lectures and Denis Zhdanov's Taubman rotation. Practice Hands-Separate (HS) strictly, and drop tempo to 30% when joining hands.";
     recBottleneckZh = "观摩 Josh Wright 博士的手腕柔韧绕圈操与 Denis Zhdanov 陶布曼旋转法。严格执行单手分练（HS），在双手拼合前将速度压至30%，深呼吸彻底卸除肩背张力。";
   } else {
-    recBottleneckEn = "Reread 'The Unobservable Driver of Learning': neural myelin consolidates in sleep after even a single 2-bar slice. Shift your measure of success from 'playing a whole song' to 'feeling the pure relaxed weight of finger striking keybed'.";
-    recBottleneckZh = "重温博客《学习中不可观测的驱动力》：记住，哪怕每天只专注弹好2小节，神经元也在慢波睡眠中真实生长。将目标从‘完成整首曲子’缩小到‘体会此刻手指落键的纯净重力’。";
+    recBottleneckEn = "Set consistency as your default condition, not an uphill habit to fight for. If progress feels slow or overwhelming, dynamically scale down your daily goal (even to a single 2-bar slice) until it is challenging yet genuinely enjoyable. Always leave the piano bench while you still want to play tomorrow — that lingering desire is the secret to lifelong compounding.";
+    recBottleneckZh = "将‘持续’设为默认状态，而非勉力推石上山的习惯。如果感觉吃力或进展缓慢，果断调低每日微观目标（哪怕只攻坚2小节），直至练习回到‘略带挑战却依然身心愉悦’的状态。永远在意犹未尽、明天还想弹的时候优雅收尾——这份余热才是终身复利的秘密。";
   }
 
   if (time === "time_15_20") {
