@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Adult Piano Companion • 成人钢琴研习指南与工具全景</title>
+  <meta name="description" content="A definitive, minimal, and elegant guide to learning piano as an adult. Comprehensive tool matrix, trade-off comparisons, deliberate practice frameworks, and curated repertoire ladders grounded in personal agency.">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <link rel="stylesheet" href="styles.css?v=20260910">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎹</text></svg>">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header id="site-header">
+    <div class="header-container">
+      <div class="header-top-bar">
+        <span id="site-badge" class="site-badge">🎹 Self-Directed Adult Piano Guide</span>
+
+        <!-- Language Switcher: Dual / English / 中文 -->
+        <div class="lang-switcher-wrapper" aria-label="Language Mode">
+          <div class="lang-row">
+            <button class="lang-btn active" data-mode="dual">Dual</button>
+            <button class="lang-btn" data-mode="en">English</button>
+            <button class="lang-btn" data-mode="zh">中文</button>
+          </div>
+        </div>
+      </div>
+
+      <h1 id="site-title">The Adult Piano Companion</h1>
+      <p id="site-subtitle">
+        A definitive guide and open tool matrix for adult learners — grounded in personal agency, deliberate practice, and the living philosophy of self-directed mastery.
+      </p>
+
+      <!-- Ground Quote Bar -->
+      <div class="ground-quote-bar">
+        <span>“The problem was never the tools. The problem is the habitual allocation of causal power away from learning itself.”</span>
+        <a href="https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/" target="_blank" rel="noopener noreferrer">Not a ToE Essay →</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Navigation Tabs -->
+    <div class="nav-tabs-wrapper">
+      <nav class="nav-tabs" aria-label="Main Navigation">
+        <button id="tab-btn-philosophy" class="tab-btn active" data-tab="philosophy">🌱 Philosophy & Ground</button>
+        <button id="tab-btn-matrix" class="tab-btn" data-tab="matrix">🧰 Tool Matrix</button>
+        <button id="tab-btn-comparator" class="tab-btn" data-tab="comparator">⚖️ Trade-off Comparator</button>
+        <button id="tab-btn-practice" class="tab-btn" data-tab="practice">🧠 Practice Architecture</button>
+        <button id="tab-btn-repertoire" class="tab-btn" data-tab="repertoire">🎼 Repertoire Ladder</button>
+        <button id="tab-btn-matcher" class="tab-btn" data-tab="matcher">🧭 Toolkit Matcher</button>
+      </nav>
+    </div>
+
+    <!-- TAB 1: Philosophy & Ground -->
+    <section id="tab-philosophy" class="tab-pane active">
+      <div id="philosophy-content">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- TAB 2: Tool Matrix -->
+    <section id="tab-matrix" class="tab-pane">
+      <!-- Search & Filters -->
+      <div class="controls-panel">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-input" class="search-input" placeholder="Search by tool, book, app, author, technique, or keyword...">
+        </div>
+
+        <div class="filters-wrapper">
+          <!-- Category Filter -->
+          <div class="filter-row">
+            <span class="filter-label">Category:</span>
+            <div class="pill-group">
+              <button id="filter-cat-all" class="pill-btn active" data-cat="all">All Categories</button>
+              <button id="filter-cat-apps" class="pill-btn" data-cat="apps">Interactive Apps</button>
+              <button id="filter-cat-scores" class="pill-btn" data-cat="scores">Sheet Music & Readers</button>
+              <button id="filter-cat-theory" class="pill-btn" data-cat="theory">Ear Training & Theory</button>
+              <button id="filter-cat-youtube" class="pill-btn" data-cat="youtube">YouTube Mentors</button>
+              <button id="filter-cat-books" class="pill-btn" data-cat="books">Method Books & Literature</button>
+              <button id="filter-cat-hardware" class="pill-btn" data-cat="hardware">Hardware & Ergonomics</button>
+            </div>
+          </div>
+
+          <!-- Skill Level Filter -->
+          <div class="filter-row">
+            <span class="filter-label">Level:</span>
+            <div class="pill-group">
+              <button id="filter-level-all" class="pill-btn active" data-level="all">All Stages</button>
+              <button id="filter-level-beginner" class="pill-btn" data-level="beginner">Absolute Beginner</button>
+              <button id="filter-level-intermediate" class="pill-btn" data-level="intermediate">Intermediate</button>
+              <button id="filter-level-advanced" class="pill-btn" data-level="advanced">Advanced</button>
+            </div>
+          </div>
+
+          <!-- Cost Filter -->
+          <div class="filter-row">
+            <span class="filter-label">Cost:</span>
+            <div class="pill-group">
+              <button id="filter-cost-all" class="pill-btn active" data-cost="all">Any Cost</button>
+              <button id="filter-cost-free" class="pill-btn" data-cost="free">Free / Open</button>
+              <button id="filter-cost-paid" class="pill-btn" data-cost="paid">Paid / Sub</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results Meta -->
+      <div class="tool-results-bar">
+        <span id="tool-count">Showing 32 curated resources</span>
+      </div>
+
+      <!-- Tools Grid -->
+      <div id="tool-grid" class="tool-grid">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- TAB 3: Trade-off Comparator -->
+    <section id="tab-comparator" class="tab-pane">
+      <div class="section-intro">
+        <h2 class="section-title">Critical Trade-offs in Adult Piano Learning</h2>
+        <p class="section-subtitle">Every tool or methodology is temporary scaffolding. Compare alternatives honestly to find your genuine high-leverage driver.</p>
+      </div>
+      <div id="comparator-content">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- TAB 4: Practice Architecture & Neuroplasticity -->
+    <section id="tab-practice" class="tab-pane">
+      <div class="section-intro">
+        <h2 class="section-title">Adult Neuroplasticity & Practice Architecture</h2>
+        <p class="section-subtitle">Adults do not lack neurological adaptability; they lack deliberate, tension-free feedback loops. Master the four-stage cycle and time-boxed blueprints.</p>
+      </div>
+      <div id="practice-content">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- TAB 5: Repertoire Ladder -->
+    <section id="tab-repertoire" class="tab-pane">
+      <div class="section-intro">
+        <h2 class="section-title">Curated Adult Repertoire Ladder</h2>
+        <p class="section-subtitle">Progressive musical milestones that respect adult sensibilities — from foundational coordination to expressive masterpieces like Chengdu, Forrest Gump, and Handel's Passacaglia.</p>
+      </div>
+      <div id="repertoire-content">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- TAB 6: Interactive Toolkit Matcher -->
+    <section id="tab-matcher" class="tab-pane">
+      <div class="section-intro" style="text-align: center;">
+        <h2 class="section-title">Interactive Toolkit Matcher</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">Answer 4 brief questions to instantly generate your tailored self-directed learning blueprint and practice cadence.</p>
+      </div>
+      <div id="matcher-content">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Tool Detail Modal Drawer -->
+  <div id="tool-modal-overlay" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button id="tool-modal-close" class="modal-close-btn" aria-label="Close Modal">✕</button>
+      <div id="tool-modal-body">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer id="site-footer">
+    <div class="footer-container" style="max-width: 900px; margin: 0 auto;">
+      <p id="footer-quote" class="footer-quote">
+        “Ability is the accumulated loop of chosen relation, not a fixed endowment. Tools remain secondary scaffolding; learning is the non-transferable physical friction (+1) generated from within.”
+      </p>
+      <p id="footer-note" class="footer-note">
+        The Adult Piano Companion • An open, independent research project on adult self-directed musicianship.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
