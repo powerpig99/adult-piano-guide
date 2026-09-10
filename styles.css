@@ -674,20 +674,38 @@ section.tab-pane.active {
   border-top: 1px solid var(--border-light);
 }
 
-.tool-details-btn {
-  background: transparent;
-  border: none;
-  color: var(--accent-bronze);
-  font-weight: 700;
-  font-size: 0.9rem;
+.clickable-card {
   cursor: pointer;
-  transition: var(--transition-fast);
-  padding: 4px 0;
+  user-select: none;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
-.tool-details-btn:hover {
-  color: var(--accent-bronze-dark);
-  text-decoration: underline;
+.clickable-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--accent-bronze);
+}
+
+.clickable-card:focus-visible {
+  outline: 2px solid var(--accent-bronze);
+  outline-offset: 3px;
+}
+
+.card-open-hint {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--ink-faint);
+  transition: transform 0.2s ease, color 0.2s ease;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 4px;
+}
+
+.clickable-card:hover .card-open-hint {
+  color: var(--accent-bronze);
+  transform: translate(2px, -2px);
 }
 
 .platform-icons {
@@ -1408,27 +1426,6 @@ footer#site-footer {
   font-weight: 600;
   color: var(--accent-bronze-dark);
   margin-top: 0.25rem;
-}
-
-.favorite-visit-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  background: var(--piano-ebony);
-  color: #ffffff;
-  padding: 0.55rem 1.15rem;
-  border-radius: var(--radius-md);
-  font-size: 0.88rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: var(--transition-fast);
-  white-space: nowrap;
-}
-
-.favorite-visit-btn:hover {
-  background: var(--accent-bronze);
-  color: #ffffff;
-  transform: translateY(-1px);
 }
 
 .favorite-role-box {

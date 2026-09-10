@@ -406,11 +406,11 @@ function renderToolMatrix() {
     const tagsHtml = (tool.tags || []).map(tag => `<span class="tool-tag">${tag}</span>`).join("");
     const platformsHtml = (tool.platforms || []).map(p => `<span>${p}</span>`).join(" • ");
 
-    const viewDetailsText = l2 ? "Details • 深度剖析 →" : t.viewDetails;
     const strengthsLabel = l2 ? "Key Strengths • 核心优势" : t.keyStrengths;
+    const cardTitleHint = l1 === "zh" ? "点击查看深度剖析与建议" : "Click to view details & breakdown";
 
     return `
-      <div class="tool-card">
+      <div class="tool-card clickable-card" onclick="openToolModal('${tool.id}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')openToolModal('${tool.id}')" title="${cardTitleHint}">
         <div class="tool-card-header">
           <h4 class="tool-card-title">${tool.name}</h4>
           <span class="tool-badge-pill ${badgeClass}">${badgeLabel}</span>
@@ -426,7 +426,7 @@ function renderToolMatrix() {
         </div>
         <div class="tool-card-footer">
           <div class="platform-icons">${platformsHtml}</div>
-          <button class="tool-details-btn" onclick="openToolModal('${tool.id}')">${viewDetailsText}</button>
+          <span class="card-open-hint" aria-hidden="true">↗</span>
         </div>
       </div>
     `;
@@ -861,18 +861,16 @@ function renderFavorites() {
         const whyLabel = l2 ? "Why I Deeply Enjoy This • 为何深爱此资源" : (t.favoritesWhyEnjoy || "Why I Enjoy This");
         const highLabel = l2 ? "Signature Highlights & Works • 亮点特色与代表作" : (t.favoritesHighlights || "Signature Highlights");
         const takeLabel = l2 ? "Insight for Adult Learners • 予成年研习者的启示" : (t.favoritesTakeaway || "Insight for Adult Learners");
-        const visitLabel = l2 ? "Watch Channel / Explore • 访问频道 / 聆听 ↗" : (t.favoritesVisit || "Watch Channel ↗");
+        const favCardHint = l1 === "zh" ? "点击访问官方频道与精选作品 ↗" : "Click to visit channel & works ↗";
 
         return `
-          <div class="favorite-card">
+          <div class="favorite-card clickable-card" onclick="window.open('${res.link}', '_blank')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')window.open('${res.link}', '_blank')" title="${favCardHint}">
             <div class="favorite-header">
               <div>
                 <h3 class="favorite-author-name">${res.name}</h3>
                 <div class="favorite-channel-handle">${res.channel}</div>
               </div>
-              <a href="${res.link}" target="_blank" rel="noopener noreferrer" class="favorite-visit-btn">
-                ${visitLabel}
-              </a>
+              <span class="card-open-hint" aria-hidden="true">↗</span>
             </div>
 
             <div class="favorite-role-box">
