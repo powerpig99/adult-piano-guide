@@ -178,13 +178,13 @@ const I18N = {
           en: `
             <p>I began learning piano with a very common adult excuse: I wanted to accompany my two children and support their musical education. In the opening months, progress felt agonizingly slow. My adult hands lacked flexibility; the coordination between my left and right hands felt like two stubborn minds arguing with each other. Muscle memory took dozens of repetitions to stick.</p>
             <p>Then, a quiet transformation occurred: <strong>I stopped treating piano as a tool to help someone else, and began treating it as something I myself wanted to master and enjoy.</strong></p>
-            <p>Inevitably, children grow, hobbies fluctuate, and over time my kids lost interest in daily practice. But by that point, the causal driver had completely relocated. I didn't stop. I sat at the piano day after day, week after week. Today, I can play far more fluently, deeply, and expressively than my kids ever did. I learned to play pieces I once thought were reserved for conservatory prodigies — from the delicate melancholy of folk ballads like <em>Chengdu</em> to the sweeping emotion of the <em>Forrest Gump Suite</em>, the cinematic pulse of <em>Game of Thrones</em>, and the breathtaking architectural drama of Handel's <em>Passacaglia</em>.</p>
+            <p>Inevitably, children grow, hobbies fluctuate, and over time my kids lost interest in daily practice. But by that point, the causal driver had completely relocated. I didn't stop. I sat at the piano day after day, week after week. Today, I can play far more fluently, deeply, and expressively than my kids ever did. I learned to play pieces I once thought were reserved for conservatory prodigies — from the delicate melancholy of folk ballads like <em>Chengdu</em> to the sweeping emotion of the <em>Forrest Gump Suite</em>, the poetic minimalism of Ludovico Einaudi (whose pieces I conquered largely through Michael Maiber's patient tutorials alongside my own relentless struggling), the cinematic pulse of <em>Game of Thrones</em>, and the breathtaking architectural drama of Handel's <em>Passacaglia</em>.</p>
             <p>I tried everything on the market: popular gamified apps, waterfall video visualizers, YouTube masterclasses, classical method books, and private in-person teachers. And that experiment taught me the single most vital lesson of adult learning.</p>
           `,
           zh: `
             <p>我最初接触钢琴，起因于许多成年人家长都会经历的契机：为了陪伴我的两个孩子学琴，给他们树立榜样。刚上手时，起步确实缓慢而滞重。作为一个成年人，大脑发出指令到指尖落地总有微小的延迟，手指柔韧度不够，左右手分脑协调更是一场拉锯战，任何一个肌肉记忆都需要反复刻划才能固定。</p>
             <p>然而在摸索中，一个质的转变悄然发生：<strong>我不再把练琴仅仅当作“辅助孩子”的外在任务，而是将目光完全拉回到了学习本身——这是我内心真正渴望去驾驭、去享受的艺术世界。</strong></p>
-            <p>后来，随着时间推移，孩子们的注意力不可避免地转移了，逐渐对日复一日的练习失去了热情。然而此时，学习的因果原点早已扎根在我自己体内。我没有停下。日复一日，晨昏流转，我坚持坐在琴键前。如今，我的曲目量与演奏表达早已走得比孩子们更深更远。从《成都》温润质朴的民谣织体，到《阿甘正传》主题曲的如羽毛般灵动，从《权力的游戏》的史诗律动，再到亨德尔-哈尔沃森《帕萨卡利亚》（Passacaglia）那令人窒息的宏大变奏与复调奔流——我一步步亲手攻克了这些曾以为遥不可及的经典。</p>
+            <p>后来，随着时间推移，孩子们的注意力不可避免地转移了，逐渐对日复一日的练习失去了热情。然而此时，学习的因果原点早已扎根在我自己体内。我没有停下。日复一日，晨昏流转，我坚持坐在琴键前。如今，我的曲目量与演奏表达早已走得比孩子们更深更远。从《成都》温润质朴的民谣织体，到《阿甘正传》主题曲的如羽毛般灵动，再到鲁多维科·艾诺迪（Ludovico Einaudi）如诗如画的极简篇章（我几乎所有艾诺迪的曲目，都是对照着自学导师 Michael Maiber 的逐句慢拆教学、再加上自己日复一日与琴键的艰辛死磕而攻克的），从《权力的游戏》的史诗律动，再到亨德尔-哈尔沃森《帕萨卡利亚》（Passacaglia）那令人窒息的宏大变奏与复调奔流——我一步步亲手攻克了这些曾以为遥不可及的经典。</p>
             <p>在这一路中，我几乎尝遍了市面上所有的路径：所有叫得出名字的流行App、下落瀑布流视频、YouTube大牌名师课、经典传统教材，以及线下一对一私教。这番亲身涉水，让我彻底看清了成人学习的唯一本质。</p>
           `
         }
@@ -737,6 +737,36 @@ const I18N = {
         zh: "如果无论练车尔尼还是哈农，只要超过半小时小臂外侧就会酸胀或大拇指根部发硬，必须立即观看其旋转力学系列讲座进行自查纠错。"
       },
       link: "https://www.youtube.com/@DenisZhdanov"
+    },
+    {
+      id: "michael-maiber",
+      name: "Michael Maiber",
+      category: "youtube",
+      level: "all",
+      cost: "free",
+      platforms: ["YouTube"],
+      tags: ["Ludovico Einaudi", "Step-by-Step", "Self-Taught Path", "Contemporary"],
+      title: {
+        en: "Michael Maiber: The Patient, Phrase-by-Phrase Mentor for Ludovico Einaudi & Contemporary Piano",
+        zh: "Michael Maiber：艾诺迪（Ludovico Einaudi）与现代新古典钢琴曲目的逐句慢拆导师"
+      },
+      summary: {
+        en: "A beloved self-taught pianist whose channel is an indispensable treasure for learning Ludovico Einaudi (Nuvole Bianche, Divenire, Una Mattina, Experience), Yann Tiersen, and Chopin through clear, patient phrase-by-phrase visual breakdowns.",
+        zh: "一位深受钢琴自学者喜爱的自学成才钢琴博主。其频道是攻克鲁多维科·艾诺迪（《Nuvole Bianche》《Divenire》《Una Mattina》《Experience》等）、扬·提尔森与肖邦名作的宝藏，以极度耐心、逐句慢速拆解著称。"
+      },
+      strengths: {
+        en: "Perfect bridge for the self-taught struggling adult: demonstrates both hands separately, highlights exact fingerings, and breaks intimidating continuous rolling arpeggios and cross-rhythms into digestible, playable phrases.",
+        zh: "极其贴合自学者‘痛苦卡点’的拆解节奏：不仅有双手慢速特写，还细致拆解难啃的长琶音跑动与左右手复合节奏，将宏大篇幅切分成极其亲民的2小节练习单元。"
+      },
+      caveats: {
+        en: "Focuses on practical performance execution and musical phrasing rather than abstract academic music theory or formal classical analysis.",
+        zh: "重在单曲演奏实践与音乐情感句法，非学院派枯燥理论讲座，适合作为攻克具体心仪曲目的实战导师。"
+      },
+      synergy: {
+        en: "The author learned nearly all of his Ludovico Einaudi repertoire from this channel through persistent struggle. Pair Michael's tutorials with the Urtext/official score to master hand independence and rhythmic flow.",
+        zh: "本指南作者的大部分艾诺迪曲目，皆是对照着 Michael Maiber 的教学视频并结合自身不断抗争摸索而攻克的。建议手边备好官方乐谱，配合他的慢速示范反复打磨左右手独立性。"
+      },
+      link: "https://www.youtube.com/@MichaelMaiber"
     },
 
     // --- 5. Method Books, Etudes & Literature ---
@@ -1586,7 +1616,10 @@ const I18N = {
           name: "Nuvole Bianche",
           composer: "Ludovico Einaudi",
           focus: { en: "Endurance, hypnotic rhythmic loops, four-note polyrhythmic layer balance.", zh: "持久专注力、极简主义催眠般的和声循环与左右手声部层次分离。" },
-          tips: { en: "Avoid forearm strain during repetitive patterns by constantly rotating the wrist in micro-ovals.", zh: "面对长时间重复跑动的和声模式，手腕必须保持微型椭圆晃动，切断一切机械静止僵化。" }
+          tips: {
+            en: "Avoid forearm strain during repetitive patterns by constantly rotating the wrist in micro-ovals. (Study Companion: Consult Michael Maiber's phrase-by-phrase YouTube tutorials — the author learned virtually all of his Einaudi repertoire from this channel through persistent personal struggle).",
+            zh: "面对长时间重复跑动的和声模式，手腕必须保持微型椭圆晃动，切断一切机械静止僵化。（研习推荐：参考 YouTube 导师 Michael Maiber 的逐句慢拆教学——本指南作者几乎所有的艾诺迪作品，都是对照该频道的慢速拆解并结合自身不断死磕摸索而攻克的）。"
+          }
         }
       ]
     },

@@ -684,7 +684,7 @@ function renderQuizResult(container) {
 
   if (goal === "pop_soundtrack") {
     recSoftware = ["Flowkey (overhead view)", "MuseScore (pop lead sheets)", "Moises.ai (audio stem isolation)"];
-    recBooks = ["Pianote (Lisa Witt: chords & lead sheets)", "Alfred's Adult Piano Course (harmonic foundation)"];
+    recBooks = ["Michael Maiber (YouTube: Einaudi & soundtrack phrase tutorials)", "Pianote (Lisa Witt: chords & lead sheets)", "Alfred's Adult Piano Course (harmonic foundation)"];
   } else if (goal === "classical_literacy") {
     recSoftware = ["Piano Marvel (SASR sight reading)", "IMSLP (Urtext scores)", "forScore (iPad standard)"];
     recBooks = ["Faber Adult Piano Adventures", "Béla Bartók: Mikrokosmos", "Burgmüller Op. 100", "J.S. Bach Two-Part Inventions"];

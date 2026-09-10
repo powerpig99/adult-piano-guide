@@ -81,6 +81,7 @@ This ladder outlines five progressive milestones, analyzing the specific technic
 - **Technical Milestone:** Rhythmic endurance, hypnotic harmonic ostinato, and two-against-three layers.
 - **Practice Strategy:**
   - Prevent forearm burning by rotating your wrist in continuous micro-ovals during repetitive 4-chord cycles. Never freeze your wrist.
+  - **Recommended Mentor Companion:** Follow [Michael Maiber's YouTube Tutorials](https://www.youtube.com/@MichaelMaiber). The author learned virtually all of his Ludovico Einaudi repertoire through Michael's phrase-by-phrase slow breakdowns alongside persistent personal struggle. Pair Michael's visual fingering cues with the official sheet music to overcome syncopation and cross-hand transitions.
 
 ---
 

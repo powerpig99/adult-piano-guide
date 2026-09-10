@@ -46,6 +46,7 @@ Modern adult learners have access to more musical tools than any previous genera
 ### Layer 4: YouTube Masterclasses & Mentors
 
 - **Dr. Josh Wright (ProPractice):** World-class instruction on wrist circularity, arm weight drop, and rhythmic practice variations. Essential viewing for stiff hands.
+- **Michael Maiber:** The patient, phrase-by-phrase mentor for Ludovico Einaudi (*Nuvole Bianche*, *Divenire*, *Una Mattina*, *Experience*), Yann Tiersen, and contemporary neoclassical works. Indispensable for self-taught adult learners conquering rolling arpeggios and rhythmic syncopation.
 - **Nahre Sol:** Brilliant deconstructions of harmony, genre fusion (classical meets bebop), and mindful practice journals.
 - **PianoTV (Allysia):** Clear, grounded evaluations of repertoire difficulty grades (RCM levels 1–8) specifically curated for adult hands.
 - **Pianote (Lisa Witt):** Breaks down pop chords, broken-fifth bass lines, and lead-sheet accompaniment for vocalists.
@@ -74,4 +75,5 @@ Modern adult learners have access to more musical tools than any previous genera
 Never use a single tool in isolation. Build complementary pairs:
 1. **The Classical Reading Stack:** `Piano Marvel (Sight-Reading)` + `Faber Adult Method` + `Bartók Mikrokosmos` + `IMSLP Urtext`.
 2. **The Soundtrack & Pop Stack:** `Flowkey (Audio-Visual Preview)` + `MuseScore (Lead Sheets)` + `Pianote (Chords)` + `Moises.ai (Stem Isolation)`.
-3. **The Biomechanical Health Stack:** `Josh Wright (Wrist Circles)` + `Denis Zhdanov (Forearm Rotation)` + `Kenny Werner (Tension Release)`.
+3. **The Neoclassical Repertoire Stack:** `Michael Maiber (Phrase-by-Phrase Breakdowns)` + `Urtext/Official Score` + `Metronome Micro-Loops` + `Wrist Elasticity`.
+4. **The Biomechanical Health Stack:** `Josh Wright (Wrist Circles)` + `Denis Zhdanov (Forearm Rotation)` + `Kenny Werner (Tension Release)`.

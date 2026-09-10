@@ -30,6 +30,7 @@ Inevitably, as children grow and interests evolve, my kids lost their initial pa
 Instead, the causal driver had completely relocated inward. I continued to sit at the keyboard every single day. Over time, I surpassed the level my children had reached. I learned to navigate complex polyphony, wide expressive arpeggios, and dramatic classical counterpoint. I conquered pieces I once assumed were beyond my reach:
 - **Chengdu (成都):** The lyrical warmth and delicate rubato of acoustic folk.
 - **Forrest Gump Suite:** The soaring, feather-light high triplets and floating arpeggios.
+- **Ludovico Einaudi (*Nuvole Bianche*, etc.):** The hypnotic rolling harmonies and delicate voice-leading, which I conquered by working through the patient phrase-by-phrase tutorials of [Michael Maiber](https://www.youtube.com/@MichaelMaiber) alongside my own intense personal struggling.
 - **Game of Thrones Theme:** The relentless 6/8 driving ostinato and epic crescendos.
 - **Passacaglia (Handel-Halvorsen):** The monumental architectural variations, cascading sixteenth notes, and baroque majesty.
 
@@ -40,7 +41,7 @@ Instead, the causal driver had completely relocated inward. I continued to sit a
 Throughout this journey, I tried virtually every method and technology available:
 - Gamified apps (*Simply Piano*, *Flowkey*, *Yousician*)
 - Falling-note waterfall visualizers (*Synthesia*)
-- YouTube masterclasses (*Josh Wright*, *Nahre Sol*, *PianoTV*, *Pianote*, *Denis Zhdanov*)
+- YouTube masterclasses & creators (*Josh Wright*, *Michael Maiber*, *Nahre Sol*, *PianoTV*, *Pianote*, *Denis Zhdanov*)
 - Method books (*Alfred*, *Faber*, *Mikrokosmos*, *Burgmüller*, *Hanon*, *Czerny*)
 - In-person private lessons.
 
