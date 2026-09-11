@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overview & Complete Guide | The Adult Piano Companion (成人钢琴研习指南)</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: var(--bg);
+      color: var(--ink-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+    .doc-sticky-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(17, 20, 28, 0.96);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .doc-nav-left {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .doc-btn-back {
+      color: #fff;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-weight: 600;
+      font-size: 0.88rem;
+      padding: 0.4rem 0.85rem;
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius-sm);
+      transition: all 0.2s ease;
+    }
+    .doc-btn-back:hover {
+      background: var(--accent-bronze);
+      color: #fff;
+      transform: translateX(-2px);
+    }
+    .doc-main-container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1.25rem 4rem;
+      flex: 1;
+      width: 100%;
+    }
+    .doc-card {
+      background: var(--surface);
+      border-radius: var(--radius-md);
+      padding: 2.5rem 3rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      border: 1px solid var(--border);
+    }
+    .doc-content-area {
+      line-height: 1.8;
+      font-size: 1.05rem;
+      color: var(--ink-secondary);
+    }
+    .doc-content-area h1 {
+      font-size: 2.1rem;
+      color: var(--ink-primary);
+      margin-top: 0.5rem;
+      margin-bottom: 1.2rem;
+      line-height: 1.25;
+      font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.6rem;
+    }
+    .doc-content-area h2 {
+      font-size: 1.5rem;
+      color: var(--ink-primary);
+      margin-top: 2.2rem;
+      margin-bottom: 0.8rem;
+      font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      border-bottom: 1px solid var(--border-light);
+      padding-bottom: 0.4rem;
+    }
+    .doc-content-area h3 {
+      font-size: 1.2rem;
+      color: var(--ink-primary);
+      margin-top: 1.6rem;
+      margin-bottom: 0.6rem;
+    }
+    .doc-content-area p {
+      margin-bottom: 1.2rem;
+    }
+    .doc-content-area ul, .doc-content-area ol {
+      margin-bottom: 1.3rem;
+      padding-left: 1.75rem;
+    }
+    .doc-content-area li {
+      margin-bottom: 0.45rem;
+    }
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      margin: 1.5rem 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+    th {
+      background: var(--bg-subtle);
+      font-weight: 700;
+      color: var(--ink-primary);
+    }
+    tr:nth-child(even) td {
+      background: #fdfdfb;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 2.2rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="doc-sticky-header">
+    <div class="doc-nav-left">
+      <a href="index.html" class="doc-btn-back">🎹 Piano Companion</a>
+      <a href="https://powerpig99.github.io/not-a-toe/" class="doc-btn-back" target="_blank" rel="noopener" title="Author Blog (Not a ToE)">🌌 Blog</a>
+      <a href="https://powerpig99.github.io/hunting-in-finland/" class="doc-btn-back" target="_blank" rel="noopener" title="Companion Guide: Hunting in Finland">🌲 Hunting Guide</a>
+      <a href="https://powerpig99.github.io/helsinki-mushroom-guide/" class="doc-btn-back" target="_blank" rel="noopener" title="Companion Guide: Helsinki Mushroom Guide">🍄 Mushroom Guide</a>
+    </div>
+    <div>
+      <a href="README.md" class="doc-btn-back" target="_blank" style="background:rgba(255,255,255,0.08); font-weight:normal; font-size:0.8rem;">📄 Raw README.md</a>
+    </div>
+  </header>
+
+  <main class="doc-main-container">
+    <article class="doc-card">
+      <div class="doc-content-area">
+        <h1>The Adult Piano Companion: A Definitive Guide & Tool Matrix</h1>
+<em>成人钢琴自学研习指南与工具全景 • A Self-Directed Musical Journey</em>
+
+<p>A minimal, elegant, bilingual digital companion (<strong>English</strong> | <strong>中文</strong>) for adult self-directed piano learners. Grounded in first-person agency, deliberate practice architectures, and the living philosophy of <a href="https://powerpig99.github.io/not-a-toe/" rel="noopener noreferrer">Not a ToE</a> (<em>The Unobservable Driver of Learning</em>).</p>
+
+<hr>
+
+<h2>🌐 Bilingual Interactive Web Application</h2>
+
+<p>The companion runs as a zero-dependency, ultra-fast client-side SPA deployable on <strong>GitHub Pages</strong>, <strong>Cloudflare Pages</strong>, or <strong>Vercel</strong>.</p>
+
+<ul>
+  <li><strong>Web Entrypoint</strong>: <a href="index.html" rel="noopener noreferrer"><code>index.html</code></a></li>
+  <li><strong>Styling</strong>: <a href="styles.css" rel="noopener noreferrer"><code>styles.css</code></a> (Ivory/Ebony minimal editorial aesthetics)</li>
+  <li><strong>Application Controller</strong>: <a href="app.js" rel="noopener noreferrer"><code>app.js</code></a> (Reactive filtering, routing, modal drawers & view transitions)</li>
+</ul>
+
+<h3>Language Features</h3>
+<ul>
+  <li><strong>Clean Segmented Switcher</strong>: Simple, minimal options: <strong>Dual</strong> (side-by-side comparative reading by default), <strong>English</strong>, or <strong>中文</strong>.</li>
+  <li><strong>No Redundant Language Badges</strong>: The language speaks for itself — zero clutter, no country flags, and no <code>EN</code> / <code>ZH</code> label tags.</li>
+</ul>
+
+<hr>
+
+<h2>📚 Companion Handbooks & Guides</h2>
+
+<blockquote>🌐 <strong>Live Web Version</strong>: Read this complete companion online at <a href="https://powerpig99.github.io/adult-piano-guide/" rel="noopener noreferrer"><strong>powerpig99.github.io/adult-piano-guide</strong></a> or browse the <a href="overview.html" rel="noopener noreferrer"><strong>Full Overview Webpage</strong></a>.</blockquote>
+
+<div class="table-container"><table><thead><tr><th>Section</th><th>Document Webpage</th><th>Raw Source</th><th>Key Themes Covered</th></tr></thead><tbody><tr><td><strong>01</strong></td><td><a href="https://powerpig99.github.io/adult-piano-guide/docs/01_philosophy_and_agency.html" rel="noopener noreferrer"><strong>Philosophy & Agency</strong></a> (<a href="docs/01_philosophy_and_agency.html" rel="noopener noreferrer">Local HTML</a>)</td><td><a href="docs/01_philosophy_and_agency.html" rel="noopener noreferrer">.md</a></td><td>Dismantling the childhood prodigy dogma, the author's journey (from accompanying kids to solo mastery of <em>Passacaglia</em>), the internal causal lever (<code>+1</code> physical friction), and why tools are scaffolding, not the engine.</td></tr><tr><td><strong>02</strong></td><td><a href="https://powerpig99.github.io/adult-piano-guide/docs/02_tool_ecosystem_guide.html" rel="noopener noreferrer"><strong>Tool Ecosystem Guide</strong></a> (<a href="docs/02_tool_ecosystem_guide.html" rel="noopener noreferrer">Local HTML</a>)</td><td><a href="docs/02_tool_ecosystem_guide.html" rel="noopener noreferrer">.md</a></td><td>Deep analysis of 30+ curated tools across 6 layers: Interactive Apps, Sheet Music Readers, Ear Training/Theory, YouTube Masterclasses, Method Books, and Hardware/Ergonomics.</td></tr><tr><td><strong>03</strong></td><td><a href="https://powerpig99.github.io/adult-piano-guide/docs/03_deliberate_practice_framework.html" rel="noopener noreferrer"><strong>Deliberate Practice Framework</strong></a> (<a href="docs/03_deliberate_practice_framework.html" rel="noopener noreferrer">Local HTML</a>)</td><td><a href="docs/03_deliberate_practice_framework.html" rel="noopener noreferrer">.md</a></td><td>Adult neuroplasticity & myelin sheath formation, the 4-Stage Practice Cycle, Hands-Separate (HS) micro-chunking, Taubman biomechanics, arm weight, and sleep consolidation (PPI).</td></tr><tr><td><strong>04</strong></td><td><a href="https://powerpig99.github.io/adult-piano-guide/docs/04_adult_repertoire_ladder.html" rel="noopener noreferrer"><strong>Adult Repertoire Ladder</strong></a> (<a href="docs/04_adult_repertoire_ladder.html" rel="noopener noreferrer">Local HTML</a>)</td><td><a href="docs/04_adult_repertoire_ladder.html" rel="noopener noreferrer">.md</a></td><td>5 progressive levels featuring pieces adults love: Bach <em>Minuets</em>, Satie <em>Gymnopédie No. 1</em>, <em>Chengdu (成都)</em>, <em>Game of Thrones</em>, <em>Forrest Gump</em>, and Handel-Halvorsen <em>Passacaglia</em>.</td></tr></tbody></table></div>
+<hr>
+
+<h2>🚀 Quick Start Local Testing</h2>
+
+<p>Run a lightweight HTTP server inside the project folder:</p>
+
+<pre><code class="language-bash">cd /Users/jingliang/.gemini/antigravity/scratch/adult-piano-guide
+python3 -m http.server 8080
+</code></pre>
+
+<p>Open <a href="http://localhost:8080" rel="noopener noreferrer">http://localhost:8080</a> in your web browser.</p>
+      </div>
+    </article>
+  </main>
+
+  <footer style="background:var(--piano-black); color:rgba(255,255,255,0.7); text-align:center; padding:2rem 1rem; font-size:0.88rem;">
+    <p>🎹 <strong>The Adult Piano Companion: A Definitive Guide & Tool Matrix</strong></p>
+    <p style="margin-top:0.5rem;">
+      <a href="index.html" style="color:var(--accent-gold);">Home Portal</a> • 
+      <a href="https://powerpig99.github.io/not-a-toe/" style="color:var(--accent-gold);" target="_blank" rel="noopener">Not a ToE Blog</a> • 
+      <a href="https://powerpig99.github.io/hunting-in-finland/" style="color:var(--accent-gold);" target="_blank" rel="noopener">Hunting in Finland</a> • 
+      <a href="https://powerpig99.github.io/helsinki-mushroom-guide/" style="color:var(--accent-gold);" target="_blank" rel="noopener">Helsinki Mushroom Guide</a>
+    </p>
+  </footer>
+
+</body>
+</html>
