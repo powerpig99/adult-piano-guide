@@ -13,8 +13,14 @@ const I18N = {
       "blogSubtitleSuffix": "read the essay: The Unobservable Driver of Learning.",
       "navPhilosophy": "🌱 Philosophy & Ground",
       "navMatrix": "🧰 Tool Matrix",
+      "matrixTitle": "Curated Tool & Resource Matrix",
+      "matrixSubtitle": "As long as you want to learn, any equipment within reach can get you started; better equipment simply does a better job supporting your journey. Tools are always secondary to personal choice.",
       "navComparator": "⚖️ Trade-off Comparator",
+      "comparatorTitle": "Critical Trade-offs in Adult Piano Learning",
+      "comparatorSubtitle": "Tools and setups are secondary scaffolding. Compare alternatives honestly to find what supports your personal journey without making gear the deciding factor.",
       "navPractice": "🧠 Practice Architecture",
+      "practiceTitle": "Adult Neuroplasticity & Practice Architecture",
+      "practiceSubtitle": "Adults do not lack neurological adaptability; they benefit from deliberate, tension-free feedback loops and unhurried daily practice.",
       "repertoireTitle": "Curated Adult Repertoire Ladder",
       "navRepertoire": "🎼 Repertoire Ladder",
       "navFavorites": "❤️ Resources I Enjoy",
@@ -63,8 +69,14 @@ const I18N = {
       "blogSubtitleSuffix": "参阅深度博文：《学习中不可观测的驱动力》。",
       "navPhilosophy": "🌱 核心心法与原点",
       "navMatrix": "🧰 工具与资源矩阵",
+      "matrixTitle": "工具与资源全景（作为脚手架）",
+      "matrixSubtitle": "只要真心想学，手边的任何设备都能开启探索；更适宜的工具则能在主观意愿之上提供更好的助力。器物始终是服务于个人探索的次要载体，绝非决定能否学琴的门槛。",
       "navComparator": "⚖️ 路径与工具对照",
+      "comparatorTitle": "成人钢琴研习的关键路径与工具对照",
+      "comparatorSubtitle": "任何工具或配置都是辅助的脚手架。诚实对比不同路径的特点，找到契合自身生活实际的助力，而不把器物当成学习的决定性前提。",
       "navPractice": "🧠 神经重塑与练习架构",
+      "practiceTitle": "成人神经重塑与练习架构",
+      "practiceSubtitle": "成年人并不缺乏神经适应潜力；在从容舒缓的节奏中建立低张力的反馈回路，让练习自然成为生活的一部分。",
       "navRepertoire": "🎼 成人进阶曲目阶梯",
       "navFavorites": "❤️ 挚爱资源与灵感",
       "searchPlaceholder": "搜索工具、软件、图书、导师、曲目或技能关键词...",
@@ -149,8 +161,8 @@ const I18N = {
           "zh": "3. 因果杠杆：工具是脚手架，内在体悟是动力"
         },
         "content": {
-          "en": "\n            <p>As explored in my essay <a href=\"https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/\" target=\"_blank\" rel=\"noopener\">The Unobservable Driver of Learning</a>, a frequent pitfall in learning is <strong>reflexively attributing causal power to external factors</strong>.</p>\n            <p>We often credit or fault the app, the teacher, the method book, or the video tutorial for our progress or plateaus. Yet tools and materials are primarily supporting structures. External metrics (scores, levels, streaks) track visible outputs, but the deeper process of learning — where we choose to place our attention, how we work through physical friction, and how we listen to our own tactile feedback — cannot be fully outsourced to any tool.</p>\n            <blockquote>\n              <p>“Tools of all kinds can offer meaningful help; but without our own deliberate attention and reflection, no tool can bring about genuine understanding.”</p>\n            </blockquote>\n            <p>Visualizing falling tiles can offer immediate positive reinforcement. But if we rely heavily on visual prompts to tell us when to strike keys, our internal rhythmic pulse and note-reading independence may not develop as deeply. Stepping away from the screen can then feel disorienting. In contrast, when we take time to isolate a measure, feel its rhythmic pulse, and experience the natural drop of arm weight into the keybed, we are building a more durable and grounded musical foundation.</p>\n            <p><strong>This guide itself is an organized collection of scaffolding.</strong> Pick up whichever tool facilitates a direct, enjoyable relationship with the piano; and when an aid begins to feel like a crutch that limits your independent listening, adjust or set it aside as needed.</p>\n          ",
-          "zh": "\n            <p>正如我在个人博客文章<a href=\"https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/\" target=\"_blank\" rel=\"noopener\">《学习中不可观测的驱动力》</a>中所探讨的，人们在学习中常常容易<strong>将因果解释权习惯性地让渡给外在客体</strong>。</p>\n            <p>我们往往习惯将进步或停滞归因于某款软件、某位导师、某本教材或教学视频。然而，这些外在载体大多属于辅助性质。外在观察能够记录下游的显性指标（打卡天数、软件评分、练习时长），但学习的核心过程——我们在练习中所投入的注意力、对生理摩擦的适应，以及对声音和动作反馈的敏锐觉察——并不能单纯由工具来代劳。</p>\n            <blockquote>\n              <p>“各类工具都能提供有益的助力；但若没有我们自身的主动投入与体察，任何工具都难以发挥根本作用。”</p>\n            </blockquote>\n            <p>跟着屏幕上的下落方块弹奏，能带来直观的即时反馈。但如果过度依赖视觉提示来决定何时按键，内心的节奏律动与读谱感知往往容易被弱化。脱离提示之后，练习者常会感到不习惯。相反，如果愿意放慢速度拆解一两个小节，体会切分节奏与手臂重量的自然沉落，往往能沉淀下更为扎实、稳固的手感与音乐理解。</p>\n            <p><strong>本指南所整理的内容，同样是一组供你参考和取舍的脚手架。</strong> 哪样方式能促进你与音乐的真实互动，便可善加利用；若某种工具逐渐让你产生被动依赖，便可适时调整或放下。</p>\n          "
+          "en": "\n            <p>As explored in my essay <a href=\"https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/\" target=\"_blank\" rel=\"noopener\">The Unobservable Driver of Learning</a>, a frequent pitfall in learning is <strong>reflexively attributing causal power to external factors</strong>.</p>\n            <p>We often credit or fault the app, the teacher, the method book, or the video tutorial for our progress or plateaus. Yet tools and materials are primarily supporting structures. External metrics (scores, levels, streaks) track visible outputs, but the deeper process of learning — where we choose to place our attention, how we work through physical friction, and how we listen to our own tactile feedback — cannot be fully outsourced to any tool.</p>\n            <blockquote>\n              <p>“Tools of all kinds can offer meaningful help; but without our own deliberate attention and reflection, no tool can bring about genuine understanding.”</p>\n            </blockquote>\n            <p><strong>No equipment, app, or tool is ontologically prior to personal choice.</strong> A common misconception is believing that one must own specific, premium equipment — an 88-key weighted hammer-action piano, an acoustic grand, specialized apps, or dedicated accessories — before one can 'truly begin' making music. In reality, no piece of hardware or software is ontologically prior to your first-person desire to explore, listen, and play. An old upright, a lightweight 61-key keyboard, a simple paper score, or whatever instrument is currently within reach is fully capable of awakening genuine musical feeling, tactile awareness, and harmonic curiosity.</p>\n            <p>Tools, software, and ergonomic setups are secondary affordances: they serve and support your journey when accessible, but they do not gatekeep, validate, or create the music. The music originates entirely in the conscious relationship you choose to cultivate with sound.</p>\n            <p><strong>This guide itself is an organized collection of scaffolding.</strong> Pick up whichever tool facilitates a direct, enjoyable relationship with the piano; and when an aid begins to feel like a crutch that limits your independent listening, adjust or set it aside as needed.</p>\n          ",
+          "zh": "\n            <p>正如我在个人博客文章<a href=\"https://powerpig99.github.io/not-a-toe/posts/the-unobservable-driver-of-learning/\" target=\"_blank\" rel=\"noopener\">《学习中不可观测的驱动力》</a>中所探讨的，人们在学习中常常容易<strong>将因果解释权习惯性地让渡给外在客体</strong>。</p>\n            <p>我们往往习惯将进步或停滞归因于某款软件、某位导师、某本教材或教学视频。然而，这些外在载体大多属于辅助性质。外在观察能够记录下游的显性指标（打卡天数、软件评分、练习时长），但学习的核心过程——我们在练习中所投入的注意力、对生理摩擦的适应，以及对声音和动作反馈的敏锐觉察——并不能单纯由工具来代劳。</p>\n            <blockquote>\n              <p>“各类工具都能提供有益的助力；但若没有我们自身的主动投入与体察，任何工具都难以发挥根本作用。”</p>\n            </blockquote>\n            <p><strong>没有任何设备、软件或工具，具有先于个人意愿的本体论优先性。</strong> 初学者常有一种潜在的误区，以为必须先购置特定的专业装备——比如88键重锤电钢、原声大钢琴、特定软件或专业配件——才算“真正具备做音乐的资格”。事实上，没有任何工具或设备在本体论上优先于你想要学琴、想要聆听与发声的主观意愿。一台旧立式琴、一台简易的61键电子琴、几页打印乐谱，乃至手边任何能够发出音高的琴键，都足以开启真实的音乐感知、动作体会与和声探索。</p>\n            <p>各类工具与人体工学设备只是次要的辅助载体：当条件允许时，它们能提供更舒适的体验，但绝不是热爱与音乐本身的“入场门槛”。音乐的发生，永远始于你与声音之间自主选择的关系，而非器物本身。</p>\n            <p><strong>本指南所整理的内容，同样是一组供你参考和取舍的脚手架。</strong> 哪样方式能促进你与音乐的真实互动，便可善加利用；若某种工具逐渐让你产生被动依赖，便可适时调整或放下。</p>\n          "
         }
       },
       {
@@ -365,8 +377,8 @@ const I18N = {
         "zh": "完全绕开了传统记谱法；靠肉眼死记硬背几千个下落色块，不仅耗尽脑力，且离开屏幕便瞬间失忆，阻碍长期自学能力。"
       },
       "synergy": {
-        "en": "Pair with a paper score: use Synthesia for 5 minutes solely to preview where hands cross or jump, then return to the sheet music.",
-        "zh": "切忌直接靠下落瀑布流死记硬背长曲。建议开启“五线谱双轨对照”模式，只将其用于观察疑难节奏的手指下落顺序。"
+        "en": "Pair with a paper score: use Synthesia for 5 minutes to preview where hands cross or jump, then return to the sheet music for independent reading.",
+        "zh": "若希望培养长久的自主看谱能力，可开启“五线谱双轨对照”模式，将瀑布流作为观察疑难节奏与手位的辅助参照。"
       },
       "link": "https://synthesiagame.com/"
     },
@@ -444,7 +456,7 @@ const I18N = {
       },
       "synergy": {
         "en": "Download the pure Urtext version of Bach Inventions or Handel's Passacaglia for clean, unadulterated study notes.",
-        "zh": "每当要开启一首严肃古典作品（如巴赫、肖邦、贝多芬），查阅和下载原典版乐谱文件；此古典乐谱库是不可动摇的学术基石。"
+        "zh": "在准备研习古典作品（如巴赫、肖邦、贝多芬）时，可在此查阅和下载原典版乐谱文件，获取开阔的文献参考。"
       },
       "link": "https://imslp.org/"
     },
@@ -464,24 +476,24 @@ const I18N = {
         "Page Turner Pedal"
       ],
       "title": {
-        "en": "forScore: The Pro Standard Digital Sheet Music App for iPad",
-        "zh": "forScore：专业乐谱阅读与手写批注的标杆工具"
+        "en": "forScore: Digital Sheet Music App for iPad",
+        "zh": "forScore：数字乐谱阅读与手写批注工具"
       },
       "summary": {
         "en": "A widely adopted iPad application for organizing, annotating, and performing from digital sheet music PDFs.",
-        "zh": "专业乐谱阅读与管理的优秀工具，配合平板电脑与手写笔，能够有效整理与替代传统的纸质乐谱夹。"
+        "zh": "乐谱阅读与管理的实用工具，配合平板电脑与手写笔，能够整理与归档数字化乐谱。"
       },
       "strengths": {
         "en": "Responsive pencil annotations; build custom setlists; crop margins to maximize notation size; instant Bluetooth foot-pedal integration removes page-turn friction.",
         "zh": "配合触控手写笔可实现流畅的原谱批注；支持蓝牙无线踏板踩踏翻页；曲目集管理灵活且内置实用节拍器。"
       },
       "caveats": {
-        "en": "iOS/iPadOS exclusive; paid one-time fee; takes a short onboarding period to master its layering and bookmarking features.",
-        "zh": "仅支持苹果生态设备；软件本身不自带曲库，需配合乐谱库导入。"
+        "en": "iOS/iPadOS exclusive; paid one-time fee; takes a short onboarding period to master its layering and bookmarking features. Physical paper sheets remain timeless and completely effective.",
+        "zh": "仅支持苹果生态设备；软件本身不自带曲库，需配合乐谱库导入。而传统纸质打印谱同样直接、有效且不受电量限制。"
       },
       "synergy": {
-        "en": "Combine iPad + forScore + Bluetooth foot pedal for an uncluttered, paperless adult practice studio.",
-        "zh": "平板电脑配合手写笔与蓝牙翻页踏板，为告别纸质谱杂乱、进入专注沉浸的读谱研习提供了非常清爽的数字基石。"
+        "en": "Combine iPad + forScore + Bluetooth foot pedal for an uncluttered, paperless reading option if you prefer digital sheets.",
+        "zh": "平板电脑配合手写笔与蓝牙翻页踏板，为喜欢数字乐谱的学习者提供了一种清爽便捷的无纸化阅读方式。"
       },
       "link": "https://forscore.co/"
     },
@@ -964,8 +976,8 @@ const I18N = {
         "zh": "前期收录了较多古老改编曲，艺术审美稍显陈旧；左右手固定在初始五指音位的时间较长，需警惕手指僵化定位。"
       },
       "synergy": {
-        "en": "Work through Book 1 for 4-6 months to establish reliable chord and notation literacy, supplementing with real pieces like Satie or Bach.",
-        "zh": "用4到6个月踏实走完第一册，筑牢读谱与和弦基石；期间同步搭配萨蒂《裸体歌舞》或巴赫小步舞曲等真正的高雅作品调剂。"
+        "en": "Work through Book 1 for 4-6 months to establish reliable chord and notation literacy, supplementing with pieces you enjoy like Satie or Bach.",
+        "zh": "用4到6个月循序渐进走完第一册，建立读谱与和弦认知；期间可同步搭配萨蒂《裸体歌舞》或巴赫小步舞曲等自己喜爱的优美曲目巩固练习。"
       },
       "link": "https://www.alfred.com/products/alfred-s-basic-adult-all-in-one-course-book-1-00-5753"
     },
@@ -1170,24 +1182,24 @@ const I18N = {
         "PHA-4"
       ],
       "title": {
-        "en": "The Essential Foundation: 88 Weighted Keys with Authentic Escapement",
-        "zh": "自学基石设备：88键重锤击弦感电钢琴与擒纵触感选型"
+        "en": "88-Key Weighted Digital Pianos: Keybed Mechanics & Selection",
+        "zh": "88键重锤电钢琴：键盘机芯与触觉选型参考"
       },
       "summary": {
-        "en": "Why unweighted 61-key plastic keyboards cripple adult motor memory, and what to look for in benchmark models (Roland FP-10/30X, Yamaha P-145/225, Kawai ES120).",
-        "zh": "为什么弹簧塑料电子琴会从第一天起摧毁成人的触键深度，以及如何选购罗兰、雅马哈、卡瓦依等经典重锤机芯。"
+        "en": "An overview of weighted keybed actions (Roland FP-10/30X, Yamaha P-145/225, Kawai ES120). While any keyboard allows you to begin exploring music, weighted hammer actions offer tactile resistance closer to an acoustic instrument.",
+        "zh": "罗兰、雅马哈、卡瓦依等经典重锤电钢机芯选型参考。任何现有键盘都能用来开启音乐探索；若希望体会接近原声钢琴的触键阻尼与重量感，88键重锤电钢是务实的选择。"
       },
       "strengths": {
-        "en": "Headphone jack enables unlimited late-night practice without disturbing kids or neighbors; zero tuning costs; pristine USB-MIDI connection to apps and DAWs.",
-        "zh": "耳机接口实现深夜无限畅弹，完全不扰家人与邻里；终身无需昂贵调律；标准数据传输接口一线直连各类数字软件与制谱工具。"
+        "en": "Headphone jack enables relaxed late-night practice without disturbing others; zero tuning costs; standard USB-MIDI connects easily to computers and tablets.",
+        "zh": "耳机接口便于在清晨或深夜安心弹奏，不扰同住者；无需定期调音；标准数据传输接口方便连接电脑或平板等录音与学习工具。"
       },
       "caveats": {
-        "en": "Entry-level keybeds lack the infinite acoustic sympathetic resonance of an acoustic soundboard; cheaper spring actions do not build real finger extensor strength.",
-        "zh": "入门电钢即使带重锤，仍缺乏真钢音板在琴腔内的空气物理共鸣；切忌购买几百元无重锤的弹簧琴，那将导致你在真琴上完全按不下琴键。"
+        "en": "Simulated key actions offer consistent tactile feedback, though they differ subtly from the living acoustic soundboard of a piano. Unweighted keyboards are lighter to press, but any instrument lets you begin.",
+        "zh": "电钢琴通过机械配重模拟击弦阻尼，与原声机械琴弦的真实共振略有差异；弹簧电子琴键手感较轻，若日后弹奏机械钢琴需稍加适应琴键重量，但并不妨碍初期的旋律与和声学习。"
       },
       "synergy": {
-        "en": "Equip with a sturdy wooden or heavy double-X stand (no wobbling) and an adjustable bench so your elbows rest exactly level with the white keys.",
-        "zh": "务必搭配稳固沉重的木质底架（严禁摇晃）与可升降琴凳，确保小臂在自然平放触键时与白键表面保持水平或微高于键面。"
+        "en": "Place your keyboard on a stable stand at a comfortable height where your forearms sit roughly parallel to the keys, keeping shoulders relaxed.",
+        "zh": "建议将琴放置在平稳牢固的支架上，调整适宜的坐高使小臂自然平放时大致与键面持平，有助于保持双肩放松。"
       },
       "link": "https://www.roland.com/us/promos/fp_series/"
     },
@@ -1207,24 +1219,24 @@ const I18N = {
         "Acoustic Realism"
       ],
       "title": {
-        "en": "The Lungs of the Piano: Continuous Half-Damper Sustain Pedals",
+        "en": "Continuous Half-Damper Sustain Pedals",
         "zh": "渐进阻尼连续半踏板"
       },
       "summary": {
-        "en": "Upgrading from cheap plastic on/off footswitches to a continuous potentiometer pedal (like Roland DP-10 or Yamaha FC3A) that simulates real damper felt lifting.",
-        "zh": "从电钢包装里附带的廉价塑料方形开关踏板，升级为支持连续阻尼深度采样的专业金属延音踏板。"
+        "en": "A pedal option supporting variable resistance (such as Roland DP-10 or Yamaha FC3A) that simulates the gradual lifting of felt dampers on piano strings.",
+        "zh": "从简易开关踏板进阶为支持连续阻尼深度采样的金属延音踏板选型参考。"
       },
       "strengths": {
-        "en": "Allows 'half-pedaling': softening the bass wash without cutting the singing treble, preventing the muddy cacophony that ruins adult expressive playing.",
-        "zh": "解锁半踏板与羽化换音技术：在换和弦时让低音浑浊声快速散去，同时保留高音余音袅袅，告别踩死踏板的一锅粥浑浊感。"
+        "en": "Allows 'half-pedaling': softening the bass resonance while keeping high notes singing, helpful for avoiding mud in romantic or cinematic music.",
+        "zh": "支持半踏板技巧：在换和弦时让低音浑浊声快速散去，同时保留高音余韵，让抒情旋律更加清透舒展。"
       },
       "caveats": {
-        "en": "Your digital piano must support continuous half-pedal input via its sustain jack (check specifications).",
+        "en": "Confirm that your digital piano's sustain jack supports continuous potentiometer input.",
         "zh": "需确认你的电钢琴背板延音踏板接口本身支持连续电位器信号（市面主流型号普遍支持）。"
       },
       "synergy": {
-        "en": "Crucial for romantic and soundtrack pieces like *Passacaglia*, *Forrest Gump*, and Satie, where pedal articulation dictates emotional clarity.",
-        "zh": "攻克如《帕萨卡利亚》《阿甘正传》《成都》这类抒情大作时不可或缺，踏板的细腻呼吸决定了音乐究竟是高级清澈还是嘈杂混乱。"
+        "en": "Helpful for lyrical pieces like *Passacaglia*, *Forrest Gump*, and Satie where subtle pedal transitions add depth. A standard on/off pedal is also completely sufficient for basic pedal timing.",
+        "zh": "在研习《帕萨卡利亚》《阿甘正传》《成都》等抒情作品时能带来更细腻的过渡；初学阶段普通的开关踏板同样足以练习踏板切分动作。"
       },
       "link": "https://www.roland.com/us/products/dp-10/"
     },
@@ -1243,24 +1255,24 @@ const I18N = {
         "Fatigue-Free Listening"
       ],
       "title": {
-        "en": "Fatigue-Free Soundstage: Open-Back Reference Headphones",
-        "zh": "无听觉疲劳的声场：开放式发烧级监听耳机"
+        "en": "Comfortable Open-Back Studio Headphones",
+        "zh": "开放式监听耳机：舒适通透的听音选择"
       },
       "summary": {
-        "en": "Why closed gaming headsets cause ear fatigue within 20 minutes, and why open-back acoustic headphones recreate the natural air-resonance of a grand piano.",
-        "zh": "解析为何封闭式降噪/游戏耳机会在20分钟内导致鼓膜气压疲劳，以及开放式声学设计如何还原三角钢琴在空气中扩散的真实三维声场。"
+        "en": "Why open-back acoustic designs provide a breathable, spacious soundstage that feels natural during extended practice sessions.",
+        "zh": "探讨开放式声学设计如何提供通风透气的佩戴感与开阔声场，减少长时间戴耳机练习的闷胀感。"
       },
       "strengths": {
-        "en": "Zero ear pressure build-up; natural spatial localization makes it feel like the sound is coming from the instrument in front of you rather than trapped in your skull.",
-        "zh": "空气完全流通，零气压堆积；声场极其开阔自然，让你感觉声音是从眼前的琴体空间共振发出，而非被硬塞进颅脑内。"
+        "en": "Zero ear pressure build-up; natural spatial localization makes it feel like the sound is coming from the instrument in front of you rather than trapped in your ears.",
+        "zh": "空气完全流通，减少耳道气压堆积；声场自然开阔，听感更接近琴在眼前空间中自然发声。"
       },
       "caveats": {
-        "en": "Sound leaks slightly into the room (anyone sitting right next to you will hear faint tinny clicks).",
-        "zh": "开放式外罩会有微量声音外泄（同处一室近距离的人能听到轻微金属按键声），但不影响隔壁房间睡眠。"
+        "en": "Allows slight sound leakage into the room; any comfortable headphones or built-in speakers you already own are completely fine to start with.",
+        "zh": "开放式外罩会有微量声音外泄；其实手边现有的任何舒适耳机或琴身自带音箱，都完全能满足日常练习所需。"
       },
       "synergy": {
-        "en": "Pair Sennheiser HD560S or Philips SHP9500 with a 3-meter cord so you can move your upper torso freely without cord tugging.",
-        "zh": "选用配备长线缆的开放式监听耳机，确保身体躯干与双臂随音乐起伏摆动时耳机线毫无牵扯感。"
+        "en": "Pair Sennheiser HD560S, Philips SHP9500, or any comfortable headset with a longer cord (2-3 meters) so you can move your upper torso freely without cord tugging.",
+        "zh": "选用配备长线缆的舒适耳机，确保身体躯干与双臂随音乐起伏摆动时耳机线毫无牵扯感。"
       },
       "link": "https://us.sennheiser-hearing.com/products/hd-560s"
     },
@@ -1454,7 +1466,7 @@ const I18N = {
     },
     {
       "id": "ergonomic-bench",
-      "name": "Adjustable Hydraulic Piano Bench & Ergonomic Posture",
+      "name": "Adjustable Piano Bench & Seating Height Adjustment",
       "category": "hardware",
       "level": "all",
       "cost": "paid",
@@ -1467,24 +1479,24 @@ const I18N = {
         "Spine Health"
       ],
       "title": {
-        "en": "The Unsung Physical Anchor: Adjustable Bench & Biomechanical Alignment",
-        "zh": "被遗忘的生理基石：可升降液压琴凳与人体工学坐姿对齐"
+        "en": "Keyboard Seating Height & Ergonomic Alignment",
+        "zh": "琴凳高度调节与人体工学坐姿参考"
       },
       "summary": {
-        "en": "Why sitting at the wrong height causes chronic shoulder pain and finger collapse, and how to establish the golden triangle of keyboard seating.",
-        "zh": "解析为何坐高偏差2厘米会导致慢性颈肩酸痛与手指塌陷，以及如何构建键盘演奏黄金三角坐姿。"
+        "en": "How adjusting seating height relative to your keyboard helps keep forearms parallel and relieves shoulder tension during practice.",
+        "zh": "探讨琴凳高度与键盘位置的相对关系，以及如何通过适宜坐高保持手肘平整与双肩放松。"
       },
       "strengths": {
-        "en": "Allows your elbows to sit parallel or slightly above white key height; provides a stable base on your sit-bones (ischial tuberosities) so your upper body can lean with zero lumbar strain.",
-        "zh": "确保手肘自然平放时与琴键保持水平或微高2厘米；让体重稳稳落在坐骨结节前侧，躯干随音符自由倾斜而腰椎零负担。"
+        "en": "Allows forearms to rest parallel or slightly above white key height; provides a stable base on your sit-bones so your upper body can move with ease.",
+        "zh": "使手肘在自然下垂触键时与琴键大体持平，骨盆保持稳定支撑，身体随音乐自然前倾时腰背轻松。"
       },
       "caveats": {
-        "en": "Quality hydraulic benches can be heavy and cost $120–$250; but standard dining chairs are almost always too low or too soft, crippling arm weight.",
-        "zh": "高品质液压升降凳自重较沉且有一定购入成本；但普通的餐椅或电脑软椅高度几乎普遍偏低且无支撑，会直接锁死手臂重力的释放。"
+        "en": "An adjustable hydraulic bench is an ergonomic convenience, not a prerequisite. A standard chair with a firm cushion or folded blanket can easily achieve the proper height.",
+        "zh": "可升降琴凳是一种提供便利的工具，而非学琴的前提。普通的稳固椅子若高度偏低，垫上一两块硬质坐垫或厚书，同样能轻松调出理想的坐高。"
       },
       "synergy": {
-        "en": "Sit on the front half of the bench, feet flat on the floor (or right foot gently hovering over the sustain pedal). Feel rooted to the earth.",
-        "zh": "坐满琴凳的前三分之一，双脚稳稳踩实地面（右脚轻浮于延音踏板上方），全身形成稳固的人体大理石基座。"
+        "en": "Sit on the front half of the seat with feet resting comfortably on the floor for natural balance and arm weight transfer.",
+        "zh": "坐于座椅前部，双脚平稳着地，帮助身体自然平衡，让手臂重量自然传递到琴键上。"
       },
       "link": "https://www.andexinger.de/"
     }
@@ -1519,14 +1531,14 @@ const I18N = {
         },
         "cons": {
           "en": [
-            "Extreme cognitive drag: memorizing thousands of color bars is unsustainable",
-            "Zero rhythmic comprehension; reliant on external visual tempo",
-            "Leaves the player musically illiterate the moment the screen turns off"
+            "Visual memorization of color bars is taxing for full-length pieces",
+            "Relying purely on visual cues can overshadow internal pulse and listening",
+            "Does not naturally develop independent score-reading fluency"
           ],
           "zh": [
-            "长线认知负荷巨大：死记硬背成千上万个色块极度耗神且易忘",
-            "完全无法内化节拍与声部结构，沦为屏幕的提线木偶",
-            "一旦离开屏幕瞬间失忆，丧失所有自学新曲的独立能力"
+            "长篇曲目若仅依赖视觉色块记忆，记忆负荷相对较大且易遗忘",
+            "过度依赖视觉下落提示容易弱化内心的节奏律动与听觉觉察",
+            "脱离屏幕后难以直接迁移到标准乐谱的独立视奏"
           ]
         }
       },
@@ -1542,24 +1554,24 @@ const I18N = {
             "Reveals harmonic architecture, voice-leading, and phrasing at a glance"
           ],
           "zh": [
-            "通行全球的音乐母语：一举解锁人类500年来的浩瀚乐谱宝库",
-            "通用的标准乐谱打印格式，终生受用，脱离任何屏幕即可在任意钢琴前自如演奏。",
+            "通行全球的音乐语言：一举解锁人类丰富的乐谱文献宝库",
+            "通用的标准乐谱格式，脱离任何屏幕即可在任意钢琴前自如演奏",
             "一眼看清和声走向、声部对位、强弱呼吸与作曲家原生指法"
           ]
         },
         "cons": {
           "en": [
-            "Steep initial friction: reading notes feels like deciphering ancient hieroglyphics for the first 30 days",
+            "Steep initial friction: reading notes feels like deciphering unfamiliar symbols in the first month",
             "Requires deliberate flashcard and landmark-note practice"
           ],
           "zh": [
-            "初期学习摩擦较大：前一个月看低音谱表如读天书，需要耐受进展缓慢的焦躁",
-            "需要配合地标音法与闪卡做刻意的视觉-神经反射训练"
+            "初期学习摩擦较大：前一个月看低音谱表较为生疏，需要耐受缓慢起步的耐心",
+            "需要配合地标音法与闪卡做适当的视觉-按键映射练习"
           ]
         }
       },
       "verdict": {
-        "en": "Verdict & Suggestion: Falling-note visualizers can serve as a helpful initial aid. When encountering awkward hand crossings or finding key positions tricky, brief reference can clarify the motion before returning to notation. Investing time in standard sheet music opens up a much broader world of independent playing.",
+        "en": "Suggestions: Falling-note visualizers can serve as a helpful initial aid. When encountering awkward hand crossings or finding key positions tricky, brief reference can clarify the physical motion. Investing time in standard sheet music opens up a much broader world of independent playing over time.",
         "zh": "裁决建议：下落瀑布流可作为初期的直观辅助。在遇到手位跨度大或难辨键位时短暂停留辅助定位，随后建议回归乐谱。逐步熟悉并掌握五线谱，能为成人自主弹奏打下更宽广的基础。"
       }
     },
@@ -1570,8 +1582,8 @@ const I18N = {
         "zh": "游戏化软件（如 Simply Piano）对比 传统经典教材（如 菲伯尔）"
       },
       "overview": {
-        "en": "Can software replace pedagogical structure, or does it substitute external ceremony for internal cognitive updates?",
-        "zh": "交互软件能否取代系统教学法，还是用外在打卡仪式取代了内在认知突触的深度更新？"
+        "en": "Understanding how interactive motivation and structured pedagogical methods complement each other.",
+        "zh": "探讨交互软件的即时激励与经典教材的系统编排如何相互补充、服务于自主研习。"
       },
       "left": {
         "title": {
@@ -1586,20 +1598,20 @@ const I18N = {
           ],
           "zh": [
             "精心设计的多巴胺连击与打卡机制，极大降低首周放弃率",
-            "好听的伴奏音轨掩盖了初学击键的干瘪刺耳，保护演奏热情",
+            "好听的伴奏音轨掩盖了初学击键的单薄，保护演奏热情",
             "即时音准判定打分带来的高频激励，在第一周极大降低面对冰冷琴键的心理恐惧。"
           ]
         },
         "cons": {
           "en": [
-            "Bypasses sound quality, wrist suppleness, and arm weight entirely",
-            "Creates app dependency: students freeze when presented with real sheet music",
-            "Expensive recurring monthly/annual subscription fees"
+            "Prioritizes hitting pitch over touch nuance, wrist flexibility, and arm weight",
+            "Can foster reliance on moving cursors rather than static score reading",
+            "Ongoing subscription fees accumulate over time"
           ],
           "zh": [
-            "对触键音色、手腕柔韧绕圈与手臂自然沉落完全无感，极易练出死力",
-            "产生严重的软件依赖：一旦拿到没有光标滚动的标准纸谱便寸步难行",
-            "按月或按年持续扣费，长期使用成本并不低"
+            "容易让人只关注击中音符，较少引导关注触键音色、手腕柔韧与身体重力的放松",
+            "若长期只看滚动光标，面对静态传统乐谱时需额外适应",
+            "按期订阅会产生持续的使用成本"
           ]
         }
       },
@@ -1714,8 +1726,8 @@ const I18N = {
         "zh": "88键重锤电钢琴 对决 传统原声机械立式钢琴"
       },
       "overview": {
-        "en": "Comparing physical hammer mechanics, living acoustic resonance, and domestic reality.",
-        "zh": "在真实击弦木质共鸣、物理杠杆触感与家庭现实生活便利性之间的决断。"
+        "en": "Neither instrument is the deciding factor in making music: personal desire and listening are primary. Each simply offers different practical affordances for the learner.",
+        "zh": "乐器本身从来不是决定能否学琴的先决条件：个人的热爱、体悟与付出才是核心动力。不同的琴型只是在生活实际中提供不同的便利与体验。"
       },
       "left": {
         "title": {
@@ -1774,8 +1786,8 @@ const I18N = {
         }
       },
       "verdict": {
-        "en": "For many adult learners, an 88-key weighted digital piano is a practical and flexible starting choice. The freedom to practice in headphones without concern for being heard encourages relaxed experimentation. If you later develop a strong preference for acoustic resonance, acoustic pianos offer a rewarding continuation.",
-        "zh": "裁决建议：对于多数起步阶段的成年人，一台品质可靠的88键重锤电钢琴往往是务实且灵活的选择。配合耳机练习能消除打扰他人的顾虑，有助于更自在地进行慢练与探索。日后若对声学共鸣与触键层次有更深的追求，原声钢琴同样是值得探索的方向。"
+        "en": "Suggestions: As long as you want to learn, any instrument can do, and better equipment simply does a better job supporting that intent. An 88-key weighted digital piano offers headphone flexibility and zero maintenance for busy adult schedules, while an acoustic piano provides rich spatial resonance in an open room. Choose based on your domestic reality; the music happens in the conscious relationship you cultivate with sound, not the gear itself.",
+        "zh": "裁决建议：只要你想学，手边的任何琴或键盘都能开启学习；而更适宜的设备则能在主观意愿之上提供更好的助力。88键重锤电钢能通过耳机带来无拘无束的练习自由，原声机械钢琴则能呈现开阔沉浸的声学共鸣。根据自身的生活居住环境务实选择即可；音乐的发生源于你与声音的主动对话，器物永远是服务的载体。"
       }
     },
     {
@@ -1861,8 +1873,8 @@ const I18N = {
     },
     "goldenPrinciple": {
       "tag": {
-        "en": "The Sovereign Baseline • 核心心智基石",
-        "zh": "核心心智基石"
+        "en": "The Sovereign Baseline • 自主心智的原点",
+        "zh": "自主心智的原点"
       },
       "title": {
         "en": "Consistency as Default & The 'Leave with Appetite' Litmus Test",
@@ -1870,46 +1882,46 @@ const I18N = {
       },
       "subtitle": {
         "en": "Forget the exhausting struggle of 'trying to build a habit'. Reframe your baseline, calibrate resistance dynamically, and honor the golden metric of practice.",
-        "zh": "告别强行‘培养习惯’的意志力消耗。重设因果基准线，动态微调阻力刻度，恪守练习收尾的黄金标尺。"
+        "zh": "告别强行‘培养习惯’的意志力消耗。重设内在基准线，动态微调阻力刻度，体会练习收尾的平衡。"
       },
       "pillars": [
         {
           "badge": "01",
           "name": {
             "en": "Consistency as Default Condition",
-            "zh": "持续作为零内耗的默认状态"
+            "zh": "持续作为自如的默认状态"
           },
           "desc": {
-            "en": "Once you decide to learn, consistency becomes the default ground state: you sit down to learn a little bit every day, unless an explicit reason intervenes. It is who you are, not an uphill chore you struggle to maintain.",
-            "zh": "一旦做出自发学琴的主权抉择，持续便是不言自明的默认底色：每天研习一点点，除非有必须暂停的客观理由。持续是自如的常态，而非对抗本能的推石上山。"
+            "en": "Once you decide to learn, consistency becomes the default ground state: you sit down to learn a little bit every day, unless an explicit reason intervenes. It is a natural part of living, not an uphill battle of willpower.",
+            "zh": "一旦做出自发学琴的主动抉择，持续便是不言自明的默认状态：每天在琴前研习片刻，除非有需要暂停的客观安排。持续是自然的日常，而非勉强硬撑的负担。"
           }
         },
         {
           "badge": "02",
           "name": {
-            "en": "Conscious Compensation for Skips",
-            "zh": "有意识的补偿取代被动滑落"
+            "en": "Conscious Adjustment for Skips",
+            "zh": "清醒调整取代内耗自责"
           },
           "desc": {
-            "en": "If life forces you to skip, it is never passive drift or an excuse for guilt. Acknowledge it consciously, and make a deliberate choice to make it up — preserving your sovereign continuity.",
-            "zh": "假若某天确实因故中断，那绝非无意识的懈怠，更无须背负内耗负罪感。做出清醒的觉察，并主动做出补偿抉择——以此保留主动权的闭环。"
+            "en": "If life causes you to pause, acknowledge it mindfully without guilt. Make a calm, conscious choice to resume when ready, preserving continuity with ease.",
+            "zh": "假若某天确实因故暂停，不必心生内耗负罪感。保持清醒觉察，并在随后的日程中做些适度调整，让练习自然回归节奏。"
           }
         },
         {
           "badge": "03",
           "name": {
             "en": "Dynamic Friction Calibration",
-            "zh": "动态阻力自愈（挑战与愉悦的平衡）"
+            "zh": "动态阻力调节（挑战与愉悦的平衡）"
           },
           "desc": {
-            "en": "If a session feels grueling or frustrating, do not force brute willpower. Shrink the target to 2 measures, slow down by 50%, or practice hands separately until it is challenging yet genuinely enjoyable.",
-            "zh": "练习一旦感到晦涩吃力，切忌用蛮力死撑。果断调低用力刻度：收缩目标至2小节、降速50%或严格分手，直至难度重回‘略带挑战却依然充满愉悦’的黄金分割点。"
+            "en": "If a session feels frustrating, avoid forcing through with tension. Scale down the scope: focus on 1-2 measures, slow the tempo, or practice hands separately until practice feels challenging yet genuinely enjoyable.",
+            "zh": "练习一旦感到晦涩吃力，不必勉强硬拼。不妨调低用力刻度：收缩目标至1到2小节、放慢速度或单手分练，直至难度重回‘略带挑战却依然身心愉悦’的平衡状态。"
           }
         }
       ],
       "litmusQuote": {
         "en": "“After each session you feel like you still want to do it tomorrow. That is the right balance.”",
-        "zh": "“每次练习结束时，你心中依然跃跃欲试，仍有想在明天继续弹奏的余热。这就是恰到好处的平衡。”"
+        "zh": "“每次练习结束时，你心中依然保有兴趣与余热，愿意在明天继续弹奏。这就是恰到好处的平衡。”"
       }
     },
     "cycleStages": [
@@ -1917,33 +1929,33 @@ const I18N = {
         "step": "01",
         "name": {
           "en": "Deconstruction & Mapping",
-          "zh": "第一步：谱面解构与解剖测绘"
+          "zh": "第一步：谱面解构与动作测绘"
         },
         "desc": {
-          "en": "Before touching a single key, sit with a pencil. Identify key signatures, harmonic anchors, bass note trajectories, and repetitive chord progressions. Mark awkward fingerings. Clap the rhythm with hands on knees to ensure your brain understands the pulse before your fingers are tasked with striking keys.",
-          "zh": "在手指触碰琴键之前，先手持铅笔静坐读谱。标出调号、调性转折、和弦骨架与低音线条走向。圈出容易犯错的换指处。双手在膝盖上拍打切分节奏，确保大脑在命令手指击键前，早已吃透了节奏的起伏节拍。"
+          "en": "Before touching a key, sit comfortably with the score. Note key signatures, harmonic anchors, bass trajectories, and chord shapes. Notice tricky fingerings and tap the rhythm gently to absorb the musical pulse before engaging the keys.",
+          "zh": "在手指触键之前，先静心看谱。标出调号、调性转折、和弦骨架与低音线条。观察容易生疏的换指处，轻拍节奏，让心智先熟悉乐曲的起伏呼吸。"
         }
       },
       {
         "step": "02",
         "name": {
           "en": "Micro-Chunking (Slicing)",
-          "zh": "第二步：微观切片与声部剥离"
+          "zh": "第二步：微观切片与声部拆解"
         },
         "desc": {
-          "en": "Never attempt to swallow a 4-page piece whole. Slice the piece into digestible chunks of 1 to 2 measures, or even single transition leaps. Practice Hands Separate (HS) first to allow each hand to establish an unburdened physical trajectory, then merge hands at an agonizingly slow tempo.",
-          "zh": "切忌贪大求全通篇吞咽。将乐曲无情切割为1到2小节的极小微观切片，甚至仅切出一次跨八度的大跳。先严格单手分练，让每只手臂摸清自如的发力轨迹，随后在极慢速度下将双手如同齿轮咬合般精准合并。"
+          "en": "Avoid rushing through a long piece all at once. Break it into manageable slices of 1 to 2 measures, or isolate specific hand transitions. Practice hands separately to let each hand discover a relaxed motion trajectory before combining them at a comfortable slow tempo.",
+          "zh": "面对较长或复杂的乐段，不必急于通篇吞咽。不妨将其拆解为1到2小节的微观切片，甚至仅拎出某个跨度较大的换把动作。先进行单手分练，让每只手熟悉自如的动作轨迹，随后在慢速下让双手自然配合。"
         }
       },
       {
         "step": "03",
         "name": {
           "en": "Ultra-Slow Frictionless Execution",
-          "zh": "第三步：超低速零误差刻画"
+          "zh": "第三步：从容慢练与张力释放"
         },
         "desc": {
-          "en": "Play at 30% to 50% of the target tempo. At this speed, mistakes are strictly forbidden. Drop all tension from your neck, shoulders, and wrists on every downbeat. If you feel tightness in your tendons, pause immediately, exhale, and feel gravity pulling your elbows down. Speed is never rushed; it emerges as a byproduct of zero tension.",
-          "zh": "以目标速度的30%至50%龟速慢练。在此速度下，严禁出现任何错音或迟疑。在每一个强拍上主动检查并释放肩部、颈部与手腕的多余紧绷。若感到小臂肌腱发酸，立即悬停悬浮、深呼吸，感受重力将手肘自然下拉。速度永非硬赶，而是在松弛中自然流淌。"
+          "en": "Play at an unhurried, comfortable pace. Practicing slowly gives your brain and hands ample time to perceive each movement and tone clearly. Notice and gently release any tension in your neck, shoulders, and wrists. Speed emerges naturally from somatic ease and familiarity.",
+          "zh": "以从容舒适的慢速练习。放慢速度是为了给大脑和手指充足的时间觉察每一个动作与音色。主动觉察并释放肩部、颈部与手腕的多余紧绷。若感到疲劳，暂停片刻深呼吸。速度无需急躁硬赶，往往会在动作熟稔与身心松弛中自然到来。"
         }
       },
       {
@@ -2082,11 +2094,11 @@ const I18N = {
           "composer": "Christian Petzold / J.S. Bach Notebook",
           "focus": {
             "en": "Hand positioning, light wrist bounces on quarter notes, clean finger transitions.",
-            "zh": "高低音声部清晰交替，落滚手腕起伏，跳音与连音的触键对比。"
+            "zh": "高低音声部清晰交替，手腕起伏呼吸，跳音与连音的触键对比。"
           },
           "tips": {
-            "en": "Keep the left-hand quarter notes buoyant and quiet so the right hand's famous melody sparkles.",
-            "zh": "左手四分音符伴奏务必保持弹性与微弱力度，切忌喧宾夺主压过右手名旋律。"
+            "en": "Keep the left-hand quarter notes buoyant and gentle so the right hand's melody sings clearly.",
+            "zh": "左手四分音符伴奏宜保持弹性与柔和，自然烘托右手的明亮旋律。"
           }
         },
         {
@@ -2097,8 +2109,8 @@ const I18N = {
             "zh": "左手主和弦、下属和弦、属七和弦柱式沉稳换位，右手歌唱性旋律线条。"
           },
           "tips": {
-            "en": "Change chords with minimal vertical hand movement — glide smoothly between inversions.",
-            "zh": "换和弦时手掌尽量贴近键面滑行，杜绝从高空盲目砸键的粗糙发力。"
+            "en": "Change chords with minimal vertical hand movement — glide smoothly between inversions and let the weight rest naturally.",
+            "zh": "换和弦时手掌尽量贴近键面平滑移动，体会重量自然下沉而非生硬砸键。"
           }
         }
       ]
@@ -2123,7 +2135,7 @@ const I18N = {
           },
           "tips": {
             "en": "Do not rush the left-hand leap. Float your wrist upward, move across horizontally, and land softly on the chord cushion.",
-            "zh": "左手起跳切忌慌乱。手腕轻柔向上带起，在空中划出平滑弧线，轻柔落在和弦琴键上。"
+            "zh": "左手大跳时保持动作从容。手腕轻柔向上带起，在空中划出平滑弧线，轻柔落在和弦琴键上。"
           }
         },
         {
@@ -2135,7 +2147,7 @@ const I18N = {
           },
           "tips": {
             "en": "Practice in dotted rhythms (long-short, short-long) to even out weak 4th and 5th fingers.",
-            "zh": "用附点长短变节奏强化无名指与小指，确保上行跑音如珍珠般颗颗分明。"
+            "zh": "用附点长短变节奏强化无名指与小指，帮助上行跑音更为均匀顺畅。"
           }
         }
       ]
@@ -2160,7 +2172,7 @@ const I18N = {
           },
           "tips": {
             "en": "Sing the lyrics aloud while playing the melody. Let the left-hand bass notes resonate like warm footsteps on Yulin Road.",
-            "zh": "弹奏时心中默念歌词呼吸。让低音根音如漫步玉林路的脚步般沉稳深远，切忌生硬敲击。"
+            "zh": "弹奏时心中默念歌词呼吸。让低音根音沉稳深远，触键饱满而富有歌唱性。"
           }
         },
         {
@@ -2171,8 +2183,8 @@ const I18N = {
             "zh": "左手固定低音型八度反复伴奏，强烈的节奏律动与史诗级层层推高。"
           },
           "tips": {
-            "en": "Maintain an unwavering metronomic bedrock in your left hand while shaping the dynamic crescendo from p to fff.",
-            "zh": "左手必须如坚固磐石般维持极其精准的节拍骨架，右手在此之上塑造从极轻微弱到雷霆般极强的情绪爆发。"
+            "en": "Maintain a steady rhythmic pulse in your left hand while shaping the dynamic crescendo from quiet to expansive.",
+            "zh": "左手保持稳健有力的律动推进，右手在此之上塑造层次分明的情绪张力。"
           }
         },
         {
@@ -2184,7 +2196,7 @@ const I18N = {
           },
           "tips": {
             "en": "Play the left-hand pulsing chords at pianissimo (pp) — treat each moving inner voice like a subtle shadow shift.",
-            "zh": "左手脉冲和弦严禁喧宾夺主，以极弱力度演奏，细心感受内部声部半音下行的微妙色彩流动。"
+            "zh": "左手脉冲和弦宜保持轻柔朦胧的背景音量，细心感受内部声部半音下行的微妙色彩流动。"
           }
         }
       ]

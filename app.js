@@ -105,6 +105,50 @@ function applyLanguage() {
     favBtn.textContent = l2 ? "❤️ Favorites • 挚爱资源" : t.navFavorites;
   }
 
+  const matrixTitle = document.getElementById("matrix-section-title");
+  if (matrixTitle) {
+    matrixTitle.textContent = l2 ? "Curated Tool & Resource Matrix • 工具与资源全景（作为脚手架）" : t.matrixTitle;
+  }
+  const matrixSub = document.getElementById("matrix-section-subtitle");
+  if (matrixSub) {
+    matrixSub.textContent = l2
+      ? "As long as you want to learn, any equipment within reach can get you started; better equipment simply does a better job supporting your journey. Tools are always secondary to personal choice. • 只要真心想学，手边的任何设备都能开启探索；更适宜的工具则能在主观意愿之上提供更好的助力。器物始终是服务于个人探索的次要载体，绝非决定能否学琴的门槛。"
+      : t.matrixSubtitle;
+  }
+
+  const compTitle = document.getElementById("comparator-section-title");
+  if (compTitle) {
+    compTitle.textContent = l2 ? "Critical Trade-offs in Adult Piano Learning • 成人钢琴研习的关键路径与工具对照" : t.comparatorTitle;
+  }
+  const compSub = document.getElementById("comparator-section-subtitle");
+  if (compSub) {
+    compSub.textContent = l2
+      ? "Tools and setups are secondary scaffolding. Compare alternatives honestly to find what supports your personal journey without making gear the deciding factor. • 任何工具或配置都是辅助的脚手架。诚实对比不同路径的特点，找到契合自身生活实际的助力，而不把器物当成学习的决定性前提。"
+      : t.comparatorSubtitle;
+  }
+
+  const pracTitle = document.getElementById("practice-section-title");
+  if (pracTitle) {
+    pracTitle.textContent = l2 ? "Adult Neuroplasticity & Practice Architecture • 成人神经重塑与练习架构" : t.practiceTitle;
+  }
+  const pracSub = document.getElementById("practice-section-subtitle");
+  if (pracSub) {
+    pracSub.textContent = l2
+      ? "Adults do not lack neurological adaptability; they benefit from deliberate, tension-free feedback loops and unhurried daily practice. • 成年人并不缺乏神经适应潜力；在从容舒缓的节奏中建立低张力的反馈回路，让练习自然成为生活的一部分。"
+      : t.practiceSubtitle;
+  }
+
+  const repTitle = document.getElementById("repertoire-section-title");
+  if (repTitle) {
+    repTitle.textContent = l2 ? "Curated Adult Repertoire Ladder • 成人进阶曲目阶梯" : t.repertoireTitle;
+  }
+  const repSub = document.getElementById("repertoire-section-subtitle");
+  if (repSub) {
+    repSub.textContent = l2
+      ? "Progressive musical milestones that respect adult sensibilities — from foundational coordination to expressive masterpieces like Chengdu, Forrest Gump, and Handel's Passacaglia. • 贴合成人审美感知的高阶曲目进阶阶梯——从双手基础协调，到《成都》《阿甘正传》《帕萨卡利亚》等经典篇章。"
+      : (l1 === "zh" ? "贴合成人审美感知的高阶曲目进阶阶梯——从双手基础协调，到《成都》《阿甘正传》《帕萨卡利亚》等经典篇章。" : "Progressive musical milestones that respect adult sensibilities — from foundational coordination to expressive masterpieces like Chengdu, Forrest Gump, and Handel's Passacaglia.");
+  }
+
   const favTitle = document.getElementById("favorites-section-title");
   if (favTitle) {
     favTitle.textContent = l2 ? "Resources I Enjoy & Aesthetic Inspirations • 挚爱资源与审美灵感" : t.favoritesTitle;

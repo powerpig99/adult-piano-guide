@@ -9,6 +9,8 @@ Children are frequently subjected to years of nursery rhymes, marching tunes, an
 
 Adults possess deep musical discernment. You should play pieces that are **harmonically rich and aesthetically rewarding** from your very first months at the keyboard. 
 
+Remember that any piano or keyboard within reach can bring these pieces to life. What matters first is your inner musical listening, curiosity, and somatic awareness; better instruments simply do a better job enriching acoustic nuance as your ear matures.
+
 This ladder outlines five progressive milestones, analyzing the specific technical hurdles and interpretive nuances of works you can realistically conquer through self-directed study.
 
 ---
@@ -99,5 +101,5 @@ This ladder outlines five progressive milestones, analyzing the specific technic
 ### 2. Nocturne in E-flat Major Op. 9 No. 2 — Frédéric Chopin
 - **Technical Milestone:** Classic 12/8 waltz bass line and unmeasured bel-canto coloratura runs.
 - **Practice Strategy:**
-  - The left hand plays: low bass note (beat 1) followed by two buoyant middle-register chords (beats 2 and 3). Never let the middle chords become heavy.
+  - The left hand plays: low bass note (beat 1) followed by two buoyant middle-register chords (beats 2 and 3). Keep the middle chords light, cushioned, and buoyant.
   - Right-hand fiorituras (11-note, 22-note runs): Do not try to mathematically divide them. Let the left hand keep strict time while the right hand floats across the keys like liquid silk.

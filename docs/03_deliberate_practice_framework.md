@@ -14,10 +14,16 @@ The speed and accuracy of this chunk depend on **myelination**: the wrapping of 
 
 If you practice a measure sloppily, stumble, and replay it ten times with random hesitations, your brain faithfully reinforces the *stumbling pathway*. You have literally practiced making mistakes.
 
-To build pristine, effortless motor memory:
-1. **Never practice a mistake.** If an error occurs, pause immediately.
-2. **Slow down by 50%.** At slow speeds, conscious awareness monitors every joint, eliminating excess tension.
-3. **Speed is not a deliberate effort; it is an effortless consequence of accuracy.**
+To build clean, relaxed, and lasting motor memory:
+1. **Observe stumbles with curiosity rather than repeating them.** If an error occurs, pause mindfully instead of brute-forcing the same mechanical mistake.
+2. **Slow down comfortably.** At slower tempos, conscious awareness monitors joints, eliminating unnecessary muscular strain.
+3. **Speed is an organic consequence of clarity and relaxation, not forced effort.**
+
+### The Default Operating Condition: Consistency Over Intensity
+Adult learning thrives on incremental, compounding progress rather than sporadic marathons:
+- **Set consistency as your default condition:** Rather than exhausting yourself trying to "build a habit" through sheer discipline, adopt the baseline expectation that you play a little bit each day unless there is a concrete reason to pause.
+- **Conscious recovery without guilt:** If life intervenes and you skip a day, simply make a conscious choice to resume the next day. There is no broken streak to mourn.
+- **Calibrate the sweet spot:** If practice ever feels burdensome, dial down the scope until it is **challenging yet deeply enjoyable**. When each session finishes with you feeling inspired and eager to return tomorrow, you have found the sustainable equilibrium.
 
 ---
 
